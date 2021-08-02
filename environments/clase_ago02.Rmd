@@ -1,0 +1,58 @@
+--- 
+author: "name"
+date: "`r Sys.Date()`"
+geometry: "paperheight=34.5cm,paperwidth=21.59cm, left=25mm, right=25mm, top=50.8mm, bottom=40mm, asymmetric"
+subparagraph: true
+output:
+  pdf_document:
+    toc: false
+    includes:
+      before_body: "mis_estilos.tex"
+      in_header: "preambulo.tex"
+fontsize: 12pt
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+
+En este documento se muestra cómo incluir formatos de manera local por medio de "ambientes" de latex. Esta forma de dar formato tiene dos ventajas.
+
+1. Limpieza de código. El formato se define en un archivo aparte, y se invoca con la opción `before_body`.
+2. Flexibilidad. Mientras que rmd proporciona opciones para dar algunos cambios en formato básicos, modificar directamente en lenguaje de tex nos abre las posibilidades de cambio.
+
+Empezamos por un ejemplo sencillo.
+
+\begin{boxed_mia}
+Texto en recuadro
+\end{boxed_mia}
+
+Esto también sirve para predefinir formatos para párrafos.
+
+\begin{enunciado}
+A. El vencimiento anticipado por falta de cumplimiento de los demandados del CONVENIO MODIFICATORIO DEL CONTRATO DE APERTURA DE CREDITO CON GARANTIA HIPOTECARIA de fecha 22 de abril de 1996, CON NUMERO DE ESCRITURA 65,325, pasada ante la fe del NOTARIO PUBLICO NUMERO NOVENTA Y DOS DEL DISTRITO FEDERAL LICENCIADO JOSE VISOSO DEL VALLE, contenido en el ANEXO 2 del escrito inicial de demanda.
+\end{enunciado}
+
+o el título de una demanda
+
+\begin{demanda}
+BANCO NACIONAL DE MÉXICO SOCIEDAD ANÓNIMA, INTEGRANTE DEL GRUPO FINANCIERO BANAMEX
+\begin{center}
+VS
+\end{center}
+LETICIA PANAMEÑO QUIROZ
+
+Asunto: Contestación Juicio Especial Hipotecario
+
+Expediente:708/2018
+
+Secretaría “B”
+\end{demanda}
+
+
+
+Referencias útiles:
+
+https://es.overleaf.com/learn/latex/Environments

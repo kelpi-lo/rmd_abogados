@@ -1,0 +1,37 @@
+
+% texto en un recuadro y en negritas
+\newenvironment{boxed_mia}
+{
+	\bfseries \begin{center}
+    \begin{tabular}{|p{0.9\textwidth}|}
+    \hline\\
+    }
+    { 
+    \\\\\hline
+    \end{tabular} 
+    \end{center}
+}
+
+% texto fuente tamaño 10, mas margen, y cursivas	
+\newenvironment{enunciado}
+{
+	\itshape
+	\leftskip=1cm \rightskip=1cm
+	\begingroup
+	\fontsize{10}{10}\selectfont
+	}
+	{
+	\endgroup
+	\leftskip=0cm\rightskip=0cm
+}
+
+\newenvironment{demanda}
+{
+	\begin{flushright}
+	\begin{minipage}{.5\linewidth}\bfseries
+	}
+	{
+	\end{minipage}
+	\end{flushright}
+}
+
