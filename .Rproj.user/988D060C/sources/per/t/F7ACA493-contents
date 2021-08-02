@@ -1,0 +1,71 @@
+---
+title: "Untitled"
+author: "Marco Ramos"
+date: "7/27/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# preparense
+
+un editor de texto plano (sublime) pero pueden usar el que quieran
+R
+rmd
+
+
+# teoria:
+
+rmd integrador
+
+paquetes de diferentes fuentes
+
+
+
+
+# fondos
+mainfont: Calibri
+fontsize: 12pt
+ \linespread{1.15}
+ \vspace{1cm}
+
+# idioma
+ \usepackage[spanish]{babel}
+
+
+# diseño de pagina
+
+geometry
+
+\newpage
+
+# Jerarquia
+
+# ecuaciones
+
+# Tablas
+
+# citas
+
+Mendeley
+BIB
+CSL
+
+
+# interformatos
+
+# formato especifico
+
+# github
+
+
+# notas a pie de pagina
+
+
+
+
+
+
+

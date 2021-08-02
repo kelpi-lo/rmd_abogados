@@ -1,0 +1,62 @@
+---
+mainfont: Century Schoolbook
+output:
+  pdf_document:
+    latex_engine: xelatex
+  word_document: default
+geometry: paperheight=34.5cm,paperwidth=21.59cm, left=25mm, right=25mm, top=50.8mm,
+  bottom=40mm, asymmetric
+fontsize: 12pt
+header-includes: \usepackage{blindtext} \linespread{1.15} \usepackage{indentfirst}
+---
+\begin{flushright}
+\begin{minipage}{.5\linewidth}\bfseries
+BANCO NACIONAL DE MÉXICO SOCIEDAD ANÓNIMA, INTEGRANTE DEL GRUPO FINANCIERO BANAMEX
+\begin{center}
+VS
+\end{center}
+LETICIA PANAMEÑO QUIROZ
+
+Asunto: Autorización Juicio Especial Hipotecario
+
+Expediente:708/2018
+
+Secretaría “B”
+\end{minipage}
+\end{flushright}
+
+## C. JUEZ CUADRAGÉSIMO SEGUNDO DE LO CIVIL DE LA CIUDAD DE MÉXICO
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**LETICIA PANAMEÑO QUIROZ**, por mi propio derecho, señalando como domicilio para oír y recibir toda clase de notificaciones, valores y documentos el inmueble ubicado en las calles de **San Pedro, número 189, Colonia del Carmen, Delegación Coyoacán, Código Postal 04100, en esta Ciudad de México**, autorizando para oír y recibir toda clase de documentos, notificaciones y valores e imponerse de los autos en términos del párrafo cuarto del artículo 112 del Código de Procedimientos Civiles para el Distrito Federal  a los Señores Licenciados en Derecho,Licenciado **EDUARDO ROBERTO LARA OLIVER**, con cédula profesional número 2129317 y registro ante la Presidencia del Tribunal Superior de Justicia del Ciudad de México con acreditación de folio número 00001758, al señor Licenciado **EDUARDO LARA VERA**  con cédula profesional número 12325565 en proceso de registro ante la Presidencia del Tribunal Superior de Justicia del Ciudad de México, y en términos del párrafo séptimo del citado artículo 112 del Código de Procedimientos Civiles, a los señores Rodrigo Castilla Aranda, Carlos Eduardo Galaviz López, Alberto Salinas Pérez, Devorah Hernández Contreras, indistintamente, ante usted con el debido respeto comparezco y expongo: 
+\
+\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Que por medio del presente escrito vengo a solicitar, respetuosamente, a su Señoría que sea validado el usuario **ELARA** ligado al correo electrónico **lalolaravera@gmail.com** para el acceso al SISTEMA INTEGRAL DE CONSULTA DE RESOLUCIONES (SICOR) para efecto de que me envíen por correo electrónico y SMS los acuerdos y resoluciones que se emitan en el presente expediente.
+\
+\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Así mismo, solicito que una vez hecha la validación solicitada, me sea liberado, al usuario y correo en el presente, el acceso al SICOR, lo anterior con finalidad de estar en condiciones de iniciar las consultas electrónicas a las resoluciones emitidas en el presente juicio.
+\
+\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Por lo antes expuesto a Usted C. Juez, pido se sirva: 
+\
+\
+**PRIMERO**. Se me tenga por presentado con la personalidad que ostento, señalando nuevo domicilio para oír y recibir notificaciones. 
+\
+\
+**SEGUNDO**. Se tenga autorizados a los profesionistas en derecho y demás personas señaladas. 
+\
+\
+**TERCERO**. Se autorice al usuario **ELARA** y correo electrónico **lalolaravera@gmail.com** en el SICOR para efecto de que me envíen por correo electrónico y SMS los acuerdos y resoluciones que se emitan en el presente expediente e iniciar las consultas electrónicas a las resoluciones emitidas en el presente juicio.
+\
+\begin{center}\bfseries
+PROTESTO LO NECESARIO
+\end{center}
+\
+\
+\
+
+\begin{center}\bfseries
+LETICIA PANAMEÑO QUIROZ
+\end{center}
+\begin{center}
+Ciudad de México a 13 de julio de 2021
+\end{center}

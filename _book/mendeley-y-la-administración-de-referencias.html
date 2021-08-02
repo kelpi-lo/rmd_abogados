@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 4 Mendeley y la administración de referencias | R markdown para abogados</title>
+  <meta name="description" content="En este bookdown iremos construyendo el curso de R markdown para abogados" />
+  <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 4 Mendeley y la administración de referencias | R markdown para abogados" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="En este bookdown iremos construyendo el curso de R markdown para abogados" />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 4 Mendeley y la administración de referencias | R markdown para abogados" />
+  
+  <meta name="twitter:description" content="En este bookdown iremos construyendo el curso de R markdown para abogados" />
+  
+
+<meta name="author" content="Marco Ramos" />
+
+
+<meta name="date" content="2021-08-01" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="latex.html"/>
+<link rel="next" href="integración-mendeley-con-r-markdown.html"/>
+<script src="libs/header-attrs-2.6/header-attrs.js"></script>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">A Minimal Book Example</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Preparativos</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#link-de-la-sesión"><i class="fa fa-check"></i><b>1.1</b> Link de la sesión</a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#requisitos-conocimiento"><i class="fa fa-check"></i><b>1.2</b> Requisitos conocimiento</a></li>
+<li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#requisitos-equipo"><i class="fa fa-check"></i><b>1.3</b> Requisitos equipo</a></li>
+<li class="chapter" data-level="1.4" data-path="index.html"><a href="index.html#manos-a-la-obra"><i class="fa fa-check"></i><b>1.4</b> Manos a la obra</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="lenguaje-de-marcado.html"><a href="lenguaje-de-marcado.html"><i class="fa fa-check"></i><b>2</b> Lenguaje de marcado</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="lenguaje-de-marcado.html"><a href="lenguaje-de-marcado.html#markdown"><i class="fa fa-check"></i><b>2.1</b> Markdown</a>
+<ul>
+<li class="chapter" data-level="2.1.1" data-path="lenguaje-de-marcado.html"><a href="lenguaje-de-marcado.html#sintaxis-básica"><i class="fa fa-check"></i><b>2.1.1</b> Sintaxis básica</a></li>
+<li class="chapter" data-level="2.1.2" data-path="lenguaje-de-marcado.html"><a href="lenguaje-de-marcado.html#título"><i class="fa fa-check"></i><b>2.1.2</b> Título</a></li>
+</ul></li>
+<li class="chapter" data-level="2.2" data-path="lenguaje-de-marcado.html"><a href="lenguaje-de-marcado.html#markdown-avanzado"><i class="fa fa-check"></i><b>2.2</b> Markdown Avanzado</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="latex.html"><a href="latex.html"><i class="fa fa-check"></i><b>3</b> Latex</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="latex.html"><a href="latex.html#simbolos"><i class="fa fa-check"></i><b>3.1</b> Simbolos</a></li>
+<li class="chapter" data-level="3.2" data-path="latex.html"><a href="latex.html#expresiones-matemáticas"><i class="fa fa-check"></i><b>3.2</b> Expresiones matemáticas</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="mendeley-y-la-administración-de-referencias.html"><a href="mendeley-y-la-administración-de-referencias.html"><i class="fa fa-check"></i><b>4</b> Mendeley y la administración de referencias</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="mendeley-y-la-administración-de-referencias.html"><a href="mendeley-y-la-administración-de-referencias.html#archivos-bib"><i class="fa fa-check"></i><b>4.1</b> Archivos bib</a></li>
+<li class="chapter" data-level="4.2" data-path="mendeley-y-la-administración-de-referencias.html"><a href="mendeley-y-la-administración-de-referencias.html#manos-a-la-obra-1"><i class="fa fa-check"></i><b>4.2</b> Manos a la obra</a>
+<ul>
+<li class="chapter" data-level="4.2.1" data-path="mendeley-y-la-administración-de-referencias.html"><a href="mendeley-y-la-administración-de-referencias.html#primeros-pasos"><i class="fa fa-check"></i><b>4.2.1</b> Primeros pasos</a></li>
+<li class="chapter" data-level="4.2.2" data-path="mendeley-y-la-administración-de-referencias.html"><a href="mendeley-y-la-administración-de-referencias.html#agrego-mi-primera-bibliografía"><i class="fa fa-check"></i><b>4.2.2</b> Agrego mi primera bibliografía</a></li>
+<li class="chapter" data-level="4.2.3" data-path="mendeley-y-la-administración-de-referencias.html"><a href="mendeley-y-la-administración-de-referencias.html#apodosetiquetascitation-key"><i class="fa fa-check"></i><b>4.2.3</b> Apodos/Etiquetas/Citation Key</a></li>
+<li class="chapter" data-level="4.2.4" data-path="mendeley-y-la-administración-de-referencias.html"><a href="mendeley-y-la-administración-de-referencias.html#sync"><i class="fa fa-check"></i><b>4.2.4</b> Sync</a></li>
+<li class="chapter" data-level="4.2.5" data-path="mendeley-y-la-administración-de-referencias.html"><a href="mendeley-y-la-administración-de-referencias.html#dónde-está-mi-archivo-bib"><i class="fa fa-check"></i><b>4.2.5</b> ¿Dónde está mi archivo bib?</a></li>
+<li class="chapter" data-level="4.2.6" data-path="mendeley-y-la-administración-de-referencias.html"><a href="mendeley-y-la-administración-de-referencias.html#trabajos-colaborativos"><i class="fa fa-check"></i><b>4.2.6</b> Trabajos colaborativos</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="integración-mendeley-con-r-markdown.html"><a href="integración-mendeley-con-r-markdown.html"><i class="fa fa-check"></i><b>5</b> Integración Mendeley con R Markdown</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="integración-mendeley-con-r-markdown.html"><a href="integración-mendeley-con-r-markdown.html#ii.2-yaml"><i class="fa fa-check"></i><b>5.1</b> II.2 YAML</a></li>
+<li class="chapter" data-level="5.2" data-path="integración-mendeley-con-r-markdown.html"><a href="integración-mendeley-con-r-markdown.html#citas"><i class="fa fa-check"></i><b>5.2</b> Citas</a></li>
+<li class="chapter" data-level="5.3" data-path="integración-mendeley-con-r-markdown.html"><a href="integración-mendeley-con-r-markdown.html#referencias"><i class="fa fa-check"></i><b>5.3</b> Referencias</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="ambientes-de-latex.html"><a href="ambientes-de-latex.html"><i class="fa fa-check"></i><b>6</b> Ambientes de latex</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="ambientes-de-latex.html"><a href="ambientes-de-latex.html#ejemplos"><i class="fa fa-check"></i><b>6.1</b> Ejemplos</a>
+<ul>
+<li class="chapter" data-level="6.1.1" data-path="ambientes-de-latex.html"><a href="ambientes-de-latex.html#parrafos-con-mayor-margen-lateral"><i class="fa fa-check"></i><b>6.1.1</b> Parrafos con mayor margen lateral</a></li>
+<li class="chapter" data-level="6.1.2" data-path="ambientes-de-latex.html"><a href="ambientes-de-latex.html#centro-y-en-negritas"><i class="fa fa-check"></i><b>6.1.2</b> Centro y en negritas</a></li>
+<li class="chapter" data-level="6.1.3" data-path="ambientes-de-latex.html"><a href="ambientes-de-latex.html#partes-en-la-demanda"><i class="fa fa-check"></i><b>6.1.3</b> Partes en la demanda</a></li>
+</ul></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">R markdown para abogados</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="mendeley-y-la-administración-de-referencias" class="section level1" number="4">
+<h1><span class="header-section-number">Chapter 4</span> Mendeley y la administración de referencias</h1>
+<div id="archivos-bib" class="section level2" number="4.1">
+<h2><span class="header-section-number">4.1</span> Archivos bib</h2>
+<p>El formato BibTex es un formato para guardar bibliografía. Se usa desde antes de que existiera el internet y se creo para administrar virtualmente colecciones extensas de libros y journals. Más información <a href="http://ftp.math.utah.edu/pub/tex/bib/"><strong><em>aquí</em></strong></a>.</p>
+<p>El gran plus es que el trabajo tedioso de darle formato a cada entrada lo puede hacer una computadora, en lugar de un pobre humano. Asimismo, si las entradas están bien, en consecuencia la bibliografía también lo estará.</p>
+<p>Esto libera al investigador para <strong>INVESTIGAR</strong> (y no gastar horas y horas en la redacción correcta de bibliografía) a la par que hace que la información que recibe el lector sea adecuada, correcta y ordenada, en consecuencia se minimiza la posibilidad de error.</p>
+<p>Los archivos consisten simplemente en un archivo de texto con contenidos que se deben llenar de cada libro, artículo etc. Echémos un ojo a cómo se ven los archivos .bib si los abrieramos con cualquier editor de texto:</p>
+<div class="sourceCode" id="cb17"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb17-1"><a href="mendeley-y-la-administración-de-referencias.html#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="sc">@</span>book{PNUD2013,</span>
+<span id="cb17-2"><a href="mendeley-y-la-administración-de-referencias.html#cb17-2" aria-hidden="true" tabindex="-1"></a>author<span class="ot">=</span>{PNUD},</span>
+<span id="cb17-3"><a href="mendeley-y-la-administración-de-referencias.html#cb17-3" aria-hidden="true" tabindex="-1"></a>year<span class="ot">=</span>{<span class="dv">2013</span>},</span>
+<span id="cb17-4"><a href="mendeley-y-la-administración-de-referencias.html#cb17-4" aria-hidden="true" tabindex="-1"></a>month<span class="ot">=</span>{November},</span>
+<span id="cb17-5"><a href="mendeley-y-la-administración-de-referencias.html#cb17-5" aria-hidden="true" tabindex="-1"></a>title<span class="ot">=</span>{Humanity Divided<span class="sc">:</span> confronting inequality <span class="cf">in</span> developing countries},</span>
+<span id="cb17-6"><a href="mendeley-y-la-administración-de-referencias.html#cb17-6" aria-hidden="true" tabindex="-1"></a>url<span class="ot">=</span>{https<span class="sc">:</span><span class="er">//</span>www.undp.org<span class="sc">/</span>content<span class="sc">/</span>undp<span class="sc">/</span>es<span class="sc">/</span>home<span class="sc">/</span>librarypage<span class="sc">/</span>poverty<span class="sc">-</span>reduction<span class="sc">/</span>humanity<span class="sc">-</span>divi</span>
+<span id="cb17-7"><a href="mendeley-y-la-administración-de-referencias.html#cb17-7" aria-hidden="true" tabindex="-1"></a>  ded<span class="sc">--</span>confronting<span class="sc">-</span>inequality<span class="sc">-</span><span class="cf">in</span><span class="sc">-</span>developing<span class="sc">-</span>countries.html}</span>
+<span id="cb17-8"><a href="mendeley-y-la-administración-de-referencias.html#cb17-8" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb17-9"><a href="mendeley-y-la-administración-de-referencias.html#cb17-9" aria-hidden="true" tabindex="-1"></a><span class="sc">@</span>article{salarios,</span>
+<span id="cb17-10"><a href="mendeley-y-la-administración-de-referencias.html#cb17-10" aria-hidden="true" tabindex="-1"></a>author<span class="ot">=</span>{Hiromi Ishizuka},</span>
+<span id="cb17-11"><a href="mendeley-y-la-administración-de-referencias.html#cb17-11" aria-hidden="true" tabindex="-1"></a>year<span class="ot">=</span>{<span class="dv">2018</span>},</span>
+<span id="cb17-12"><a href="mendeley-y-la-administración-de-referencias.html#cb17-12" aria-hidden="true" tabindex="-1"></a>month<span class="ot">=</span>{January},</span>
+<span id="cb17-13"><a href="mendeley-y-la-administración-de-referencias.html#cb17-13" aria-hidden="true" tabindex="-1"></a>journal <span class="ot">=</span> {Theoretical Economics Letters},</span>
+<span id="cb17-14"><a href="mendeley-y-la-administración-de-referencias.html#cb17-14" aria-hidden="true" tabindex="-1"></a>title<span class="ot">=</span>{An Empirical Analysis of Substitution and Complementarity of Gender Labor Demand of</span>
+<span id="cb17-15"><a href="mendeley-y-la-administración-de-referencias.html#cb17-15" aria-hidden="true" tabindex="-1"></a>  Enterprises <span class="cf">in</span> Japan, Korea, and China<span class="sc">:</span> With a Factor Decomposition of Gender Wage Differ</span>
+<span id="cb17-16"><a href="mendeley-y-la-administración-de-referencias.html#cb17-16" aria-hidden="true" tabindex="-1"></a>  entials},</span>
+<span id="cb17-17"><a href="mendeley-y-la-administración-de-referencias.html#cb17-17" aria-hidden="true" tabindex="-1"></a>url<span class="ot">=</span>{https<span class="sc">:</span><span class="er">//</span>www.researchgate.net<span class="sc">/</span>publication<span class="sc">/</span>325969884_An_Empirical_Analysis_of_Substit</span>
+<span id="cb17-18"><a href="mendeley-y-la-administración-de-referencias.html#cb17-18" aria-hidden="true" tabindex="-1"></a>  ution_and_Complementarity_of_Gender_Labor_Demand_of_Enterprises_in_Japan_Korea_and_China</span>
+<span id="cb17-19"><a href="mendeley-y-la-administración-de-referencias.html#cb17-19" aria-hidden="true" tabindex="-1"></a>  _With_a_Factor_Decomposition_of_Gender_Wage_Diffe</span>
+<span id="cb17-20"><a href="mendeley-y-la-administración-de-referencias.html#cb17-20" aria-hidden="true" tabindex="-1"></a>  rentials}</span>
+<span id="cb17-21"><a href="mendeley-y-la-administración-de-referencias.html#cb17-21" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+</div>
+<div id="manos-a-la-obra-1" class="section level2" number="4.2">
+<h2><span class="header-section-number">4.2</span> Manos a la obra</h2>
+<div id="primeros-pasos" class="section level3" number="4.2.1">
+<h3><span class="header-section-number">4.2.1</span> Primeros pasos</h3>
+<p>El primer paso es <a href="https://www.mendeley.com/download-desktop-new/"><strong><em>descargar Mendeley para escritorio</em></strong></a> y el <a href="https://www.mendeley.com/reference-management/web-importer"><strong><em>plug in para chrome</em></strong></a>.</p>
+<p>El segundo paso es crear una cuenta y hacer <em>log in</em> en ambos (tanto el plug in como la app para Desktop). Puedo crear una cuenta <a href="https://www.mendeley.com/"><strong><em>aquí</em></strong></a>.</p>
+<p>Ahora ya puedo comenzar a trabajar con Mendeley. El primer paso entonces es explorar la aplicación para Desktop. Deben crear un folder en el botón <em>Create folder ..</em> en la librería que se muestra. Esta es tu carpeta de trabajo,</p>
+<p>Finalmente, voy a preferencias/BibtTex y le ordeno que cree un archivo bib local por grupo en el directorio de mi preferencia. Este paso es importante pues en este directorio se guardaran todos mis archivos bib.</p>
+</div>
+<div id="agrego-mi-primera-bibliografía" class="section level3" number="4.2.2">
+<h3><span class="header-section-number">4.2.2</span> Agrego mi primera bibliografía</h3>
+<p>Ahora, investigando en internet me encontraré muchos libros, journals, paginas, periodicos etc. Para guardarlos en mi bibliografía simplemente los agrego con el boton add del plug in. En el menu puedo buscar entre mis carpetas y proyectos la carpeta en la cual quiero guardar la bibliografia. Asimismo, si tienes acceso al pdf lo puedes guardar.</p>
+<p>Si los datos no están bien no importa, Puedes llenarlos manualmente, automáticamente o no llenarlos en absoluto. Después puedes corregir la inforamción en la aplicación.</p>
+<p>Si regresamos a la aplicación podemos observar que hay warnings en los archivos nuevos. Podemos optar por buscar automáticamente (lo que hará que la info se sincronize con algúna bibliografía que otro usuario históricamente ha usado) o podemos llenarlo manualmente. Asismimo, podemos agregar bibliografía directamente desde la app de Mendeley.</p>
+</div>
+<div id="apodosetiquetascitation-key" class="section level3" number="4.2.3">
+<h3><span class="header-section-number">4.2.3</span> Apodos/Etiquetas/Citation Key</h3>
+<p>Un paso crucial para la integración con R y word es el etiquetar o ponerle un apodo a cada entrada de mi bibliografía con el fin de acordarme de ella y citarle fácilmente.</p>
+<p>Veamos con detenimiento la siguiente entrada:</p>
+<div class="sourceCode" id="cb18"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb18-1"><a href="mendeley-y-la-administración-de-referencias.html#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="sc">@</span>book{PNUD2013,</span>
+<span id="cb18-2"><a href="mendeley-y-la-administración-de-referencias.html#cb18-2" aria-hidden="true" tabindex="-1"></a>author<span class="ot">=</span>{PNUD},</span>
+<span id="cb18-3"><a href="mendeley-y-la-administración-de-referencias.html#cb18-3" aria-hidden="true" tabindex="-1"></a>year<span class="ot">=</span>{<span class="dv">2013</span>},</span>
+<span id="cb18-4"><a href="mendeley-y-la-administración-de-referencias.html#cb18-4" aria-hidden="true" tabindex="-1"></a>month<span class="ot">=</span>{November},</span>
+<span id="cb18-5"><a href="mendeley-y-la-administración-de-referencias.html#cb18-5" aria-hidden="true" tabindex="-1"></a>title<span class="ot">=</span>{Humanity Divided<span class="sc">:</span> confronting inequality <span class="cf">in</span> developing countries},</span>
+<span id="cb18-6"><a href="mendeley-y-la-administración-de-referencias.html#cb18-6" aria-hidden="true" tabindex="-1"></a>url<span class="ot">=</span>{https<span class="sc">:</span><span class="er">//</span>www.undp.org<span class="sc">/</span>content<span class="sc">/</span>undp<span class="sc">/</span>es<span class="sc">/</span>home<span class="sc">/</span>librarypage<span class="sc">/</span>poverty<span class="sc">-</span>reduction<span class="sc">/</span>humanity<span class="sc">-</span>divi</span>
+<span id="cb18-7"><a href="mendeley-y-la-administración-de-referencias.html#cb18-7" aria-hidden="true" tabindex="-1"></a>  ded<span class="sc">--</span>confronting<span class="sc">-</span>inequality<span class="sc">-</span><span class="cf">in</span><span class="sc">-</span>developing<span class="sc">-</span>countries.html}</span>
+<span id="cb18-8"><a href="mendeley-y-la-administración-de-referencias.html#cb18-8" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<p>Cada característica tiene un valor, sin embargo hay un texto volando, PNUD2013 no dice nada. Este precisamente es el apodo, generalmente se pone el apellido y el año pero en realidad puedo ponerle lo que sea. Por ejemplo PNUD2013 o el_libro_buenazo o archivo_33, etc.</p>
+</div>
+<div id="sync" class="section level3" number="4.2.4">
+<h3><span class="header-section-number">4.2.4</span> Sync</h3>
+<p>Como te abrás dado cuenta, puedes acceder a tus carpetas y bibliografías desde el plug in, desde la pagina y desde la aplicación, por ello es importante que sincronices después de agregar bibliografía. Para sincornizar tu biblioteca simplemente oprime <em>sync</em> en la aplicación.</p>
+</div>
+<div id="dónde-está-mi-archivo-bib" class="section level3" number="4.2.5">
+<h3><span class="header-section-number">4.2.5</span> ¿Dónde está mi archivo bib?</h3>
+<p>Después de sincronizar, se acutalizaran mis archivos bib. Para acceder a ellos simplemente abro el buscador y voy a la ruta que definí previamente donde quería que se guardaran mis archivos bib.</p>
+</div>
+<div id="trabajos-colaborativos" class="section level3" number="4.2.6">
+<h3><span class="header-section-number">4.2.6</span> Trabajos colaborativos</h3>
+<p>Finalmente, hay más opciones en las cuales no ahondaremos pero son muy útiles.
+En crear grupo puedo crear diferentes carpetas con diferentes propiedades. Una muy util para trabajos en equipo es el grupo colaborativo donde todos los integrantes pueden independientemente subir bibliografía que se sincronizará con la de los demás integrantes.</p>
+</div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="latex.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="integración-mendeley-con-r-markdown.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["r_markdown_abogados.pdf", "r_markdown_abogados.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>

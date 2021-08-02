@@ -1,0 +1,739 @@
+---
+output:
+  pdf_document:
+    latex_engine: xelatex
+geometry: paperheight=34.5cm,paperwidth=21.59cm, left=25mm, right=25mm, top=50.8mm, bottom=40mm, asymmetric
+fontsize: 12pt
+header-includes :
+ \usepackage{blindtext}
+ \linespread{1.15}
+ \vspace{1cm}
+ \usepackage[spanish]{babel}
+---
+\begin{flushright}
+\begin{minipage}{.5\linewidth}\bfseries
+BANCO NACIONAL DE MÉXICO SOCIEDAD ANÓNIMA, INTEGRANTE DEL GRUPO FINANCIERO BANAMEX
+\begin{center}
+VS
+\end{center}
+LETICIA PANAMEÑO QUIROZ
+
+Asunto: Contestación Juicio Especial Hipotecario
+
+Expediente:708/2018
+
+Secretaría “B”
+\end{minipage}
+\end{flushright}
+
+## C. JUEZ CUADRAGÉSIMO SEGUNDO DE LO CIVIL DE LA CIUDAD DE MÉXICO
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**LETICIA PANAMEÑO QUIROZ**, en mi carácter de codemandada, señalando como domicilio para oír notificaciones y recibir documentos, la casa marcada con el **No. 189, de la calle de San Pedro, Colonia del Carmen Coyoacán, C.P. 04100, en esta Ciudad de México**, autorizando para los mismos efectos en términos de los  párrafos cuarto, quinto, sexto y séptimo del artículo 112 del Código de Procedimientos Civiles, así como para recoger toda clase de documentos y valores que me deban ser entregados, a los Señores Licenciados en Derecho, Licenciado **EDUARDO ROBERTO LARA OLIVER**, con cédula profesional número 2129317 y registro ante la Presidencia del Tribunal Superior de Justicia del Ciudad de México con acreditación de folio número 00001758, al señor Licenciado **EDUARDO LARA VERA**  con cédula profesional número 12325565 en proceso de registro ante la Presidencia del Tribunal Superior de Justicia del Ciudad de México, y en términos del párrafo séptimo del citado artículo 112 del Código de Procedimientos Civiles, a los señores Rodrigo Castilla Aranda, Carlos Eduardo Galaviz López, Alberto Salinas Pérez, Devorah Hernández Contreras,solicitando a su vez se tenga por autorizado el usuario **ELARA** ligado al correo **lalolaravera@gmail.com** en la plataforma del Sistema Integral para la Consulta de Resoluciones (SICOR),indistintamente, ante usted con el debido respeto comparezco y expongo: 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Que por medio el presente escrito vengo a dar contestación a la temeraria e improcedente demanda presentada por **BANCO NACIONAL DE MÉXICO, SOCIEDAD ANÓNIMA, INTEGRANTE DEL GRUPO FINANCIERO BANAMEX**,  en mi contra, por lo que en cuanto a las prestaciones que reclama manifiesto lo siguiente:
+
+\leftskip=1cm\rightskip=1cm
+\begingroup
+\fontsize{10}{10}\selectfont
+_A. El vencimiento anticipado por falta de cumplimiento de los demandados del CONVENIO MODIFICATORIO DEL CONTRATO DE APERTURA DE CREDITO CON GARANTIA HIPOTECARIA de fecha 22 de abril de 1996, CON NUMERO DE ESCRITURA 65,325, pasada ante la fe del NOTARIO PUBLICO NUMERO NOVENTA Y DOS DEL DISTRITO FEDERAL LICENCIADO JOSE VISOSO DEL VALLE, contenido en el ANEXO 2 del escrito inicial de demanda._
+\endgroup
+
+\leftskip=0cm\rightskip=0cm
+
+**A.** En cuanto a la presente prestación que reclama la parte Actora, la Suscrita la niega en virtud de que no puede haber un vencimiento anticipado por falta de cumplimiento al pago del CONVENIO MODIFICATORIO DEL CONTRATO DE APERTURA DE CRÉDITO CON GARANTÍA HIPOTECARIA, toda vez que dicho crédito ya se pagó por la Suscrita, como lo acreditaré mas adelante en el capítulo de los HECHOS con los documentos que exhibo y acompaño al presente escrito como documentos probatorios.
+
+\leftskip=1cm\rightskip=1cm
+\begingroup
+\fontsize{10}{10}\selectfont
+_B. El pago de la cantidad de 283,288.17 UDIS (DOSCIENTOS OCHENTA Y TRES MIL DOSCIENTOS OCHENTA Y OCHO PUNTO DIECISIETE UDIS), equivalentes a la cantidad de\$1,668,701.03 (UN MILLON SEISCIENTOS SESENTA Y OCHO MIL SETECIENTOS UNO PESOS 03/100 M.N.) por concepto de SUERTE PRINCIPAL, tal como se desprende del Estado de Cuenta Certificado de fecha 01 de diciembre de 2017, a cargo del CONTADOR PUBLICO ROMAN GONZALEZ VELAZQUEZ CON NUMERO DE CEDULA PROFESIONAL 2525342 contenido en el ANEXO 3 del escrito inicial de demanda._
+\endgroup
+
+\leftskip=0cm\rightskip=0cm
+
+**B.** En cuanto a la presente prestación que reclama la parte Actora, la Suscrita la niega en virtud de que la cantidad de **283,288.17 UDIS** (DOSCIENTAS OCHENTA Y TRES MIL DOSCIENTAS OCHENTA Y OCHO PUNTO DIECISIETE UDIS) equivalentes a la cantidad de **$1,668,701.03** (UN MILLÓN SEISCIENTOS SESENTA Y OCHO MIL SETECIENTOS UN PESOS 03/100 M.N), se han pagado **6.5 veces** mas ^[*Cantidad que resulta de dividir 1,859,282.89 entre 283,288.17*] del valor REAL, lo cual asciende a la cantidad de **1,859,282.89 UDIS** ^[*Cantidad que resulta de realizar la sumatoria de la cantidad en UDIS expresada en el ANEXO 3 del escrito inicial de demanda, consistente en el estado de cuenta certificado expedido por el contador ROMÁN GONZÁLEZ VELÁZQUEZ, en la columna denominada “PAGO MENSUAL TOTAL”.*]  (UN MILLÓN OCHOCIENTAS CINCUENTA Y NUEVE MIL DOSCIENTAS OCHENTA Y DOS PUNTO OCHENTA Y NUEVE UDIS), de conformidad con el estado de cuenta presentado por la parte Actora como ANEXO 3 del escrito inicial de demanda.
+
+  Sumado a lo anterior, la parte Actora es omisa, de conformidad con el artículo 68 ^[*Artículo 68 Ley de Instituciones de Crédito “Los contratos o las pólizas en los que, en su caso, se hagan constar los créditos que otorguen las instituciones de crédito, junto con los estados de cuenta certificados por el **CONTADOR FACULTADO** por la institución de crédito acreedora, serán títulos ejecutivos, sin necesidad de reconocimiento de firma ni de otro requisito. (…)”*]  de la Ley de Instituciones de Crédito, en presentar el poder que legitima o faculta al Contador Público ROMÁN GONZÁLEZ VELAZQUEZ para certificar sus estados de cuenta, siendo obligación de la Actora demostrar, en su momento, que el Contador es, en efecto, un Contador Público y que dicho Contador se encuentra legitimado por la Institución de Crédito para expedir dichos estados de cuenta **certificados**, para que los mismos puedan ser considerados prueba o título ejecutivo en el presente ocurso, como lo acreditaré mas adelante en el capítulo de los HECHOS con los documentos que exhibo y acompaño al presente escrito como documentos probatorios.
+
+\leftskip=1cm\rightskip=1cm
+\begingroup
+\fontsize{10}{10}\selectfont
+_C. El pago de la cantidad de 13,570.16 UDIS (TRECE MIL QUINIENTOS SETENTA PUNTO DIECISEIS UDIS), equivalentes a la cantidad de\$79,934.65 (SETENTA NUEVE MIL NOVECIENTOS TREINTA Y CUATRO PESOS 65/100 M.N.) por concepto de INTERESES ORDINARIOS, tal como se desprende del Estado de Cuenta Certificado de fecha 01 de diciembre de 2017, a cargo del CONTADOR PUBLICO ROMAN GONZALEZ VELAZQUEZ CON NUMERO DE CEDULA PROFESIONAL 2525342 contenido en el ANEXO 3 del escrito inicial de demanda._
+\endgroup
+
+\leftskip=0cm\rightskip=0cm
+
+**C.** En cuanto a la presente prestación que reclama la parte Actora por la cantidad de **13,570.16 UDIS** (TRECE MIL QUINIENTOS SETENTA PUNTO DIECISEIS UDIS) equivalentes a la cantidad de **$79,934.65** (SETENTA NUEVE MIL NOVECIENTOS TREINTA Y CUATRO PESOS 65/100 M.N.) por concepto de INTERESES ORDINARIOS, la Suscrita la niega toda vez que, al haberse pagado la totalidad del crédito, existe una imposibilidad de que se causen los intereses ordinarios que la Actora pretende.
+
+Sumado a lo anterior, la parte Actora es omisa, de conformidad con el artículo 68 de la Ley de Instituciones de Crédito, en presentar el poder que legitima o faculta al Contador Público ROMÁN GONZÁLEZ VELAZQUEZ para certificar sus estados de cuenta, siendo obligación de la Actora demostrar, en su momento, que el Contador es, en efecto, un Contador Público y que dicho Contador se encuentra legitimado por la Institución de Crédito para expedir dichos estados de cuenta **certificados**, para que los mismos puedan ser considerados prueba o título ejecutivo en el presente ocurso, como lo acreditaré mas adelante en el capítulo de los HECHOS con los documentos que exhibo y acompaño al presente escrito como documentos probatorios.
+
+\leftskip=1cm\rightskip=1cm
+\begingroup
+\fontsize{10}{10}\selectfont
+
+_D. El pago de los INTERESES ORDINARIOS que se generen y que se sigan generando con posterioridad al 01 de diciembre de 2017, fecha la cual se hizo el cálculo contenido en el estado de cuenta certificado exhibido y hasta la total liquidación del adeudo, los intereses que se causaran a razón de una tasa anual 8.750% con base en el CONVENIO MODIFICATORIO DEL CONTRATO DE APERTURA DE CREDITO CON GARANTIA HIPOTECARIA de FECHA 22 DE ABRIL DE 1996, CON NUMERO DE ESCRITURA 65,325, pasada ante la fe del NOTARIO PUBLICO NUMERO NOVENTA Y DOS DEL DISTRITO FEDERAL LICENCIADO JOSE VISOSO DEL VALLE contenido en el ANEXO 2 del escrito inicial de demanda._
+\endgroup
+
+\leftskip=0cm\rightskip=0cm
+
+**D.** En cuanto a la presente prestación que reclama la parte Actora por concepto de INTERESES ORDINARIOS que se causen con posterioridad al 1 de diciembre de 2017, la Suscrita la niega toda vez que al haberse cubierto de manera íntegra el pago que la parte Actora reclama en el inciso A) de su capítulo de prestaciones, estos no pueden causarse, como lo acreditaré mas adelante en el capítulo de los HECHOS con los documentos que exhibo y acompaño al presente escrito como documentos probatorios.
+
+\leftskip=1cm\rightskip=1cm
+\begingroup
+\fontsize{10}{10}\selectfont
+_E. El pago de la cantidad de 1,369.28 UDIS (MIL TRESCIENTOS SESENTA Y NUEVE PUNTO VEINTIOCHO UDIS), equivalentes a la cantidad de\$8,065.71 (OCHO MIL SESENTA Y CINCO PESOS 71/100 M.N.) por concepto de INTERESES MORATORIOS, generados sobre el primer incumplimiento de fecha 22 de junio de 2017 al 01 de diciembre de 2017, tal como se desprende del Estado de Cuenta Certificado de fecha 01 de diciembre de 2017, a cargo del CONTADOR PUBLICO ROMAN GONZALEZ VELAZQUEZ KUPERYDACON NUMERO DE CEDULA PROFESIONAL 2525342 contenido en el ANEXO 3 del escrito inicial de demanda._
+\endgroup
+
+\leftskip=0cm\rightskip=0cm
+
+**E.** En cuanto a la presente prestación que reclama la parte Actora por la cantidad reclamada de 1,369.28 UDIS (MIL TRESCIENTOS SESENTA Y NUEVE PUNTO VEINTIOCHO UDIS) equivalentes a la cantidad de\$8,065.71 (OCHO MIL SESENTA Y CINCO PESOS 71/100 M.N.) por concepto de INTERESES MORATORIOS , la Suscrita la niega toda vez que al haberse cubierto de manera íntegra el pago que la parte Actora reclama en el inciso A) de su capítulo de prestaciones, existe una imposibilidad de incurrir en mora y por lo tanto estos no pueden causarse.
+
+Sumado a lo anterior, la parte Actora es omisa, de conformidad con el artículo 68 de la Ley de Instituciones de Crédito, en presentar el poder que legitima o faculta al Contador Público ROMÁN GONZÁLEZ VELAZQUEZ para certificar sus estados de cuenta, siendo obligación de la Actora demostrar, en su momento, que el Contador es, en efecto, un Contador Público y que dicho Contador se encuentra legitimado por la Institución de Crédito para expedir dichos estados de cuenta **certificados**, para que los mismos puedan ser considerados prueba o título ejecutivo en el presente ocurso, como lo acreditaré mas adelante en el capítulo de los HECHOS con los documentos que exhibo y acompaño al presente escrito como documentos probatorios.
+
+\leftskip=1cm\rightskip=1cm
+\begingroup
+\fontsize{10}{10}\selectfont
+_F. El pago de los INTERESES MORATORIOS que se generen y que se sigan generando con posterioridad al 01 de diciembre de 2017, fecha la cual se hizo el cálculo contenido en el estado de cuenta certificado exhibido y hasta la total liquidación del adeudo, los intereses que se causaran a razón de una tasa anual de 13.125% con base en el CONVENIO MODIFICATORIO DEL CONTRATO DE APERTURA DE CREDITO CON GARANTIA HIPOTECARIA de FECHA 22 DE ABRIL DE 1996, CON NUMERO DE ESCRITURA 65,325, pasada ante la fe del NOTARIO PUBLICO NUMERO NOVENTA Y DOS DEL DISTRITO FEDERAL LICENCIADO JOSE VISOSO DEL VALLE contenido en el ANEXO 2 del escrito inicial de demanda._
+\endgroup
+
+\leftskip=0cm\rightskip=0cm
+
+**F.** En cuanto a la presente prestación que reclama la parte Actora por concepto de INTERESES MORATORIOS que se causen con posterioridad al 1 de diciembre de 2017, la Suscrita la niega toda vez que al haberse cubierto de manera íntegra el pago que la parte Actora reclama en el inciso A) de su capítulo de prestaciones, existe una imposibilidad de incurrir en mora y por lo tanto estos no pueden causarse, como lo acreditaré mas adelante en el capítulo de los HECHOS con los documentos que exhibo y acompaño al presente escrito como documentos probatorios.
+
+\leftskip=1cm\rightskip=1cm
+\begingroup
+\fontsize{10}{10}\selectfont
+
+_G. El pago de la cantidad de 1,074.03 UDIS (MIL SETENTA Y CUATRO PUNTO TRES UDIS), equivalentes a la cantidad de\$6,326.54 (SEIS MIL TRESCIENTOS VEINTISEIS PESOS 54/100 M.N.) por concepto de SEGUROS, tal como se desprende del Estado de Cuenta Certificado de fecha 01 de diciembre de 2017, a cargo del CONTADOR PUBLICO ROMAN GONZALEZ VELAZQUEZ CON NUMERO DE CEDULA PROFESIONAL 2525342 contenido en el ANEXO 3 del escrito inicial de demanda._
+\endgroup
+
+\leftskip=0cm\rightskip=0cm
+
+**G.** En cuanto a la presente prestación que reclama la parte Actora por la cantidad de 1,074.03 UDIS (MIL SETENTAY CUATRO PUNTO TRES UDIS) equivalentes a la cantidad de\$6,326.54 (SEIS MIL TRESCIENTOS VEINTISEIS PESOS 54/100 M.N.) por concepto de SEGUROS, la Suscrita la niega toda vez que al haberse cubierto de manera íntegra el pago que la parte Actora reclama en el inciso A) de su capítulo de prestaciones, no existe ninguna obligación alguna de la Suscrita de cubrir primas de seguros.
+
+Sumado a lo anterior, la parte Actora es omisa, de conformidad con el artículo 68 de la Ley de Instituciones de Crédito, en presentar el poder que legitima o faculta al Contador Público ROMÁN GONZÁLEZ VELAZQUEZ para certificar sus estados de cuenta, siendo obligación de la Actora demostrar, en su momento, que el Contador es, en efecto, un Contador Público y que dicho Contador se encuentra legitimado por la Institución de Crédito para expedir dichos estados de cuenta **certificados**, para que los mismos puedan ser considerados prueba o título ejecutivo en el presente ocurso, como lo acreditaré mas adelante en el capítulo de los HECHOS con los documentos que exhibo y acompaño al presente escrito como documentos probatorios.
+
+\leftskip=1cm\rightskip=1cm
+\begingroup
+\fontsize{10}{10}\selectfont
+_H. El pago de GASTOS Y COSTAS que se originen en el presente juicio._
+\endgroup
+
+\leftskip=0cm\rightskip=0cm
+
+**H.** En cuanto a la presente prestación que reclama la parte Actora respecto de los **GASTOS Y COSTAS**, la Suscrita la niega toda vez que al haberse cubierto la totalidad del monto reclamado por la Actora en el inciso A) de su capítulo de prestaciones, la presente demanda resulta **TEMERARIA** e **IMPROCEDENTE** y se presentó a manera de capricho por parte de la Actora, como lo acreditaré mas adelante en el capítulo de los HECHOS con los documentos que exhibo y acompaño al presente escrito como documentos probatorios, por lo que, en todo caso, la Actora deberá ser condenada al pago de gastos y costas que pretende.
+
+Por lo anterior, procedo a dar contestación a los improcedentes hechos que imputa la parte Actora a la Suscrita:
+
+\begin{center}\bfseries
+CONTESTACIÓN DE HECHOS 
+\end{center}
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**1.** El hecho que se contesta es cierto, como también es cierto que el vínculo matrimonial que unía a la Suscrita y al codemandado C. JOSE DE JESUS VENEGAS BLANCARTE, quedó disuelto mediante el pronunciamiento de sentencia por parte del Juez Trigésimo Octavo de lo Familiar de la Ciudad de México en el expediente 2071/09 con fecha 29 de abril de 2010, hecho que demuestro mediante la exhibición de la copia certificada del acta de matrimonio expedida por el Registro Civil con la anotación correspondiente de divorcio como **ANEXO 1**, y que, por convenio judicial, solicitado en copia certificada mediante escrito presentado el 28 de junio de 2021  y acordado en auto de fecha 30 de junio de 2021 en donde se ordena se gire oficio a la C. DIRECTORA DEL ARCHIVO JUDICIAL para que remita los autos originales al H. JUZGADO TRIGÉSIMO OCTAVO DE LO FAMILIAR DE LA CIUDAD DE MÉXICO para su emisión y  que se exhibirán en el presente una vez que estas se encuentren en poder de la Suscrita, documentos que exhibo como **ANEXO 2**, la Suscrita y su ex cónyuge el C. JOSE DE JESÚS VENEGAS BLANCARTE, pactaron que este pagaría la totalidad del Crédito Hipotecario que la Actora pretende reclamar, liberando a la Suscrita, de manera expresa, de cualquier responsabilidad de pago que pudiere corresponderle.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;De la misma forma, es de suma importancia hacer notar a este H. Juzgado o a su Señoría que al momento de la diligencia de emplazamiento practicada a la Suscrita el día 10 de junio de 2021, hice del conocimiento del C. Actuario adscrito a este H. Juzgado que el codemandado, no vivía en este domicilio en virtud de nuestro divorcio y que desconocía su paradero, situación a la que dicho Actuario hizo caso omiso entregándome la cédula de notificación y copias de traslado, que correspondía entregarle de manera PERSONAL a mi excónyuge, conculcando de esta forma los derechos humanos al debido proceso y a la legítima defensa que le corresponden al codemandado y que contempla la Constitución en sus artículos 14 y 16 y violando al artículo 114 fracción I del Código de procedimientos Civiles para la Ciudad de México.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**2.** El hecho que se contesta es cierto, como también es cierto que, del Crédito original correspondiente a la cantidad de **\$520,000.00 (QUINIENTOS VEINTE MIL PESOS 00/100 M.N.)** se pagó a la fecha la cantidad de **1,859,282.89 UDIS (UN MILLÓN OCHOCIENTAS CINCUENTA Y NUEVE MIL DOSCIENTOS OCHENTA Y DOS UDIS)**, equivalentes a la cantidad de **\$6,965,835.88**^[De conformidad con el estado de cuenta presentado por la Actora como ANEXO 3 del escrito inicial de demanda] **(SEIS MILLONES NOVECIENTOS SESENTA Y CINCO MIL OCHOCIENTOS TREINTA Y CINCO PESOS 88/100 M.N.)**, cantidad en UDIS cuyo valor actual es por la cantidad de **\$12,728,632.1**^[Cantidad calculada conforme al valor de las UDIS publicado por BANXICO al 10 de julio de 2021 en su sitio web y cuyos valores se agregan al presente como **ANEXO 3**] **(DOCE MILLONES SETECIENTOS VEINTIOCHO MIL SEISCIENTOS TREINTA Y DOS PESOS 01/100 M.N.)**, lo cual significa que este se ha pagado **13.39 VECES**^[Cantidad que resulta de dividir $6,965,835.88 entre $520,000.00] y tomando en cuenta el valor actual de las UDIS, **24.5 VECES**^[*Cantidad que resulta de dividir $12,728,632.1 entre el monto del crédito original por la cantidad de $520,000.00.*], lo cual evidencía que del cobro de intereses **USURARIOS** y **EXCESIVOS**, la Actora convirtió el crédito en impagable.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bajo la misma tesitura, derivado de la inestabilidad e incertidumbre económica que surgió en el año de 1994 en el país, los acreditados o codemandados se vieron imposibilitados a continuar con el pago del crédito, toda vez que resultaba demasiado oneroso, lo cual llevó a la parte Actora a acercarse a los acreditados para buscar una re negociación y reestructura del crédito.  
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Siguiendo la misma idea, la Actora, aprovechándose de la situación económica del país, la incertidumbre e ignorancia de los codemandados, utilizó promesas de ahorro en los montos adeudados y presión moral para que la reestructura de dicho crédito se estableciera en Unidades de Inversión (UDIS), sin explicar de manera clara las consecuencias de pactar en UDIS el crédito, aumentando la suerte principal del crédito en un **123%** ^[*Porcentaje que resulta de hacer una regla de tres, siendo la cantidad de $520,000.00 el 100% y la cantidad de $1,158,505.63 el porcentaje a calcular.*] **(CIENTO VEINTITRES PORCIENTO)** de **\$520,000.00 (QUINIENTOS VEINTE MIL PESOS 00/100 M.N.)** a **\$1,158,505.63 (UN MILLÓN CIENTO CINCUENTA Y OCHO MIL QUINIENTOS CINCO PESOS 63/100 M.N.)** lo cual representa, de conformidad con el CONVENIO MODIFICATORIO DEL CONTRATO DE APERTURA DE CRÉDITO CON GARANTÍA HIPOTECARIA , la cantidad de **779,649.68 UDIS (SETECIENTOS SETENTA Y NUEVE MIL SEISCIENTOS CUARENTA Y NUEVE PUNTO SESENTA Y OCHO UDIS)**.  
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;De conformidad con lo anterior, la Suscrita y el Sr. JOSE DE JESUS VENEGAS BLANCARTE, aun y cuando dicho aumento excedía por mucho al monto original del crédito y creyendo que realmente se estaba obteniendo un ahorro como lo prometió la parte Actora, inició con el pago de la cantidad mensual pactada por un periodo de **DOSCIENTOS CINCUENTA Y TRES MESES** ^[*De conformidad con el estado de cuenta certificado por el supuesto Contador Facultado por Banco Nacional de México S.A., integrante de Grupo Financiero Banamex, presentado por la parte actora como ANEXO 3 en el escrito inicial de demanda.*]  de manera puntual, pagando a la fecha la cantidad total de **1,859,282.89**^[*Cantidad que resulta de realizar la sumatoria de la cantidad en UDIS expresada en el ANEXO 3 del escrito inicial de demanda, consistente en el estado de cuenta certificado expedido por el contador ROMÁN GONZÁLEZ VELÁZQUEZ, en la columna denominada “PAGO MENSUAL TOTAL”.*] **UDIS (UN MILLÓN OCHOCIENTAS CINCUENTA Y NUEVE MIL DOSCIENTOS OCHENTA Y DOS PUNTO OCHENTA Y NUEVE UDIS)**, cantidad que no solo excede por mucho el monto original del crédito por la cantidad de **\$520,000.00 (QUINIENTOS VEINTE MIL PESOS 00/100 M.N.)** como ya se expuso *Ad Supra* sino que excede **2.38 VECES**^[*Cantidad que resulta de dividir 1,859,282.89 entre la cantidad en UDIS pactada en el convenio modificatorio del crédito de 779,649.68 UDIS.*] el monto pactado en la reestructura de dicho crédito por **779,649.68 UDIS (SETECIENTOS SETENTA Y NUEVE MIL SEISCIENTOS CUARENTA Y NUEVE PUNTO SESENTA Y OCHO UDIS)**, habiéndose pagado de esta manera la totalidad de dicho crédito y pagando en exceso la cantidad de **1,079,633.21** ^[*Cantidad que resulta de restar la cantidad en UDIS pactada en el convenio modificatorio del crédito por 779,649.68 UDIS menos el resultado de la sumatoria de la cantidad en UDIS expresada en el ANEXO 3 del escrito inicial de demanda, consistente en el estado de cuenta certificado expedido por el contador ROMÁN GONZÁLEZ VELÁZQUEZ, en la columna denominada “PAGO MENSUAL TOTAL” por 1,859,282.89 UDIS.*]  **UDIS (UN MILLÓN SETENTA Y NUEVE MIL SEISCIENTOS TREINTA Y TRES PUNTO VEINTIÚN UDIS)**.  
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ahora bien, habiendo establecido en párrafos anteriores las cantidades adeudadas y pagadas en exceso por la Suscrita, es un hecho notorio que la parte Actora ha obtenido un lucro excesivo derivado del pacto en UDIS y estableciendo, en perjuicio de la demandada tasas de interés USURERAS por el **6.5% (SEIS PUNTO CINCO PORCIENTO)** anual, **8.75% (OCHO PUNTO SETENTA Y CINCO PORCIENTO)** anual y **10% (DIEZ PORCIENTO)** anual, lo cual corresponde a una tasa de interés real ^[*De conformidad con la cláusula TERCERA BIS del CONVENIO MODIFICATORIO DEL CONTRATO DE APERTURA DE CRÉDITO CON GARANTÍA HIPOTECARIA presentado por la Actora como ANEXO 2 del escrito inicial de demanda.*], teniendo conocimiento que al haber llevado a los Codemandados a pactar una reestructura en UDIS, estos iban a absorber  el impacto inflacionario, lo cual implica que para la Actora no existió la pérdida del valor del dinero en el curso del tiempo, en tanto es la unidad misma la que lleva a que el principal del adeudo se vaya actualizando mensualmente conforme a la inflación. 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Esto significa que en los créditos en UDIS, el interés pactado es en su totalidad una ganancia o lucro del acreditante, lo que no sucede en un crédito en pesos, en el que, en cambio, para poder apreciar la ganancia real es preciso diferenciar entre intereses nominales y "reales" (en el que se resta la inflación) siendo estos últimos los que reflejan el lucro del acreedor, por lo que en el caso que nos corresponde, la Actora esta lucrando de manera excesiva por **DOS VÍAS**, siendo la **PRIMERA** una ganancia inflacionaria por el crecimiento del principal del adeudo en razón de la capitalización de la inflación y la **SEGUNDA**, el cobro de intereses sobre la capitalización de la inflación que, a su vez, generan un incremento paulatino en el costo del préstamo, porque el interés se re calcula periódicamente con sustento en el saldo insoluto actualizado del crédito, por lo que, para determinar si existe USURA o no, es necesario tomar en cuenta los factores anteriormente mencionados y no solamente la tasa de interés impuesta por la Actora, que, como ya se demostró, es **EXCESIVA** y **USURERA** no pudiendo pretender cobrar intereses que no se generaron por el **PAGO ÍNTEGRO DEL CRÉDITO**.  
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ahora bien, la cláusula TERCERA BIS del Convenio, señala tres tasas de interés que se exponen en el siguiente cuadro:
+
+```{r, echo=FALSE}
+
+Concepto<-c("Descripción de la etapa","Interés Fijado","Interés Cobrado")
+Etapa1<-c("Correrá los primeros doce meses a partir de la vigencia de la reestructura", "6.5%", "9.259%")
+Etapa2<-c("Correrá transcurridos los primeros doce meses", "8.75%", "9.735%")
+Etapa3<-c("Correrá por las cantidades del saldo original que excedan de 165,000 UDIS","10%","9.735%")
+
+DATA<-data.frame(Concepto,Etapa1,Etapa2,Etapa3)
+library(kableExtra)
+kable(DATA, booktabs=T,  col.names =c("Concepto","Etapa1","Etapa2","Etapa3"), caption= "Intereses conforme a la cláusula 3BIS del convenio modificatorio")%>%add_footnote(c("Conforme al estado de cuenta presentado por la Actora como Anexo 3", "Valores expresados sin tomar en cuenta el costo inflacionario de las UDIS"))%>%
+  kable_styling(latex_options = "HOLD_position")%>%   kable_styling(full_width = TRUE)
+
+``` 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;De lo anterior es posible apreciar que si bien se pactaron tasas de interés en el multicitado convenio modificatorio, la Actora nunca cobro dichas tasas de interés, cobrando en perjuicio de la Suscrita y el codemandado una tasa de interés mucho mayor que osciló entre el 9.259 % y el 9.735% durante toda la vida del crédito, evidenciando una vez mas la mala fe con la que se conduce la Actora al otorgar créditos pues su objetivo no es otro mas que el de llevar a cabo actividades de explotación del hombre por el hombre mediante el otorgamiento de créditos con tasas de interés tan excesivas y usureras que estos se vuelven impagables por el acreditado, desembocando siempre en el despojo de sus viviendas por no poder cubrir cantidades tan exageradas y desproporcionadas.
+
+Sirve como apoyo el siguiente criterio jurisprudencial:
+
+\leftskip=1cm\rightskip=1cm
+\begingroup
+\fontsize{10}{10}\selectfont
+	_**USURA. LOS CRÉDITOS PACTADOS EN UDIS SON DISTINTOS A LOS CONVENIDOS EN PESOS Y, POR TANTO, SU EXAMEN DEBE HACERSE SOBRE BASES DIFERENTES PARA DETERMINAR SI AQUÉLLA SE HA CONFIGURADO.**_ ^[*Tesis [J.]: I.4o.C.81 C (10a.), T.C.C., Semanario judicial de la Federación y su Gaceta, Décima Época, Libro 84, marzo de 2021, Tomo IV, página 2953. Reg. digital 2022921.*]
+
+_El análisis para decidir si en un contrato pactado en unidades de inversión (UDIS) se presenta usura no cabe hacerlo, válidamente, sobre la base del método utilizado para los créditos otorgados en pesos, pues ello implica desconocer que se trata de estructuras crediticias radicalmente diferentes. En efecto, el solo hecho de estar pactados en la referida unidad se traduce en que el total del impacto inflacionario es absorbido por el acreditado; esto es, para el acreedor no existe la pérdida del valor del dinero en el curso del tiempo, en tanto es la unidad misma la que lleva a que el principal del adeudo se vaya actualizando mensualmente conforme a la inflación. Esto significa que en los créditos en UDIS, el interés pactado es en su totalidad una ganancia o lucro del acreditante, lo que no sucede en un crédito en pesos, en el que, en cambio, para poder apreciar la ganancia real es preciso diferenciar entre intereses nominales y "reales" (en el que se resta la inflación) siendo estos últimos los que reflejan el lucro del acreedor. Por eso, la simple comparación entre tasas de créditos en pesos contra las pactadas en créditos en UDIS, además de arrojar casi siempre que estas últimas son menores a las tasas de un crédito en pesos, dando la apariencia de que no hay usura, conduce a conclusiones metodológicamente inválidas, en tanto que derivan de una evaluación entre cifras que son en realidad incomparables entre sí, por sus muy distintas naturalezas y significados. Además, tal aproximación pierde de vista que los créditos son sustancial y estructuralmente distintos y generan ganancias en formas diferenciadas, en tanto que los pactados en UDIS presentan la posibilidad de generar una ganancia inflacionaria por el crecimiento del principal del adeudo; y es esencial a estos créditos que, además de las ganancias ya referidas y, precisamente, en razón de la capitalización de la inflación que implican, a su vez, generan un incremento paulatino en el costo del préstamo, porque el interés se recalcula periódicamente con sustento en el saldo insoluto actualizado del crédito, todo lo cual, como generalidad, tampoco sucede en los créditos pactados en pesos, y resulta ser algo en sí mismo gravoso. De ahí que aplicar la misma metodología de análisis es inválido e invisibiliza las múltiples vertientes a través de las cuales estos créditos generan ganancias para el acreedor, máxime en periodos de incremento inflacionario, cuando, más bien, todas éstas deben ser puestas en la balanza de si hay equilibrio o abuso contractual en un determinado caso; máxime que en estos créditos suelen pactarse, adicionalmente, una serie de comisiones y cobros accesorios que si bien no se refieren contractualmente como "intereses", son también parte importante de las ganancias del acreedor._  
+\endgroup
+
+\leftskip=0cm\rightskip=0cm
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;De lo anteriormente expuesto, es importante resaltar que los intereses pactados en un crédito tienen como objetivo que el dinero otorgado en préstamo no pierda valor en el curso del tiempo por la inflación además de asegurar un lucro para el acreedor, sin embargo, al haberse reestructurado dicho crédito en UDIS, el interés fijado por la Actora representa únicamente una ganancia, ya que la Suscrita y el codemandado absorbieron precisamente el impacto inflacionario, siendo entonces excesivamente **ALTAS** y **USURERAS** las tasas de interés impuestas, además de no poder reclamar o cobrar un crédito que a la fecha ha sido pagado en exceso. 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ahora bien, La Constitución Política de los Estados Unidos Mexicanos, en su artículo 27 contempla el Derecho Humano a la Propiedad Privada y el artículo 21, numeral 3, de la Convención Americana sobre Derechos Humanos prohíbe la usura, así como cualquier otra forma de explotación del hombre por el hombre, lo cual es en sentido estricto una protección al Derecho Humano referido, en el que se establece que ninguna persona puede ser privada de sus bienes, excepto mediante el pago de una indemnización justa, por razones de utilidad pública o de interés social y en los casos y según las formas establecidas por la ley, sirve de apoyo la inclusión del artículo referido a continuación:
+
+\leftskip=1cm\rightskip=1cm
+\begingroup
+\fontsize{10}{10}\selectfont
+
+_Artículo 21. Derecho a la Propiedad Privada_
+	
+_1.Toda persona tiene derecho al uso y goce de sus bienes. La ley puede subordinar tal uso y goce al interés social._
+	
+_2. Ninguna persona puede ser privada de sus bienes, excepto mediante el pago de indemnización justa, por razones de utilidad pública o de interés social y en los casos y según las formas establecidas por la ley._
+	
+_3. Tanto la usura como cualquier otra forma de explotación del hombre por el hombre, deben ser prohibidas por la ley._
+\endgroup
+
+\leftskip=0cm\rightskip=0cm
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;En este sentido, ninguna ley debe permitir que, al amparo de la libertad contractual, cualquier persona física o moral que obtenga en provecho propio y de modo abusivo sobre la propiedad de otro, un interés excesivo derivado de un préstamo, siendo esta disposición de Derecho Internacional vinculante para el Estado Mexicano y de observancia obligatoria para los órganos Jurisdiccionales por tratarse de un Tratado Internacional en materia de Derechos Humanos, de conformidad con el artículo 133 Constitucional y diversas interpretaciones emanadas de la Suprema Corte de Justicia de la Nación.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Por otra parte, el artículo 2395 del Código Civil Federal, de aplicación supletoria a la Ley de Instituciones de Crédito ^[*De conformidad con el Artículo 6º de la Ley de Instituciones de Crédito.*], y el artículo 2395 del Código Civil para la Ciudad de México, señalan lo siguiente:
+
+\leftskip=1cm\rightskip=1cm
+\begingroup
+\fontsize{10}{10}\selectfont
+
+*Articulo 2395. El interés legal es el nueve por ciento anual. El interés convencional es el que fijen los contratantes, y puede ser mayor o menor que el interés legal; pero cuando el interés sea tan desproporcionado que haga fundadamente creer que se ha abusado del apuro pecuniario, de la inexperiencia o de la ignorancia del deudor, a petición de este el juez, teniendo en cuenta las especiales circunstancias del caso, podrá reducir equitativamente el interés hasta el tipo legal.*
+\endgroup
+
+\leftskip=0cm\rightskip=0cm
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Es relevante mencionar que, aún y cuando la propia ley permita que los intereses convencionales sean mayores al interés legal, si estos son desproporcionados y derivan precisamente de un abuso de la inexperiencia, ignorancia o de alguna situación económica del deudor, estos se deben reducir por la autoridad competente cuando se aprecia que son USUREROS, tomando en cuenta las circunstancias particulares del caso, situación que nos ocupa, toda vez que la Actora, abusando de la inexperiencia, ignorancia y posición económica de los codemandados en especial de la obligación en términos de la reestructura del crédito, los orilló, mediante el uso de promesas de ahorro y presiones morales a reestructurar el crédito obtenido en UDIS, llevando a pagar la cantidad en UDIS a la fecha por **1,859,282.89**^[*Cantidad que resulta de realizar la sumatoria de la cantidad en UDIS expresada en el ANEXO 3 del escrito inicial de demanda, consistente en el estado de cuenta certificado expedido por el contador ROMÁN GONZÁLEZ VELÁZQUEZ, en la columna denominada “PAGO MENSUAL TOTAL”.*] **UDIS (UN MILLÓN OCHOCIENTAS CINCUENTA Y NUEVE MIL DOSCIENTOS OCHENTA Y DOS PUNTO OCHENTA Y NUEVE UDIS)**, cantidad en UDIS que asciende al valor actual^[*Valor de las UDIS que se puede consultar en la página oficial del valor de las UDIS de BANXICO y que se encuentran expresados en el ANEXO 3 de la presente*] por **\$12,728,632.1** ^[*Cantidad que resulta de multiplicar 1,859,282.89 por el valor de las UDIS al 10 de julio de 2021 publicado por BANXICO en su sitio oficial que equivale a 6.845990 y que se encuentra expresado en el ANEXO 3 de la presente.*] **(DOCE MILLONES SETECIENTOS VEINTIOCHO MIL SEISCIENTOS TREINTA Y DOS 01/100 M.N.)**, monto que supera la suerte principal del crédito original de **\$520,000.00 (QUINIENTOS VEINTE MIL PESOS 00/100 M.N.)**, **24.5 VECES** y el monto en pesos expresado en el CONVENIO MODIFICATORIO DEL CONTRATO DE APERTURA DE CRÉDITO CON GARANTÍA HIPOTECARIA contenido en el ANEXO 2 del escrito inicial de demanda por la cantidad de **\$1,158,505.63 (UN MILLÓN CIENTO CINCUENTA Y OCHO MIL QUINIENTOS CINCO PESOS 63/100 M.N.)**, por **10.9 VECES**^[*Cantidad que resulta de dividir $12,728,632.1 entre el monto de expresado en pesos en la reestructura del crédito por la cantidad de $1,158,505.63.*], situación que es notoriamente desproporcionada y que coloca a la Suscrita en una situación de explotación del hombre por el hombre y vulnerando nuestro Derecho Humano a la Propiedad Privada por tornarse el crédito otorgado en **IMPAGABLE**, por lo que usted, C. Juez, al momento de dictar sentencia deberá tomar en cuenta lo anteriormente expuesto para reducir los intereses ordinarios pendientes por pagar y ya pagados, en su caso, para salvaguardar el Derecho Humano a la propiedad privada de la Suscrita.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sirven como apoyo las siguientes Tesis Aisladas y Jurisprudenciales:
+
+\leftskip=1cm\rightskip=1cm
+\begingroup
+\fontsize{10}{10}\selectfont
+_**USURA. PROCEDE SU ESTUDIO EN ASUNTOS DE ÍNDOLE CIVIL, CUANDO SE ADVIERTA LA EXISTENCIA DE ESA FIGURA.**_ ^[*Tesis [A.]: XXVI.2 C (10a.), T.C.C., Semanario judicial de la Federación y su Gaceta, Décima Época, Libro 66, Mayo de 2019, Tomo III, página 2827. Reg. digital 2019931.*]
+	
+_Los Jueces de instancia o, en su caso, los tribunales de alzada, a la luz de los parámetros objetivos y subjetivos establecidos deben analizar, oficiosamente, si los intereses pactados por los contratantes constituyen o no usura y reducir prudencialmente la tasa de interés pactada. Ahora bien, esto no puede limitarse sólo para los actos de carácter mercantil, sino que su estudio también procede en cualquier asunto de índole civil donde se advierta la existencia de esta figura. En el entendido de que la autoridad, al realizar el estudio en el ámbito de su competencia, lo hará con libertad de jurisdicción, para concluir sobre la existencia o no de la explotación del hombre por el hombre, en su modalidad de usura bastando, en su caso, la simple manifestación de que se hizo._
+\endgroup
+
+\leftskip=0cm\rightskip=0cm
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Del contenido de la Tesis Aislada ad supra, se desprende que los Juzgadores deben analizar de manera oficiosa si los intereses pactados entre las partes constituyen o no usura y reducir prudencialmente la tasa de interés pactada, lo cual, en el caso que nos ocupa es pertinente, toda vez que la Actora, esta cometiendo prácticas usureras al obtener un beneficio doble, como ya se explico en párrafos anteriores.
+
+\leftskip=1cm\rightskip=1cm
+\begingroup
+\fontsize{10}{10}\selectfont
+_**USURA. LA TASA DE INTERÉS REDUCIDA PRUDENCIALMENTE POR EL JUZGADOR DEBE APLICARSE RETROACTIVAMENTE RESPECTO DE LOS INTERESES USURARIOS YA PAGADOS, PARA SALVAGUARDAR EL DERECHO HUMANO A LA PROPIEDAD, EN LA MODALIDAD DE PROHIBICIÓN DE AQUÉLLA, COMO FORMA DE EXPLOTACIÓN DEL HOMBRE POR EL HOMBRE.**_ ^[*Tesis [J.]: 1a./J. 47/2014 (10a.), T.C.C., Semanario judicial de la Federación y su Gaceta, Décima Época, Libro 7, Junio de 2014, Tomo I, página 402. Reg. digital 2006795.*]
+
+_De conformidad con la jurisprudencia 1a./J. 47/2014 (10a.), de título y subtítulo: "PAGARÉ. SI EL JUZGADOR ADVIERTE QUE LA TASA DE INTERESES PACTADA CON BASE EN EL ARTÍCULO 174, PÁRRAFO SEGUNDO, DE LA LEY GENERAL DE TÍTULOS Y OPERACIONES DE CRÉDITO ES NOTORIAMENTE USURARIA PUEDE, DE OFICIO, REDUCIRLA PRUDENCIALMENTE.", el juzgador puede reducir prudencialmente las tasas de intereses pactadas por las partes en ejercicio de la obligación y la correlativa facultad que le imponen los artículos 1o. de la Constitución Política de los Estados Unidos Mexicanos y 2 de la Convención Americana sobre Derechos Humanos, entonces, con actitud propositiva aplicará la tasa disminuida que fije a su prudente arbitrio, tanto respecto de los intereses pendientes de cobro, como de aquellos que resultaron usurarios que ya hubieran sido pagados en favor del acreedor, ya que sólo de esta manera podría respetarse, protegerse y garantizarse eficazmente el derecho humano a la propiedad en la modalidad de prohibición de la usura como forma de explotación del hombre por el hombre. De lo contrario, se convalidaría una conducta proscrita por el artículo 21, numeral 3, de la convención citada, en notorio perjuicio del patrimonio del deudor que, derivado de dicha usura, es que pudo recaer en una situación de crédito impagable._
+\endgroup
+
+\leftskip=0cm\rightskip=0cm
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;De lo expuesto otrora, se desprende que el Juzgador cuenta con la facultad de reducir prudencialmente las tasas de interés pactadas respecto de los intereses pendientes de cobro como de aquellos que resultaron usurarios que ya hubieran sido pagados en favor del acreedor pues solo de esta manera se podría respetar, proteger y garantizar eficazmente el derecho humano a la propiedad en la modalidad de prohibición de la usura como forma de explotación del hombre por el hombre.
+
+\leftskip=1cm\rightskip=1cm
+\begingroup
+\fontsize{10}{10}\selectfont
+_**USURA. EN CRÉDITOS CUYO OBJETO ES LA ADQUISICIÓN DE VIVIENDA, SU ANÁLISIS DEBE HACERSE A LA LUZ DEL ARTÍCULO 21.3 DE LA CONVENCIÓN AMERICANA, EN RELACIÓN CON LOS ARTÍCULOS 1o. Y 4o. CONSTITUCIONALES.**_ ^[*Tesis [A.]:  I.4o.C.82 C (10a.), T.C.C., Semanario judicial de la Federación y su Gaceta, Décima Época, Libro 84, Marzo de 2021, Tomo IV, página 2952. Reg. digital 2022920.*]
+
+_Dado el carácter de derecho fundamental que tiene el derecho a la vivienda recogido en el artículo 4o. constitucional y considerando las obligaciones que en éste y en el marco jurídico internacional el Estado Mexicano ha asumido de impulsar una política de vivienda, su interrelación e interdependencia con el derecho a la propiedad y dignidad humana tutelados en el artículo 1o. constitucional y 21.3 de la Convención Americana, así como la máxima de que de tener una vivienda depende en modo importante la posibilidad de una vida digna; cabe derivar que el análisis de la convencionalidad de estos créditos debe realizarse a la luz de la interdependencia entre estos derechos, así como de las múltiples normativas internacionales que tutelan y dan cuerpo al derecho humano a la vivienda y obligan al Estado Mexicano a protegerlo, respetarlo y garantizar su efectividad. Esto se traduce en que, si bien está proscrito el lucro excesivo en cualquier crédito a través de la prohibición de la usura, más sensible se debe ser a la problemática y riguroso en el análisis de convencionalidad cuando la posible usura se da en el marco de una operación que tiene por objeto que el acreditado pueda acceder a una vivienda._
+\endgroup
+
+\leftskip=0cm\rightskip=0cm
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ahora bien, la Tesis Aislada en comento se refiere a que, por tratarse de vivienda, el caso que nos ocupa esta relacionado con derechos fundamentales y que, al presentarse dicha situación, debe de hacerse un análisis obligatorio de convencionalidad del crédito a la luz de la interdependencia entre los Derechos Humanos a la Vivienda, a la Propiedad y Dignidad Humana así como de las múltiples normativas nacionales e internacionales que los tutelan.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sirve como apoyo el siguiente cuadro que ilustra los montos debidos y pagados por la Suscrita:
+
+
+```{r, echo=FALSE}
+
+Concepto<-c("Monto del crédito original","Monto de la reestructura del crédito","Total pagado por la Suscrita","Valor actual de lo pagado","Monto pagado en exceso por la Suscrita")
+UDIS<-c("N/A","779,649.68","1,859,282.89","1,859,282.89","1,079,633.21")
+PESOS<-c("$520,000.00","$1,158,505.63","$6,965,835.88","$12,728,632.1","$7,391,158.16")
+
+DATA<-data.frame(Concepto,UDIS,PESOS)
+library(kableExtra)
+kable(DATA, booktabs=T,  col.names =c("Concepto","UDIS","PESOS"), caption= "Desarrollo del crédito en el tiempo")%>%add_footnote(c("Conforme al estado de cuenta presentado por la Actora como Anexo 3","Valor de las UDIS al 10 de julio de 2021 equivalente a 6.845990"))%>%
+  kable_styling(latex_options = "HOLD_position")%>%   kable_styling(full_width = TRUE)
+
+``` 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**3.** El hecho que se contesta es cierto, como también es cierto que el crédito original, como establece la parte Actora en su hecho marcado con el numeral 2, fue por la cantidad de **\$520,000.00 (QUINIENTOS VEINTE MIL PESOS 00/100 M.N.)** y que de manera **INEXPLICABLE** y **USURERA**, como ya se hizo valer anteriormente, este aumentó como consecuencia de la reestructura, aprovechándose la Actora de la situación económica del país, la incertidumbre e ignorancia de los codemandados, promesas de ahorro en los montos adeudados y presión moral para que la reestructura de dicho crédito se estableciera en Unidades de Inversión (UDIS), aumentando la suerte principal del crédito en un **123%** ^[*Porcentaje que resulta de hacer una regla de tres, siendo la cantidad de $520,000.00 el 100% y la cantidad de $1,158,505.63 el porcentaje a calcular.*] (CIENTO VEINTITRES PORCIENTO) de **\$520,000.00 (QUINIENTOS VEINTE MIL PESOS 00/100 M.N.)** a **\$1,158,505.63 (UN MILLÓN CIENTO CINCUENTA Y OCHO MIL QUINIENTOS CINCO PESOS 63/100 M.N.)** lo cual representa, de conformidad con el CONVENIO MODIFICATORIO DEL CONTRATO DE APERTURA DE CRÉDITO CON GARANTÍA HIPOTECARIA, la cantidad de **779,649.68 UDIS** (SETECIENTOS SETENTA Y NUEVE MIL SEISCIENTOS CUARENTA Y NUEVE PUNTO SESENTA Y OCHO UDIS).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;De conformidad con lo anterior, los codemandados, aun y cuando dicho aumento excedía por mucho al monto original del crédito y creyendo que realmente estaba obteniendo un beneficio y en ahorro como lo prometió la parte Actora, inició con el pago de la cantidad mensual pactada por un periodo de **DOSCIENTOS CINCUENTA Y TRES MESES**^[*De conformidad con el estado de cuenta certificado por el supuesto Contador Facultado por Banco Nacional de México S.A., integrante de Grupo Financiero Banamex, presentado por la parte actora como ANEXO 3 en el escrito inicial de demanda.*] de manera puntual, pagando a la fecha la cantidad total de **1,859,282.89 UDIS (UN MILLÓN OCHOCIENTAS CINCUENTA Y NUEVE MIL DOSCIENTOS OCHENTA Y DOS PUNTO OCHENTA Y NUEVE UDIS)**, cantidad que no solo excede por mucho el monto original del crédito por la cantidad de **\$520,000.00 (QUINIENTOS VEINTE MIL PESOS 00/100 M.N.)**, sino que excede **2.38 VECES**^[*Cantidad que resulta de dividir 1,859,282.89 entre la cantidad en UDIS pactada en el convenio modificatorio del crédito de 779,649.68 UDIS.*] el monto pactado en la reestructura de dicho crédito por **779,649.68 UDIS** (SETECIENTOS SETENTA Y NUEVE MIL SEISCIENTOS CUARENTA Y NUEVE PUNTO SESENTA Y OCHO UDIS)^[Monto que se encuentra expresado en la cláusula primera bis del CONVENIO MODIFICATORIO DEL CONTRATO DE APERTURA DE CRÉDITO CON GARANTÍA HIPOTECARIA y cuyo monto en pesos por la cantidad de $1,158,505.63 se encuentra en el antecedente segundo], habiéndose cubierto de esta manera la totalidad de dicho crédito y pagando en exceso la cantidad de **1,079,633.21** ^[*Cantidad que resulta de restar la cantidad en UDIS pactada en el convenio modificatorio del crédito por 779,649.68 UDIS menos el resultado de la sumatoria de la cantidad en UDIS expresada en el ANEXO 3 del escrito inicial de demanda, consistente en el estado de cuenta certificado expedido por el contador ROMÁN GONZÁLEZ VELÁZQUEZ, en la columna denominada “PAGO MENSUAL TOTAL” por 1,859,282.89 UDIS.*] **UDIS (UN MILLÓN SETENTA Y NUEVE MIL SEISCIENTOS TREINTA Y TRES PUNTO VEINTIÚN UDIS)**.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Esto significa que en los créditos en UDIS, el interés pactado es en su totalidad una ganancia o lucro del acreditante, lo que no sucede en un crédito en pesos, en el que, en cambio, para poder apreciar la ganancia real es preciso diferenciar entre intereses nominales y "reales" (en el que se resta la inflación) siendo estos últimos los que reflejan el lucro del acreedor, por lo que en el caso que nos corresponde, la Actora esta lucrando de manera excesiva por dos vías, siendo la primera una ganancia inflacionaria por el crecimiento del principal del adeudo en razón de la capitalización de la inflación y la segunda, el cobro de intereses sobre la capitalización de la inflación que, a su vez, generan un incremento paulatino en el costo del préstamo, porque el interés se recalcula periódicamente con sustento en el saldo insoluto actualizado del crédito, por lo que, para determinar si existe USURA o no, es necesario tomar en cuenta los factores anteriormente mencionados y no solamente la tasa de interés impuesta por la Actora, que, como ya se demostró, es **EXCESIVA** y **USURERA**, no pudiendo pretender cobrar intereses que no se generaron por el **PAGO ÍNTEGRO DEL CRÉDITO**.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sirve como apoyo el siguiente criterio jurisprudencial:
+
+\leftskip=1cm\rightskip=1cm
+\begingroup
+\fontsize{10}{10}\selectfont
+	_**USURA. LOS CRÉDITOS PACTADOS EN UDIS SON DISTINTOS A LOS CONVENIDOS EN PESOS Y, POR TANTO, SU EXAMEN DEBE HACERSE SOBRE BASES DIFERENTES PARA DETERMINAR SI AQUÉLLA SE HA CONFIGURADO**_ ^[*Tesis [J.]: I.4o.C.81 C (10a.), T.C.C., Semanario judicial de la Federación y su Gaceta, Décima Época, Libro 84, marzo de 2021, Tomo IV, página 2953. Reg. digital 2022921.*]
+\endgroup
+
+\leftskip=0cm\rightskip=0cm
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;De lo anteriormente expuesto, es importante resaltar que los intereses pactados en un crédito tienen como objetivo que el dinero otorgado en préstamo no pierda valor en el curso del tiempo por la inflación además de asegurar un lucro para el acreedor, sin embargo, al haberse reestructurado dicho crédito en UDIS, el interés fijado por la Actora representa únicamente una ganancia, ya que la Suscrita y el codemandado absorbieron precisamente el impacto inflacionario, siendo entonces excesivamente **ALTAS** y **USURERAS** las tasas de interés impuestas, además de no poder reclamar o cobrar un crédito que a la fecha ha sido pagado en exceso.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ahora bien, La Constitución Política de los Estados Unidos Mexicanos, en su artículo 27 contempla el Derecho Humano a la Propiedad Privada y el artículo 21, numeral 3, de la Convención Americana sobre Derechos Humanos prohíbe la usura, así como cualquier otra forma de explotación del hombre por el hombre, lo cual es en sentido estricto una protección al Derecho Humano referido, en el que se establece que ninguna persona puede ser privada de sus bienes, excepto mediante el pago de una indemnización justa, por razones de utilidad pública o de interés social y en los casos y según las formas establecidas por la ley, sirve de apoyo la inclusión del artículo referido a continuación:
+
+\leftskip=1cm\rightskip=1cm
+\begingroup
+\fontsize{10}{10}\selectfont
+*Artículo 21. Derecho a la Propiedad Privada*
+	
+*1. Toda persona tiene derecho al uso y goce de sus bienes. La ley puede subordinar tal uso y goce al interés social.*
+	
+*2. Ninguna persona puede ser privada de sus bienes, excepto mediante el pago de indemnización justa, por razones de utilidad pública o de interés social y en los casos y según las formas establecidas por la ley.*
+	
+*3. Tanto la usura como cualquier otra forma de explotación del hombre por el hombre, deben ser prohibidas por la ley.*
+\endgroup
+
+\leftskip=0cm\rightskip=0cm
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;En este sentido, ninguna ley debe permitir que, al amparo de la libertad contractual, cualquier persona física o moral que obtenga en provecho propio y de modo abusivo sobre la propiedad de otro, un interés excesivo derivado de un préstamo, siendo esta disposición de Derecho Internacional vinculante para el Estado Mexicano y de observancia obligatoria para los órganos Jurisdiccionales por tratarse de un Tratado Internacional en materia de Derechos Humanos, de conformidad con el artículo 133 Constitucional y diversas interpretaciones emanadas de la Suprema Corte de Justicia de la Nación.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Por otra parte, el artículo 2395 del Código Civil Federal, de aplicación supletoria a la Ley de Instituciones de Crédito, y el artículo 2395 del Código Civil para la Ciudad de México, señalan lo siguiente:
+
+\leftskip=1cm\rightskip=1cm
+\begingroup
+\fontsize{10}{10}\selectfont
+*Articulo 2395. El interés legal es el nueve por ciento anual. El interés convencional es el que fijen los contratantes, y puede ser mayor o menor que el interés legal; pero cuando el interés sea tan desproporcionado que haga fundadamente creer que se ha abusado del apuro pecuniario, de la inexperiencia o de la ignorancia del deudor, a petición de este el juez, teniendo en cuenta las especiales circunstancias del caso, podrá reducir equitativamente el interés hasta el tipo legal.*
+\endgroup
+
+\leftskip=0cm\rightskip=0cm
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Es relevante mencionar que, aún y cuando la propia ley permita que los intereses convencionales sean mayores al interés legal, si estos son desproporcionados y derivan precisamente de un abuso de la inexperiencia, ignorancia o de alguna situación económica del deudor, estos se deben reducir por la autoridad competente cuando se aprecia que son USUREROS, tomando en cuenta las circunstancias particulares del caso, situación que nos ocupa, toda vez que la Actora, abusando de la inexperiencia, ignorancia y posición económica de los codemandados en especial de la obligación en términos de la reestructura del crédito, los orilló, mediante el uso de promesas de ahorro y presiones morales a reestructurar el crédito obtenido en UDIS, llevando a pagar la cantidad en UDIS a la fecha por **1,859,282.89 UDIS (UN MILLÓN OCHOCIENTAS CINCUENTA Y NUEVE MIL DOSCIENTOS OCHENTA Y DOS PUNTO OCHENTA Y NUEVE UDIS)**, cantidad en UDIS que asciende al valor actual por **\$12,728,632.1 (DOCE MILLONES SETECIENTOS VEINTIOCHO MIL SEISCIENTOS TREINTA Y DOS 01/100 M.N.)**, monto que supera la suerte principal del crédito original de **\$520,000.00 (QUINIENTOS VEINTE MIL PESOS 00/100 M.N.)**, **24.5 VECES** y el monto en pesos expresado en el CONVENIO MODIFICATORIO DEL CONTRATO DE APERTURA DE CRÉDITO CON GARANTÍA HIPOTECARIA contenido en el ANEXO 2 del escrito inicial de demanda por la cantidad de **\$1,158,505.63 (UN MILLÓN CIENTO CINCUENTA Y OCHO MIL QUINIENTOS CINCO PESOS 63/100 M.N.)**, por **10.9 VECES**, situación que es notoriamente desproporcionada y que coloca a la Suscrita en una situación de explotación del hombre por el hombre y vulnerando nuestro Derecho Humano a la Propiedad Privada por tornarse el crédito otorgado en **IMPAGABLE**, por lo que usted, C. Juez, al momento de dictar sentencia deberá tomar en cuenta lo anteriormente expuesto para reducir los intereses ordinarios pendientes por pagar y ya pagados, en su caso, para salvaguardar el Derecho Humano a la propiedad privada de la Suscrita.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sirven como apoyo las siguientes Tesis Aisladas y Jurisprudenciales:
+
+\leftskip=1cm\rightskip=1cm
+\begingroup
+\fontsize{10}{10}\selectfont
+_**USURA. PROCEDE SU ESTUDIO EN ASUNTOS DE ÍNDOLE CIVIL, CUANDO SE ADVIERTA LA EXISTENCIA DE ESA FIGURA.**_ ^[*Tesis [A.]: XXVI.2 C (10a.), T.C.C., Semanario judicial de la Federación y su Gaceta, Décima Época, Libro 66, Mayo de 2019, Tomo III, página 2827. Reg. digital 2019931.*]
+\endgroup
+
+\leftskip=0cm\rightskip=0cm
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Del contenido de la Tesis Aislada *Ad Supra*, se desprende que los Juzgadores deben analizar de manera oficiosa si los intereses pactados entre las partes constituyen o no usura y reducir prudencialmente la tasa de interés pactada, lo cual, en el caso que nos ocupa es pertinente, toda vez que la Actora, esta cometiendo prácticas usureras al obtener un beneficio doble, como ya se explico en párrafos anteriores.
+
+\leftskip=1cm\rightskip=1cm
+\begingroup
+\fontsize{10}{10}\selectfont
+_**USURA. LA TASA DE INTERÉS REDUCIDA PRUDENCIALMENTE POR EL JUZGADOR DEBE APLICARSE RETROACTIVAMENTE RESPECTO DE LOS INTERESES USURARIOS YA PAGADOS, PARA SALVAGUARDAR EL DERECHO HUMANO A LA PROPIEDAD, EN LA MODALIDAD DE PROHIBICIÓN DE AQUÉLLA, COMO FORMA DE EXPLOTACIÓN DEL HOMBRE POR EL HOMBRE.**_ ^[*Tesis [J.]: 1a./J. 47/2014 (10a.), T.C.C., Semanario judicial de la Federación y su Gaceta, Décima Época, Libro 7, Junio de 2014, Tomo I, página 402. Reg. digital 2006795.*]
+\endgroup
+
+\leftskip=0cm\rightskip=0cm
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;De lo expuesto otrora, se desprende que el Juzgador cuenta con la facultad de reducir prudencialmente las tasas de interés pactadas respecto de los intereses pendientes de cobro como de aquellos que resultaron usurarios que ya hubieran sido pagados en favor del acreedor pues solo de esta manera se podría respetar, proteger y garantizar eficazmente el derecho humano a la propiedad en la modalidad de prohibición de la usura como forma de explotación del hombre por el hombre.
+
+\leftskip=1cm\rightskip=1cm
+\begingroup
+\fontsize{10}{10}\selectfont
+_**USURA. EN CRÉDITOS CUYO OBJETO ES LA ADQUISICIÓN DE VIVIENDA, SU ANÁLISIS DEBE HACERSE A LA LUZ DEL ARTÍCULO 21.3 DE LA CONVENCIÓN AMERICANA, EN RELACIÓN CON LOS ARTÍCULOS 1o. Y 4o. CONSTITUCIONALES.**_ ^[*Tesis [A.]:  I.4o.C.82 C (10a.), T.C.C., Semanario judicial de la Federación y su Gaceta, Décima Época, Libro 84, Marzo de 2021, Tomo IV, página 2952. Reg. digital 2022920.*]
+\endgroup
+
+\leftskip=0cm\rightskip=0cm
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ahora bien, la Tesis Aislada en comento se refiere a que, por tratarse de vivienda, el caso que nos ocupa esta relacionado con derechos fundamentales y que, al presentarse dicha situación, debe de hacerse un análisis de convencionalidad del crédito a la luz de la interdependencia entre los Derechos Humanos a la Vivienda, a la Propiedad y Dignidad Humana así como de las múltiples normativas nacionales e internacionales que los tutelan.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sirve como apoyo el siguiente cuadro que ilustra los montos debidos y pagados por la Suscrita:
+
+```{r, echo=FALSE}
+
+Concepto<-c("Monto del crédito original","Monto de la reestructura del crédito","Total pagado por la Suscrita","Valor actual de lo pagado","Monto pagado en exceso por la Suscrita")
+UDIS<-c("N/A","779,649.68","1,859,282.89","1,859,282.89","1,079,633.21")
+PESOS<-c("$520,000.00","$1,158,505.63","$6,965,835.88","$12,728,632.1","$7,391,158.16")
+
+DATA<-data.frame(Concepto,UDIS,PESOS)
+library(kableExtra)
+kable(DATA, booktabs=T,  col.names =c("Concepto","UDIS","PESOS"), caption= "Desarrollo del crédito en el tiempo")%>%add_footnote(c("Conforme al estado de cuenta presentado por la Actora como Anexo 3","Valor de las UDIS al 10 de julio de 2021 equivalente a 6.845990"))%>%
+  kable_styling(latex_options = "HOLD_position")%>%   kable_styling(full_width = TRUE)
+
+``` 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**4.** El hecho que se contesta es cierto, como también es cierto que si bien la cantidad de **\$1,158,505.63 (UN MILLÓN CIENTO CINCUENTA Y OCHO MIL QUINIENTOS CINCO PESOS 63/100 M.N.)** fue la cantidad que se calculó conforme al valor de las UDIS el día de la reestructura del crédito, dicho crédito dejó de calcularse en PESOS MEXICANOS para ser tratado en UDIS por el resto de su vigencia, por lo que el valor en pesos de dichas UDIS es únicamente una referencia, siendo entonces la prestación real, definida en el CONVENIO MODIFICATORIO DEL CONTRATO DE APERTURA DE CRÉDITO CON GARANTÍA HIPOTECARIA, la cantidad de **779,649.68 UDIS (SETECIENTOS SETENTA Y NUEVE MIL SEISCIENTOS CUARENTA Y NUEVE PUNTO SESENTA Y OCHO UDIS)**, cantidad que como se ha explicado en apartados anteriores, ha sido pagada **2.38 VECES**, lo cual equivale, de conformidad con el estado de cuenta presentado por la Actora como ANEXO 3 a la cantidad de **1,859,282.89 UDIS (UN MILLÓN OCHOCIENTAS CINCUENTA Y NUEVE MIL DOSCIENTOS OCHENTA Y DOS PUNTO OCHENTA Y NUEVE UDIS)**, cantidad en UDIS que asciende al valor actual de **\$12,728,632.1 (DOCE MILLONES SETECIENTOS VEINTIOCHO MIL SEISCIENTOS TREINTA Y DOS 01/100 M.N.)**, monto que supera la suerte principal del crédito original por **\$520,000.00 (QUINIENTOS VEINTE MIL PESOS 00/100 M.N.)**, **24.5 VECES** y al monto en pesos expresado en el CONVENIO MODIFICATORIO DEL CONTRATO DE APERTURA DE CRÉDITO CON GARANTÍA HIPOTECARIA contenido en el ANEXO 2 del escrito inicial de demanda por la cantidad de **\$1,158,505.63 (UN MILLÓN CIENTO CINCUENTA Y OCHO MIL QUINIENTOS CINCO PESOS 63/100 M.N.)**, por **10.9** veces, habiéndose cubierto de esta manera la totalidad de dicho crédito y pagando en exceso la cantidad de **1,079,633.21 UDIS (UN MILLÓN SETENTA Y NUEVE MIL SEISCIENTOS TREINTA Y TRES PUNTO VEINTIÚN UDIS)**, misma que deberá devover la Actora a los codemandados, situación que es notoriamente desproporcionada y que coloca a la Suscrita y al codemandado en una situación de explotación del hombre por el hombre y vulneración en su Derecho Humano a la Propiedad Privada **por tornarse el crédito otorgado en IMPAGABLE**, por lo que usted, C. Juez, al momento de dictar sentencia deberá tomar en cuenta lo anteriormente expuesto para reducir los intereses ordinarios pendientes por pagar y ya pagados para salvaguardar el Derecho Humano a la propiedad privada de la Suscrita.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Esto significa que en los créditos en UDIS, el interés pactado es en su totalidad una ganancia o lucro del acreditante, lo que no sucede en un crédito en pesos, en el que, en cambio, para poder apreciar la ganancia real es preciso diferenciar entre intereses nominales y "reales" (en el que se resta la inflación) siendo estos últimos los que reflejan el lucro del acreedor, por lo que en el caso que nos corresponde, la Actora esta lucrando de manera excesiva por dos vías, siendo la primera una ganancia inflacionaria por el crecimiento del principal del adeudo en razón de la capitalización de la inflación y la segunda, el cobro de intereses sobre la capitalización de la inflación que, a su vez, generan un incremento paulatino en el costo del préstamo, porque el interés se recalcula periódicamente con sustento en el saldo insoluto actualizado del crédito, por lo que, para determinar si existe USURA o no, es necesario tomar en cuenta los factores anteriormente mencionados y no solamente la tasa de interés impuesta por la Actora, que, como ya se demostró, es **EXCESIVA** y **USURERA**.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sirve como apoyo el siguiente criterio jurisprudencial:
+
+\leftskip=1cm\rightskip=1cm
+\begingroup
+\fontsize{10}{10}\selectfont
+_**USURA. LOS CRÉDITOS PACTADOS EN UDIS SON DISTINTOS A LOS CONVENIDOS EN PESOS Y, POR TANTO, SU EXAMEN DEBE HACERSE SOBRE BASES DIFERENTES PARA DETERMINAR SI AQUÉLLA SE HA CONFIGURADO.**_ ^[*Tesis [J.]: I.4o.C.81 C (10a.), T.C.C., Semanario judicial de la Federación y su Gaceta, Décima Época, Libro 84, marzo de 2021, Tomo IV, página 2953. Reg. digital 2022921.*]
+\endgroup
+
+\leftskip=0cm\rightskip=0cm
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;De lo anteriormente expuesto, es importante resaltar que los intereses pactados en un crédito tienen como objetivo que el dinero otorgado en préstamo no pierda valor en el curso del tiempo por la inflación además de asegurar un lucro para el acreedor, sin embargo, al haberse reestructurado dicho crédito en UDIS, el interés fijado por la Actora representa únicamente una ganancia, ya que la Suscrita y el codemandado absorbieron precisamente el impacto inflacionario, siendo entonces excesivamente **ALTAS** y **USURERAS** las tasas de interés impuestas.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ahora bien, La Constitución Política de los Estados Unidos Mexicanos, en su artículo 27 contempla el Derecho Humano a la Propiedad Privada y el artículo 21, numeral 3, de la Convención Americana sobre Derechos Humanos prohíbe la usura, así como cualquier otra forma de explotación del hombre por el hombre, lo cual es en sentido estricto una protección al Derecho Humano referido, en el que se establece que ninguna persona puede ser privada de sus bienes, excepto mediante el pago de una indemnización justa, por razones de utilidad pública o de interés social y en los casos y según las formas establecidas por la ley, sirve de apoyo la inclusión del artículo referido a continuación:
+
+\leftskip=1cm\rightskip=1cm
+\begingroup
+\fontsize{10}{10}\selectfont
+*Artículo 21. Derecho a la Propiedad Privada*
+	
+*1. Toda persona tiene derecho al uso y goce de sus bienes. La ley puede subordinar tal uso y goce al interés social.*
+	
+*2. Ninguna persona puede ser privada de sus bienes, excepto mediante el pago de indemnización justa, por razones de utilidad pública o de interés social y en los casos y según las formas establecidas por la ley.*
+	
+*3. Tanto la usura como cualquier otra forma de explotación del hombre por el hombre, deben ser prohibidas por la ley.* 
+\endgroup
+
+\leftskip=0cm\rightskip=0cm
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;En este sentido, ninguna ley debe permitir que, al amparo de la libertad contractual, cualquier persona física o moral que obtenga en provecho propio y de modo abusivo sobre la propiedad de otro, un interés excesivo derivado de un préstamo, siendo esta disposición de Derecho Internacional vinculante para el Estado Mexicano y de observancia obligatoria para los órganos Jurisdiccionales por tratarse de un Tratado Internacional en materia de Derechos Humanos, de conformidad con el artículo 133 Constitucional y diversas interpretaciones emanadas de la Suprema Corte de Justicia de la Nación.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Por otra parte, el artículo 2395 del Código Civil Federal, de aplicación supletoria a la Ley de Instituciones de Crédito, y el artículo 2395 del Código Civil para la Ciudad de México, señalan lo siguiente:
+
+\leftskip=1cm\rightskip=1cm
+\begingroup
+\fontsize{10}{10}\selectfont
+*Articulo 2395. El interés legal es el nueve por ciento anual. El interés convencional es el que fijen los contratantes, y puede ser mayor o menor que el interés legal; pero cuando el interés sea tan desproporcionado que haga fundadamente creer que se ha abusado del apuro pecuniario, de la inexperiencia o de la ignorancia del deudor, a petición de este el juez, teniendo en cuenta las especiales circunstancias del caso, podrá reducir equitativamente el interés hasta el tipo legal.*
+\endgroup
+
+\leftskip=0cm\rightskip=0cm
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Es relevante mencionar que, aún y cuando la propia ley permita que los intereses convencionales sean mayores al interés legal, si estos son desproporcionados y derivan precisamente de un abuso de la inexperiencia, ignorancia o de alguna situación económica del deudor, estos se deben reducir por la autoridad competente, tomando en cuenta las circunstancias particulares del caso, situación que nos ocupa, toda vez que la Actora, abusando de la inexperiencia, ignorancia y posición económica de los codemandados, los orilló, mediante el uso de promesas de ahorro, supuestos beneficios y presiones morales a reestructurar el crédito en UDIS por los montos expresados *Ad Supra*.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ahora bien, quedando demostrada la evidente presencia de **USURA** en los intereses fijados por la Actora, también es evidente que la suerte principal del crédito, correspondiente a la cantidad de **\$520,000.00 (QUINIENTOS VEINTE MIL PESOS 00/100 M.N.)** **YA FUE PAGADO** por la Suscrita **24.5 VECES** y si no es suficiente, el monto en pesos expresado en el CONVENIO MODIFICATORIO DEL CONTRATO DE APERTURA DE CRÉDITO CON GARANTÍA HIPOTECARIA contenido en el ANEXO 2 del escrito inicial de demanda presentado por la Actora por la cantidad de **\$1,158,505.63 (UN MILLÓN CIENTO CINCUENTA Y OCHO MIL QUINIENTOS CINCO PESOS 63/100 M.N.)**, se pagó **10.9 VECES**, habiéndose cubierto de esta manera la totalidad de dicho crédito y **PAGANDO EN EXCESO** la cantidad de **1,079,633.21 UDIS (UN MILLÓN SETENTA Y NUEVE MIL SEISCIENTOS TREINTA Y TRES PUNTO VEINTIÚN UDIS)**, las cuales equivalen al valor actual de las UDIS al monto en pesos por la cantidad de **\$7,391,158.16 (SIETE MILLONES TRESCIENTOS NOVENTA Y UN MIL CIENTO CINCUENTA Y OCHO PESOS 16/100 M.N.)**, cantidad que supera, por mucho, el monto original del crédito e inclusive el monto estipulado en el convenio modificatorio del Anexo 2 del escrito inicial de demanda.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sirve como apoyo el siguiente cuadro que ilustra los montos debidos y pagados por la Suscrita:
+
+```{r, echo=FALSE}
+
+Concepto<-c("Monto del crédito original","Monto de la reestructura del crédito","Total pagado por la Suscrita","Valor actual de lo pagado","Monto pagado en exceso por la Suscrita")
+UDIS<-c("N/A","779,649.68","1,859,282.89","1,859,282.89","1,079,633.21")
+PESOS<-c("$520,000.00","$1,158,505.63","$6,965,835.88","$12,728,632.1","$7,391,158.16")
+
+DATA<-data.frame(Concepto,UDIS,PESOS)
+library(kableExtra)
+kable(DATA, booktabs=T,  col.names =c("Concepto","UDIS","PESOS"), caption= "Desarrollo del crédito en el tiempo")%>%add_footnote(c("Conforme al estado de cuenta presentado por la Actora como Anexo 3","Valor de las UDIS al 10 de julio de 2021 equivalente a 6.845990"))%>%
+  kable_styling(latex_options = "HOLD_position")%>%   kable_styling(full_width = TRUE)
+
+``` 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**5.** El hecho que se contesta es falso porque, como ya se demostró anteriormente, el crédito **YA FUE PAGADO** por la Suscrita, dado que a la fecha esta pagó la cantidad de **1,859,282.89** UDIS (UN MILLÓN OCHOCIENTAS CINCUENTA Y NUEVE MIL DOSCIENTOS OCHENTA Y DOS PUNTO OCHENTA Y NUEVE UDIS), cantidad que asciende al valor actual en pesos al monto de **\$12,728,632.1** (DOCE MILLONES SETECIENTOS VEINTIOCHO MIL SEISCIENTOS TREINTA Y DOS 01/100 M.N.), cantidad que supera el monto de la suerte principal del crédito original por **\$520,000.00** (QUINIENTOS VEINTE MIL PESOS 00/100 M.N.), **24.5 VECES** y el monto en pesos expresado en el CONVENIO MODIFICATORIO DEL CONTRATO DE APERTURA DE CRÉDITO CON GARANTÍA HIPOTECARIA contenido en el ANEXO 2 del escrito inicial de demanda por la cantidad de **\$1,158,505.63** (UN MILLÓN CIENTO CINCUENTA Y OCHO MIL QUINIENTOS CINCO PESOS 63/100 M.N.), por **10.9 VECES**, siendo evidente que, además de encontrarnos en presencia de intereses ordinarios **USUREROS** como ya se hizo valer *Ad Supra*, el crédito ya fue pagado en exceso existiendo de esta manera, una imposibilidad de que se causen y generen los intereses moratorios que pretende la Actora.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bajo la misma tesitura, cabe  mencionar que, de conformidad con la Real Academia Española, la mora consiste en un *retraso en el cumplimiento de una obligación vencida, que conlleva el pago de intereses cuando la obligación consista en el pago de una cantidad de dinero*, de ahí que del retraso en el cumplimiento de una obligación, surja la necesidad de que el deudor exija el pago de los intereses moratorios, sin embargo, en el caso que nos ocupa, si se dio cumplimiento a las obligaciones a cargo de la Suscrita, pagando inclusive en exceso la cantidad en UDIS de **1,079,633.21** UDIS (UN MILLÓN SETENTA Y NUEVE MIL SEISCIENTOS TREINTA Y TRES PUNTO VEINTIÚN UDIS), cantidad que asciende al valor actual en pesos al monto de **\$7,391,158.16 (SIETE MILLONES TRESCIENTOS NOVENTA Y UN MIL CIENTO CINCUENTA Y OCHO 16/100 M.N.)**.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;De lo anterior, resulta evidente que, si de un crédito por un monto original de **\$520,000.00 (QUINIENTOS VEINTE MIL PESOS 00/100 M.N.)** en cuya reestructura se pactó el pago por la cantidad de **779,649.68 UDIS (SETECIENTOS SETENTA Y NUEVE MIL SEISCIENTOS CUARENTA Y NUEVE PUNTO SESENTA Y OCHO UDIS)**, se ha pagado a la fecha el monto de **1,859,282.89 UDIS (UN MILLÓN OCHOCIENTAS CINCUENTA Y NUEVE MIL DOSCIENTOS OCHENTA Y DOS PUNTO OCHENTA Y NUEVE UDIS)**, cantidad que asciende al valor actual en pesos al monto de **\$12,728,632.1 (DOCE MILLONES SETECIENTOS VEINTIOCHO MIL SEISCIENTOS TREINTA Y DOS 01/100 M.N.)**, lo que representa en exceso el pago de **1,079,633.21 UDIS (UN MILLÓN SETENTA Y NUEVE MIL SEISCIENTOS TREINTA Y TRES PUNTO VEINTIÚN UDIS)**, y que al al valor actual representa en pesos el monto de **\$7,391,158.16 (SIETE MILLONES TRESCIENTOS NOVENTA Y UN MIL CIENTO CINCUENTA Y OCHO 16/100 M.N.)**, entonces, dicho crédito ha quedado pagado, por lo que la Actora, al pretender reclamar el pago de intereses moratorios, solo evidencía la **mala fe** con la que actúa, pues su interés no es otro mas que llevar a cabo de manera **impune** y **libre** actividades de explotación del hombre por el hombre en perjuicio del patrimonio de la Suscrita y el codemandado al pretender exigir el pago de las prestaciones correspondientes establecidas en el escrito inicial de demanda presentado por la actora en el procedimiento que nos ocupa.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sirve como apoyo el siguiente cuadro que ilustra los montos debidos y pagados por la Suscrita:
+
+```{r, echo=FALSE}
+
+Concepto<-c("Monto del crédito original","Monto de la reestructura del crédito","Total pagado por la Suscrita","Valor actual de lo pagado","Monto pagado en exceso por la Suscrita")
+UDIS<-c("N/A","779,649.68","1,859,282.89","1,859,282.89","1,079,633.21")
+PESOS<-c("$520,000.00","$1,158,505.63","$6,965,835.88","$12,728,632.1","$7,391,158.16")
+
+DATA<-data.frame(Concepto,UDIS,PESOS)
+library(kableExtra)
+kable(DATA, booktabs=T,  col.names =c("Concepto","UDIS","PESOS"), caption= "Desarrollo del crédito en el tiempo")%>%add_footnote(c("Conforme al estado de cuenta presentado por la Actora como Anexo 3","Valor de las UDIS al 10 de julio de 2021 equivalente a 6.845990"))%>%
+  kable_styling(latex_options = "HOLD_position")%>%   kable_styling(full_width = TRUE)
+
+``` 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**6.** El hecho que se contesta es falso, toda vez que como ya se demostró en apartados anteriores, el crédito ya fue pagado en exceso, por lo que existe una imposibilidad de que se causen o generen intereses moratorios, por lo que la Actora, al reclamarlos, esta actuando de manera **DOLOSA, USURERA** y de **MALA FE** pues su interés no es otro mas que llevar a cabo de manera impune y libre actividades de explotación del hombre por el hombre en perjuicio del patrimonio de la Suscrita y el codemandado al pretender exigir el pago de las prestaciones correspondientes establecidas en el escrito inicial de demanda presentado por la actora en el procedimiento que nos ocupa, haciendo valer además los argumentos vertidos en el cuerpo del presente escrito, mismos que por economía procesal solicito se tengan por reproducidos en el presente hecho a la letra.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**7.** El hecho que se contesta es falso en virtud de que en el CONVENIO MODIFICATORIO DEL CONTRATO DE APERTURA DE CRÉDITO CON GARANTÍA HIPOTECARIA no se encuentra ninguna CLAUSULA SEXTA, como establece la parte Actora en su escrito inicial de demanda, sin embargo, es fundamental hacer mención que no puede exigir la Actora el vencimiento anticipado del convenio citado toda vez que el monto de **779,649.68 UDIS (SETECIENTOS SETENTA Y NUEVE MIL SEISCIENTOS CUARENTA Y NUEVE PUNTO SESENTA Y OCHO UDIS)** pactado ya se pagó en su totalidad de manera excesiva como se demuestra *Ad Supra*, habiendo liquidado la Suscrita la cantidad total de **1,859,282.89 UDIS (UN MILLÓN OCHOCIENTAS CINCUENTA Y NUEVE MIL DOSCIENTOS OCHENTA Y DOS PUNTO OCHENTA Y NUEVE UDIS)**, cantidad que asciende al valor actual en pesos al monto de **\$12,728,632.1 (DOCE MILLONES SETECIENTOS VEINTIOCHO MIL SEISCIENTOS TREINTA Y DOS 01/100 M.N.)**, por lo que la Actora al reclamar el vencimiento anticipado confirma su actuar USURERO y motivado en obtener ventajas patrimoniales mediante la explotación del hombre por el hombre al pretender exigir el pago de las prestaciones correspondientes establecidas en el escrito inicial de demanda presentado por la actora en el procedimiento que nos ocupa, haciendo valer además los argumentos vertidos en el cuerpo del presente escrito, mismos que por economía procesal solicito se tengan por reproducidos en el presente hecho a la letra.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**8.** El hecho que se contesta es falso en virtud de que en el CONVENIO MODIFICATORIO DEL CONTRATO DE APERTURA DE CRÉDITO CON GARANTÍA HIPOTECARIA no se encuentra ninguna CLAUSULA OCTAVA, sin embargo, resulta esencial mencionar que, como ya se ha hecho valer en apartados anteriores, el crédito ya se pagó en un total de **1,859,282.89 UDIS (UN MILLÓN OCHOCIENTAS CINCUENTA Y NUEVE MIL DOSCIENTOS OCHENTA Y DOS PUNTO OCHENTA Y NUEVE UDIS)**, cantidad que asciende al valor actual en pesos al monto de **\$12,728,632.1 (DOCE MILLONES SETECIENTOS VEINTIOCHO MIL SEISCIENTOS TREINTA Y DOS 01/100 M.N.)**, siendo obligación de la Actora precisamente proceder a la cancelación de la citada hipoteca y su respectiva cancelación en el registro, haciendo valer además los argumentos vertidos en el cuerpo del presente escrito, mismos que por economía procesal solicito se tengan por reproducidos en el presente hecho a la letra.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bajo la misma idea, los montos mencionados superan el monto en pesos expresado en el CONVENIO MODIFICATORIO DEL CONTRATO DE APERTURA DE CRÉDITO CON GARANTÍA HIPOTECARIA contenido en el ANEXO 2 del escrito inicial de demanda por la cantidad de **\$1,158,505.63 (UN MILLÓN CIENTO CINCUENTA Y OCHO MIL QUINIENTOS CINCO PESOS 63/100 M.N.)**, por **10.9 VECES**, situación que es notoriamente desproporcionada y que coloca a la Suscrita en una situación de explotación del hombre por el hombre y vulneración en su Derecho Humano a la Propiedad Privada por tornarse el crédito otorgado en **IMPAGABLE**, por lo que usted, C. Juez, al momento de dictar sentencia deberá tomar en cuenta lo anteriormente expuesto para reducir los intereses ordinarios pendientes por pagar y ya pagados, en su caso, para salvaguardar el Derecho Humano a la propiedad privada de la Suscrita, haciendo valer además los argumentos vertidos en el cuerpo del presente escrito, mismos que por economía procesal solicito se tengan por reproducidos en el presente hecho a la letra.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**9.** El hecho que se contesta es cierto, como también es cierto que, como ya se ha hecho valer en apartados anteriores, el crédito ya se pago, conforme al monto en pesos expresado en el CONVENIO MODIFICATORIO DEL CONTRATO DE APERTURA DE CRÉDITO CON GARANTÍA HIPOTECARIA contenido en el ANEXO 2 del escrito inicial de demanda por la cantidad de **\$1,158,505.63 (UN MILLÓN CIENTO CINCUENTA Y OCHO MIL QUINIENTOS CINCO PESOS 63/100 M.N.)**, por **10.9 VECES**, por lo que el pago de seguros no es procedente, pues dicha obligación concluyó con la liquidación del crédito, haciendo valer además los argumentos vertidos en el cuerpo del presente escrito, mismos que por economía procesal solicito se tengan por reproducidos en el presente hecho a la letra.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**10.** Es importante resaltar que el hecho que se contesta correspondería al numeral 10, sin embargo, la Actora cometió el error de colocarlo como numeral 11, ahora bien, el hecho que se contesta es falso en virtud de que, como ya se hizo valer en apartados anteriores,  el crédito ya se pago, en relación al monto en pesos expresado en el CONVENIO MODIFICATORIO DEL CONTRATO DE APERTURA DE CRÉDITO CON GARANTÍA HIPOTECARIA contenido en el ANEXO 2 del escrito inicial de demanda por la cantidad de\$1,158,505.63 (UN MILLÓN CIENTO CINCUENTA Y OCHO MIL QUINIENTOS CINCO PESOS 63/100 M.N.), por **10.9 VECES**, por lo que el incumplimiento que reclama la actora en **INEXISTENTE** porque nunca se actualizó, generando la incógnita a la Suscrita respecto de la cantidad reclamada por **299,301.64 (DOSCIENTAS NOVENTA Y NUEVE MIL TRESCIENTAS UN PUNTO SESENTA Y CUATRO UDIS)** equivalentes a la cantidad de **\$1,763,027.93 (UN MILLÓN SETECIENTOS SESENTA Y TRES MIL VEINTISIETE PESOS 93/100 M.N.)**, ya que habiéndose efectuado el pago en exceso de dicho crédito, el saldo citado no tiene fundamento legal alguno para ser reclamado.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sirve como apoyo el siguiente cuadro que ilustra los montos debidos y pagados por la Suscrita:
+
+
+```{r, echo=FALSE}
+
+Concepto<-c("Monto del crédito original","Monto de la reestructura del crédito","Total pagado por la Suscrita","Valor actual de lo pagado","Monto pagado en exceso por la Suscrita")
+UDIS<-c("N/A","779,649.68","1,859,282.89","1,859,282.89","1,079,633.21")
+PESOS<-c("$520,000.00","$1,158,505.63","$6,965,835.88","$12,728,632.1","$7,391,158.16")
+
+DATA<-data.frame(Concepto,UDIS,PESOS)
+library(kableExtra)
+kable(DATA, booktabs=T,  col.names =c("Concepto","UDIS","PESOS"), caption= "Desarrollo del crédito en el tiempo")%>%add_footnote(c("Conforme al estado de cuenta presentado por la Actora como Anexo 3","Valor de las UDIS al 10 de julio de 2021 equivalente a 6.845990"))%>%
+  kable_styling(latex_options = "HOLD_position")%>%   kable_styling(full_width = TRUE)
+
+``` 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sumado a lo anterior, la parte Actora es omisa, de conformidad con el artículo 68 de la Ley de Instituciones de Crédito, en presentar el poder que legitima o faculta al Contador Público ROMÁN GONZÁLEZ VELAZQUEZ para certificar sus estados de cuenta, siendo obligación de la Actora de demostrar que el Contador es, en efecto, un Contador Público y que dicho Contador se encuentra legitimado para expedir dichos estados de cuenta Certificados para que los mismos puedan ser considerados prueba o título ejecutivo en el presente ocurso.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sirven como sustento las siguientes Tesis Aisladas y Criterios Jurisprudenciales:
+
+\leftskip=1cm\rightskip=1cm
+\begingroup
+\fontsize{10}{10}\selectfont
+_**INSTITUCIONES DE CRÉDITO. EL ARTÍCULO 68 DE LA LEY RELATIVA NO VIOLA EL DERECHO FUNDAMENTAL A LA IGUALDAD PROCESAL.**_ ^[*Tesis [J.]: 1a./J. 3/2018 (10a.), Semanario Judicial de la Federación y su Gaceta, Décima Época, Libro 50, Tomo I, Enero de 2018, p. 139, Reg. Digital  2015997*]
+
+_Si se toma en consideración que el derecho citado reconocido en los artículos 14 y 16 de la Constitución Política de los Estados Unidos Mexicanos y 8, numeral 1, de la Convención Americana sobre Derechos Humanos, implica que deben hacerse saber a las partes las pretensiones de su oponente y no privarlas de la oportunidad de alegar, probar o impugnar lo que a su interés convenga, con el objeto de que ambas estén en aptitud de demostrar, respectivamente, los extremos de su acción y de sus excepciones o defensas, se concluye que el artículo 68 de la Ley de Instituciones de Crédito, al prever una presunción legal en relación con la veracidad de la certificación contable formulada por el contador facultado por la institución acreedora, no viola el derecho fundamental referido, pues el hecho de que una de las partes deba probar que la certificación indicada sea falsa, o bien, que son inexactos los datos contenidos en ésta, no limita ni restringe la oportunidad del litigante de impugnar y, en su caso, demostrar tal extremo. Esto es, la hipótesis prevista en el artículo 68 indicado no implica que una de las partes se encuentre imposibilitada, en comparación con su contraparte, para demostrar los extremos de su acción o de sus excepciones o defensas, pues define únicamente a quién le corresponde la carga de la prueba en relación con la falsedad o inexactitud del certificado contable._
+\endgroup
+
+\leftskip=0cm\rightskip=0cm
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;De lo anterior se desprende que si bien existe una presunción legal en relación con la veracidad de la certificación contable formulada por el contador facultado por la Institución acreedora, es posible para el demandado alegar e impugnar dicha presunción, toda vez que solo de esta manera se podrá salvaguardar su Derecho Humano de Acceso a la Justicia y el Principio de Legalidad.
+
+\leftskip=1cm\rightskip=1cm
+\begingroup
+\fontsize{10}{10}\selectfont
+_**TITULOS EJECUTIVOS. LOS DOCUMENTOS QUE REUNEN LOS REQUISITOS DEL ARTICULO 68, DE LA LEY DE INSTITUCIONES DE CREDITO SON.**_ ^[*Amparo directo 16/93, Semanario Judicial de la Federación y su Gaceta, Tomo XII, Noviembre de 1993, página 453, Reg. Digital 214544*]
+
+_De conformidad con el artículo 68, de la Ley de Instituciones de Crédito son títulos ejecutivos, los contratos o pólizas en los que se hagan constar créditos que otorguen instituciones de crédito, siempre que a los mismos se adjunte el estado de cuenta certificado por el contador facultado de dicha institución, el cual deberá contener el resumen completo de las transacciones entre el deudor y acreedor durante un período contable a fin de establecer el saldo debido, con el objeto de que el deudor esté en posibilidad de combatir la determinación del adeudo presentado, lográndose con tal exigencia un equilibrio procesal de las partes en litigio, al permitirse de esa manera a la institución de crédito acreedora, un medio ágil para obtener lo debido._
+\endgroup
+
+\leftskip=0cm\rightskip=0cm
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;De lo estipulado en el párrafo anterior, se desprende que los contratos o pólizas en los que se hagan constar créditos que otorguen instituciones de crédito tendrán el carácter de título ejecutivo siempre y cuando estos vayan adminiculados del estado de cuenta certificado por el contador facultado de dicha institución, de aquí que sea tan importante resaltar que la Actora, para que sea posible considerar que el documento base de la acción tenga el carácter de título ejecutivo, deba demostrar que el supuesto estado de cuenta certificado presentado como ANEXO 3 del escrito inicial de demanda 1) lo haya elaborado un contador público con título y cédula profesional emitida por la Secretaría de Educación Pública y 2) que dicho contador este facultado por la institución de crédito a través de un poder notarial para certificar dichos estados de cuenta.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lo anterior es de suma importancia para no lesionar los derechos humanos a la propiedad privada y la vivienda digna de la Suscrita, toda vez que de no poder acreditar lo anterior, el documento base de la acción no tendrá el carácter de título ejecutivo y por lo tanto la acción de la Actora quedará sin sustento, por lo que el ANEXO 3 del escrito inicial de demanda carece de sustento y valor probatorio en tanto la Actora no demuestre lo contrario, haciendo valer además los argumentos vertidos en el cuerpo del presente escrito, mismos que por economía procesal solicito se tengan por reproducidos en el presente hecho a la letra.
+
+\begin{center}\bfseries
+OBJECIÓN DE DOCUMENTO
+\end{center}
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;En términos de lo dispuesto por el artículo 340 del Código de Procedimientos Civiles de la Ciudad de México, **OBJETO** el documento presentado como prueba por la parte Actora como ANEXO 3 del escrito inicial de demanda, consistente en el supuesto Estado de Cuenta expedido y certificado por el Contador público ROMAN GONZÁLEZ VELÁZQUEZ, toda vez que la Actora es omisa, en relación con los artículos 68 y 90 de la Ley de instituciones de crédito, en acreditar que dicho Contador cuenta con la personalidad y facultades de un funcionario de dicha Institución de Crédito para certificar sus estados de cuenta, siendo obligación de la Actora demostrar que el Contador es, en efecto, un Contador Público con Cédula Profesional emitida por la Secretaría de Educación Pública y que dicho Contador se encuentra legitimado para expedir dichos estados de cuenta Certificados para que el mismo pueda ser considerados prueba o título ejecutivo en el presente ocurso.
+
+\leftskip=1cm\rightskip=1cm
+\begingroup
+\fontsize{10}{10}\selectfont
+_Articulo 90.- Para acreditar la personalidad y facultades de los funcionarios de las instituciones de crédito, incluyendo a los delegados fiduciarios, bastará exhibir una certificación de su nombramiento, expedida por el secretario o pro secretario del consejo de administración o consejo directivo.(...)_
+
+_(...)Los nombramientos de los funcionarios bancarios deberán inscribirse en el Registro Público de Comercio, previa ratificación de firmas, ante fedatario público, del documento autentico en que conste el nombramiento respectivo.(...)_
+
+_Articulo 68.- Los contratos o las pólizas en los que, en su caso, se hagan constar los créditos que otorguen las instituciones de crédito, junto con los estados de cuenta certificados por el **CONTADOR FACULTADO** por la institución de crédito acreedora, serán títulos ejecutivos, sin necesidad de reconocimiento de firma ni de otro requisito._
+
+_El estado de cuenta certificado por el contador a que se refiere este articulo, hará fe, salvo prueba en contrario, en los juicios respectivos para la fijación de los saldos resultantes a cargo de los acreditados o de los mutuatarios.(...)_
+\endgroup
+
+\leftskip=0cm\rightskip=0cm
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Por lo anterior y como lo he manifestado con anterioridad, el Contador Público ROMAN GONZÁLEZ VELÁZQUEZ, al emitir el estado de cuenta que se objeta, se ostenta como el Contador Facultado para certificar los estados de cuenta de la Actora sin que acredite tal carácter, por lo que el supuesto contador carece de personalidad para expedir el estado de cuenta, ya que, en el caso que nos ocupa, dicho estado de cuenta debe ser emitido por un Contador Público certificado por la propia Institución de Crédito y su nombramiento ratificado ante fedatario público e inscrito en el Registro Público del Comercio respectivo, lo anterior para que el mismo pueda ser considerado prueba o título ejecutivo en el presente ocurso.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sirven como sustento las siguientes Tesis Aisladas y Criterios Jurisprudenciales:
+
+\leftskip=1cm\rightskip=1cm
+\begingroup
+\fontsize{10}{10}\selectfont
+_**INSTITUCIONES DE CRÉDITO. EL ARTÍCULO 68 DE LA LEY RELATIVA NO VIOLA EL DERECHO FUNDAMENTAL A LA IGUALDAD PROCESAL.**_ ^[*Tesis [J.]: 1a./J. 3/2018 (10a.), Semanario Judicial de la Federación y su Gaceta, Décima Época, Libro 50, Tomo I, Enero de 2018, p. 139, Reg. Digital  2015997*]
+
+_Si se toma en consideración que el derecho citado reconocido en los artículos 14 y 16 de la Constitución Política de los Estados Unidos Mexicanos y 8, numeral 1, de la Convención Americana sobre Derechos Humanos, implica que deben hacerse saber a las partes las pretensiones de su oponente y no privarlas de la oportunidad de alegar, probar o impugnar lo que a su interés convenga, con el objeto de que ambas estén en aptitud de demostrar, respectivamente, los extremos de su acción y de sus excepciones o defensas, se concluye que el artículo 68 de la Ley de Instituciones de Crédito, al prever una presunción legal en relación con la veracidad de la certificación contable formulada por el contador facultado por la institución acreedora, no viola el derecho fundamental referido, pues el hecho de que una de las partes deba probar que la certificación indicada sea falsa, o bien, que son inexactos los datos contenidos en ésta, no limita ni restringe la oportunidad del litigante de impugnar y, en su caso, demostrar tal extremo. Esto es, la hipótesis prevista en el artículo 68 indicado no implica que una de las partes se encuentre imposibilitada, en comparación con su contraparte, para demostrar los extremos de su acción o de sus excepciones o defensas, pues define únicamente a quién le corresponde la carga de la prueba en relación con la falsedad o inexactitud del certificado contable._
+\endgroup
+
+\leftskip=0cm\rightskip=0cm
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;De lo anterior se desprende que si bien existe una presunción legal en relación con la veracidad de la certificación contable formulada por el contador facultado por la Institución acreedora, es posible para el demandado alegar e impugnar dicha presunción, toda vez que solo de esta manera se podrá salvaguardar su Derecho Humano de Acceso a la Justicia y el Principio de Legalidad.
+
+\leftskip=1cm\rightskip=1cm
+\begingroup
+\fontsize{10}{10}\selectfont
+_**TITULOS EJECUTIVOS. LOS DOCUMENTOS QUE REUNEN LOS REQUISITOS DEL ARTICULO 68, DE LA LEY DE INSTITUCIONES DE CREDITO SON.**_ ^[*Amparo directo 16/93, Semanario Judicial de la Federación y su Gaceta, Tomo XII, Noviembre de 1993, página 453, Reg. Digital 214544*]
+
+_De conformidad con el artículo 68, de la Ley de Instituciones de Crédito son títulos ejecutivos, los contratos o pólizas en los que se hagan constar créditos que otorguen instituciones de crédito, siempre que a los mismos se adjunte el estado de cuenta certificado por el contador facultado de dicha institución, el cual deberá contener el resumen completo de las transacciones entre el deudor y acreedor durante un período contable a fin de establecer el saldo debido, con el objeto de que el deudor esté en posibilidad de combatir la determinación del adeudo presentado, lográndose con tal exigencia un equilibrio procesal de las partes en litigio, al permitirse de esa manera a la institución de crédito acreedora, un medio ágil para obtener lo debido._
+\endgroup
+
+\leftskip=0cm\rightskip=0cm
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;De lo estipulado en el párrafo anterior, se desprende que los contratos o pólizas en los que se hagan constar créditos que otorguen instituciones de crédito tendrán el carácter de título ejecutivo siempre y cuando estos vayan adminiculados del estado de cuenta certificado por el contador facultado de dicha institución, de aquí que sea tan importante resaltar que la Actora, para que sea posible considerar que el documento base de la acción tenga el carácter de título ejecutivo, deba demostrar que el supuesto estado de cuenta certificado presentado como ANEXO 3 del escrito inicial de demanda 1) lo haya elaborado un contador público con título y cédula profesional emitida por la Secretaría de Educación Pública y 2) que dicho contador este facultado por la institución de crédito a través de un poder notarial para certificar dichos estados de cuenta.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lo anterior es de suma importancia para no lesionar los derechos humanos a la propiedad privada y la vivienda digna de la Suscrita, toda vez que de no poder acreditar lo anterior, el documento base de la acción no tendrá el carácter de título ejecutivo y por lo tanto la acción de la Actora quedará sin sustento, por lo que el ANEXO 3 del escrito inicial de demanda carece de sustento y valor probatorio en tanto la Actora no demuestre lo contrario, haciendo valer además los argumentos vertidos en el cuerpo del presente escrito, mismos que por economía procesal solicito se tengan por reproducidos en el presente hecho a la letra.
+
+\begin{center}\bfseries
+EXCEPCIONES Y DEFENSAS
+\end{center}
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**1. EXCEPCIÓN DE PAGO**, toda vez que, como se desprende de **los recibos de pago y estados de cuenta que se anexan a la presente**, así como del Estado de Cuenta expedido por la propia Institución de Crédito, el crédito derivado de la reestructura por **779,649.68 UDIS (SETECIENTOS SETENTA Y NUEVE MIL SEISCIENTOS CUARENTA Y NUEVE PUNTO SESENTA Y OCHO UDIS)** equivalente a la cantidad en pesos **\$1,158,505.63 (UN MILLÓN CIENTO CINCUENTA Y OCHO MIL QUINIENTOS CINCO PESOS 63/100 M.N.)**, ya se pagó **10.9 VECES** y, el crédito original por **$520,000.00 (QUINIENTOS VEINTE MIL PESOS 00/100 M.N.)** se pagó **24.5 VECES**, dando un total pagado de **1,859,282.89 UDIS (UN MILLÓN OCHOCIENTAS CINCUENTA Y NUEVE MIL DOSCIENTOS OCHENTA Y DOS PUNTO OCHENTA Y NUEVE UDIS)**.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lo anterior solo demuestra que el crédito que pretende cobrar la Actora ya se pagó en exceso, por lo tanto, no tengo adeudos vencidos, y  claramente se aprecia la mala fe y el dolo con el que se conduce la Actora, al aseverar que no he pagado desde el mes de mayo de 2017, pretendiendo además cobrar los intereses moratorios, intereses ordinarios y pago de prima de
+seguro, que, por haberse pagado el crédito es imposible que se generen o causen, haciendo valer además los argumentos vertidos en el cuerpo del presente escrito, mismos que por economía procesal solicito se tengan por reproducidos en el presente hecho a la letra.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sirve como apoyo el siguiente cuadro que ilustra los montos debidos y pagados por la Suscrita:
+
+```{r, echo=FALSE}
+
+Concepto<-c("Monto del crédito original","Monto de la reestructura del crédito","Total pagado por la Suscrita","Valor actual de lo pagado","Monto pagado en exceso por la Suscrita")
+UDIS<-c("N/A","779,649.68","1,859,282.89","1,859,282.89","1,079,633.21")
+PESOS<-c("$520,000.00","$1,158,505.63","$6,965,835.88","$12,728,632.1","$7,391,158.16")
+
+DATA<-data.frame(Concepto,UDIS,PESOS)
+library(kableExtra)
+kable(DATA, booktabs=T,  col.names =c("Concepto","UDIS","PESOS"), caption= "Desarrollo del crédito en el tiempo")%>%add_footnote(c("Conforme al estado de cuenta presentado por la Actora como Anexo 3","Valor de las UDIS al 10 de julio de 2021 equivalente a 6.845990"))%>%
+  kable_styling(latex_options = "HOLD_position")%>%   kable_styling(full_width = TRUE)
+
+``` 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**2. EXCEPCION DE FALTA DE ACCION DE LA ACTORA**, para demandar las prestaciones reclamadas, en virtud de que al haberse pagado la totalidad del crédito y en exceso, existe la imposibilidad de que se actualice el supuesto de vencimiento anticipado y por lo tanto, la demanda entablada en mi contra es totalmente improcedente, y carece la Actora de derecho para reclamar el pago anticipado de lo adeudado asi como los intereses moratorios, intereses ordinarios y pago de prima de
+seguro, haciendo valer además los argumentos vertidos en el cuerpo del presente escrito, mismos que por economía procesal solicito se tengan por reproducidos en el presente hecho a la letra.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**3. EXCEPCION DE NULIDAD DE LA CERTIFICACION EXPEDIDA POR EL SUPUESTO CONTADOR FACULTADO POR "BANAMEX"** toda vez que, como ya se hizo valer *Ad Supra*, el supuesto contador,**ROMAN GONZÁLEZ VELÁZQUEZ**, al emitir el estado de cuenta que se objeta, se ostenta como el Contador Facultado para certificar los estados de cuenta de la Actora sin que acredite tal carácter, por lo que el supuesto contador carece de personalidad para expedir el estado de cuenta, ya que, en el caso que nos ocupa, dicho estado de cuenta debe ser emitido por un Contador Público certificado por la propia Institución de Crédito y su nombramiento ratificado ante fedatario público e inscrito en el Registro Público del Comercio respectivo, lo anterior para que el mismo pueda ser considerado prueba o título ejecutivo en el presente ocurso.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sumado a lo anterior, es importante mencionar que la Suscrita se encuentra imposibilitada de saber si el estado de cuenta emitido por el supuesto contador **ROMAN GONZÁLEZ VELÁZQUEZ** se apega a la realidad, pues los estados de cuenta y recibos de pago se encuentran presumiblemente en poder del codemandado **Jose de Jesús Venegas Blancarte**, por lo que solicito a ustéd C. Juez, gire oficio a la Actora **BANCO NACIONAL DE MÉXICO SOCIEDAD ANÓNIMA, INTEGRANTE DEL GRUPO FINANCIERO BANAMEX** para que esta presente a este H. Juzgado copia de los estados de cuenta y recibos de pago del crédito que pretende reclamar, haciendo valer además los argumentos vertidos en el cuerpo del presente escrito, mismos que por economía procesal solicito se tengan por reproducidos en el presente hecho a la letra.
+ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**4. EXCEPCIÓN DE FALTA DE ELEMENTOS PARA EJERCITAR LA ACCIÓN** toda vez que, como ya se hizo valer *Ad Supra*, el supuesto contador,**ROMAN GONZÁLEZ VELÁZQUEZ**, al emitir el estado de cuenta que se objeta, se ostenta como el Contador Facultado para certificar los estados de cuenta de la Actora sin que acredite tal carácter, por lo que el supuesto contador carece de personalidad para expedir el estado de cuenta, ya que, en el caso que nos ocupa, dicho estado de cuenta debe ser emitido por un Contador Público certificado por la propia Institución de Crédito y su nombramiento ratificado ante fedatario público e inscrito en el Registro Público del Comercio respectivo, lo anterior para que el mismo pueda ser considerado prueba o título ejecutivo en el presente ocurso, por lo que la Actora, al no acreditar dichas situaciones, esta incumpliendo lo dispuesto por el Artículo 68 y 90 de la Ley de Instituciones de Crédito así como el artículo 468 del Código de Procedimientos Civiles para la Ciudad de México y demás correlativos
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**5.EXCEPCION DE NO ADEUDO DE LAS CANTIDADES RECLAMADAS POR LA ACTORA** en el capitulo de prestaciones de su escrito inicial de demanda, ya que como se desprende del cuerpo del presente escrito, del ANEXO 3 del escrito inicial de demanda y los estados de cuenta del cliente que debe exhibir la Actora, el crédito ya se pagó, en exceso, por la cantidad de **1,859,282.89 UDIS (UN MILLÓN OCHOCIENTAS CINCUENTA Y NUEVE MIL DOSCIENTOS OCHENTA Y DOS PUNTO OCHENTA Y NUEVE UDIS)**, cantidad que asciende al valor actual en pesos al monto de **\$12,728,632.1 (DOCE MILLONES SETECIENTOS VEINTIOCHO MIL SEISCIENTOS TREINTA Y DOS 01/100 M.N.)**, por lo que el monto reclamado por **283,288.17 UDIS (DOSCIENTOS OCHENTA Y TRES MIL DOSCIENTOS OCHENTA Y OCHO PUNTO DIECISIETE UDIS)** así como los INTERESES ORDINARIOS, MORATORIOS y PRIMA DE SEGURO **NO SE DEBEN** y solo representan la mala fe para llevar a cabo actividades de explotación del hombre por el hombre en detrimento del patrimonio de la Suscrita con la que se conduce la Actora, haciendo valer además los argumentos vertidos en el cuerpo del presente escrito, mismos que por economía procesal solicito se tengan por reproducidos en el presente hecho a la letra.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sirve como apoyo el siguiente cuadro que ilustra los montos debidos y pagados por la Suscrita:
+
+```{r, echo=FALSE}
+
+Concepto<-c("Monto del crédito original","Monto de la reestructura del crédito","Total pagado por la Suscrita","Valor actual de lo pagado","Monto pagado en exceso por la Suscrita")
+UDIS<-c("N/A","779,649.68","1,859,282.89","1,859,282.89","1,079,633.21")
+PESOS<-c("$520,000.00","$1,158,505.63","$6,965,835.88","$12,728,632.1","$7,391,158.16")
+
+DATA<-data.frame(Concepto,UDIS,PESOS)
+library(kableExtra)
+kable(DATA, booktabs=T,  col.names =c("Concepto","UDIS","PESOS"), caption= "Desarrollo del crédito en el tiempo")%>%add_footnote(c("Conforme al estado de cuenta presentado por la Actora como Anexo 3","Valor de las UDIS al 10 de julio de 2021 equivalente a 6.845990"))%>%
+  kable_styling(latex_options = "HOLD_position")%>%   kable_styling(full_width = TRUE)
+
+``` 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**6. EXCEPCIÓN DE DECLARACIÓN JUDICIAL DE NULIDAD DEL CONVENIO MODIFICATORIO DEL CONTRATO DE APERTURA DE CRÉDITO CON GARANTÍA HIPOTECARIA** contenido en el escritura pública número 65,355 por el que se modificaron los términos del contrato original, excepción que deriva de los artículos 17 y 2395 del Código Civil de la Ciudad de México, y la nulidad de la cláusula TERCERA BIS por ser un *ACTO SIMULADO DE ANATOCISMO y USURA* o en su caso, la reducción equitativa de los intereses que se me pretenden cobrar hasta el tipo legal que determina el Código Civil vigente, ya que de ninguna manera fueron aceptados por la Suscrita y el codemandado ni tampoco les fue explicado antes de la celebración del mismo, sino que dolosamente la parte actora incluyó su redacción ambigua e inentendible.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Como se ha mencionado anteriormente, la Actora, aprovechándose de la ignorancia, situación económica, promesas de ahorro y presiones morales, logró que se reestructurara el crédito en UDIS, obteniendo  durante la vigencia del mismo, un lucro excesivo por dos vías, siendo la **primera** una **ganancia inflacionaria** por el crecimiento del principal del adeudo en razón de la **capitalización de la inflación** y la **segunda**, el **cobro de intereses sobre la capitalización de la inflación** que, a su vez, generan un incremento paulatino en el costo del préstamo, porque el interés se re calcula periódicamente con sustento en el saldo insoluto actualizado del crédito, ocasionando de esta manera que el crédito se torne **IMPAGABLE** por la Suscrita, dejando en evidencia a la Actora, quien de manera impune realiza actividades de explotación del hombre por el hombre en perjuicio de la Suscrita mediante el cobro de intereses que, como ya se demostró, son **EXCESIVOS** y **USUREROS**.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ahora bien, la cláusula TERCERA BIS del Convenio, señala tres tasas de interés que se exponen en el siguiente cuadro:
+
+```{r, echo=FALSE}
+
+Concepto<-c("Descripción de la etapa","Interés Fijado","Interés Cobrado")
+Etapa1<-c("Correrá los primeros doce meses a partir de la vigencia de la reestructura", "6.5%", "9.259%")
+Etapa2<-c("Correrá transcurridos los primeros doce meses", "8.75%", "9.735%")
+Etapa3<-c("Correrá por las cantidades del saldo original que excedan de 165,000 UDIS","10%","9.735%")
+
+DATA<-data.frame(Concepto,Etapa1,Etapa2,Etapa3)
+library(kableExtra)
+kable(DATA, booktabs=T,  col.names =c("Concepto","Etapa1","Etapa2","Etapa3"), caption= "Intereses conforme a la cláusula 3BIS del convenio modificatorio")%>%add_footnote(c("Conforme al estado de cuenta presentado por la Actora como Anexo 3", "Valores expresados sin tomar en cuenta el costo inflacionario de las UDIS"))%>%
+  kable_styling(latex_options = "HOLD_position")%>%   kable_styling(full_width = TRUE)
+
+``` 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;De lo anterior es posible apreciar que si bien se pactaron diversas tasas de interés en el convenio modificatorio, la notoriamente oscura y dolosa redacción de las cláusula TERCERA BIS fue aprovechada por la Actora con la finalidad de engañar y perjudicar a la Suscrita. 
+
+La afirmación antecedente es sustentada en que la redacción contempla tres tasas de interés anuales, la primera de 6.5%, otra de 8.5% y la última de 10%.  Sin embargo, ninguna de dichas tasas fue aplicada durante la vigencia del crédito. Esto se debe a que la parte Actora mediante el uso de fórmulas matemáticas sumamente complejas se vale del engaño para en realidad aplicar tasas de interés mucho más altas a la Suscrita que oscilaron entre el 9.259 % y el 9.735% durante toda la vida del crédito, evidenciando una vez mas el **DOLO** y la **MALA FE** con la que se conduce la Actora al otorgar créditos cuyo objetivo no es otro mas que el de llevar a cabo actividades de explotación del hombre por el hombre mediante el otorgamiento de créditos con tasas de interés tan excesivas y usureras que estos se vuelven impagables por el acreditado, desembocando siempre en el despojo de sus viviendas por no poder cubrir cantidades tan exageradas y desproporcionadas.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bajo la misma tesitura, el artículo 17 del Código Civil para la Ciudad de México, regula la **Lesión** y establece que *Cuando alguno, explotando la suma ignorancia, notoria inexperiencia o extrema miseria de otro; obtiene un lucro excesivo que sea evidentemente desproporcionado a lo que él por su parte se obliga, el perjudicado tiene derecho a elegir entre pedir la nulidad del contrato o la reducción equitativa de su obligación, mas el pago de los correspondientes daños y perjuicios*.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Al hablar de la lesión, es necesario demostrar que se configuran los elementos objetivos y subjetivos, siendo el **elemento subjetivo** la suma ignorancia, inexperiencia, asi como la extrema miseria o necesidad de adquirir vivienda, es evidente de la lectura de la cláusula TERCERA BIS del multicitado convenio modificatorio, que la Actora incluyó, de manera expresa y sencilla de entender, tres tasas de interés sobre las cuales la Suscrita y el Codemandado otorgaron su consentimiento sin que nunca se les explicara que la redacción ambigua e inentendible compuesta por formulas matemático-financieras, iba permitirle a la Actora modificar las tasas de interés a su antojo en perjuicio de la Suscrita y el codemandado para que de esta manera pudiera obtener un mayor beneficio, nunca aplicando las tasas de interes pactadas sino una mayor, situación que es notoriamente **LESIVA**, **USURERA** e **ILEGAL** y que además implica que el consentimiento de la Suscrita y el Codemandado esta **VICIADO** y que, en consecuencia, de conformidad con el Artículo 1794 del Código Civil para la Ciudad de México, al estar viciado el consentimiento así como la ilegalidad del objeto o fin del contrato por ser usurero, este debe ser invalidado, independientemente que la sanción de un acto viciado por lesión sea una nulidad relativa.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bajo el mismo hilo de ideas, el Artículo 1812 del Código Civil para la Ciudad de México señala que el consentimiento no será válido si este ha sido dado por error, arrancado por violencia o sorprendido por dolo, entendiendo al dolo como lo establece el artículo 1815 del citado precepto legal, consistente en *cualquier sugestión o artificio que se emplee para inducir a error o a mantener en él a alguno de los contratantes*, situación que nos ocupa, toda vez que la Actora, mediante el uso de promesas falsas de ahorro, presiones morales y redacción ambigua e inentendible, llevó a la Suscrita y al codemandado a reestructurar el crédito, que originalmente era por $520,000.00 (QUINEINTOS VEINTE MIL PESOS 00/100 M.N.), a UDIS, a sabiendas que los intereses no iban a ser los estipulados expresamente en el contrato y que estos iban a terminar pagando una cantidad muy superior a la contraprestación entregada por la Actora.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ahora bien, respecto de la configuración del **elemento objetivo** de la lesión, consistente en la obtención de la Actora de un lucro excesivo evidentemente desproporcionado a lo que se obliga, es evidente, toda vez que si analizamos la prestación a la que se obliga la Actora y la prestación pagada por la Suscrita y el codemandado, esta ultima resulta desproporcionadamente mayor, en virtud de que los intereses reales cobrados por la Actora sobre la capitalización de la inflación a la suerte principal del crédito son **USUREROS**.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sirve como apoyo el siguiente cuadro que ilustra los montos debidos y pagados por la Suscrita:
+
+```{r, echo=FALSE}
+
+Concepto<-c("Monto del crédito original","Monto de la reestructura del crédito","Total pagado por la Suscrita","Valor actual de lo pagado","Monto pagado en exceso por la Suscrita")
+UDIS<-c("N/A","779,649.68","1,859,282.89","1,859,282.89","1,079,633.21")
+PESOS<-c("$520,000.00","$1,158,505.63","$6,965,835.88","$12,728,632.1","$7,391,158.16")
+
+DATA<-data.frame(Concepto,UDIS,PESOS)
+library(kableExtra)
+kable(DATA, booktabs=T,  col.names =c("Concepto","UDIS","PESOS"), caption= "Desarrollo del crédito en el tiempo")%>%add_footnote(c("Conforme al estado de cuenta presentado por la Actora como Anexo 3","Valor de las UDIS al 10 de julio de 2021 equivalente a 6.845990"))%>%
+  kable_styling(latex_options = "HOLD_position")%>%   kable_styling(full_width = TRUE)
+
+``` 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Finalmente y por todo lo antes expuesto, opongo cómo excepción la nulidad de la cláusula TERCERA BIS del multicitado convenio modificatorio que es el que actualmente rige la relación contractual, solicitando a su Usía que en términos de los preceptos legales ya mencionados se reduzcan los intereses **USURARIOS** ya pagados así como los que la Actora pretende cobrar, tomando en cuenta las dos vías de ganancia desproporcionada de la Actora por estar pactado el crédito en UDIS al tipo legal del 9% anual.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resulta aplicable la siguiente Tesis Jurisprudencial:
+
+\leftskip=1cm\rightskip=1cm
+\begingroup
+\fontsize{10}{10}\selectfont
+_**USURA. LA TASA DE INTERÉS REDUCIDA PRUDENCIALMENTE POR EL JUZGADOR DEBE APLICARSE RETROACTIVAMENTE RESPECTO DE LOS INTERESES USURARIOS YA PAGADOS, PARA SALVAGUARDAR EL DERECHO HUMANO A LA PROPIEDAD, EN LA MODALIDAD DE PROHIBICIÓN DE AQUÉLLA, COMO FORMA DE EXPLOTACIÓN DEL HOMBRE POR EL HOMBRE.**_ ^[*Tesis [J.]: 1a./J. 47/2014 (10a.), T.C.C., Semanario judicial de la Federación y su Gaceta, Décima Época, Libro 7, Junio de 2014, Tomo I, página 402. Reg. digital 2006795.*]
+
+_De conformidad con la jurisprudencia 1a./J. 47/2014 (10a.), de título y subtítulo: "PAGARÉ. SI EL JUZGADOR ADVIERTE QUE LA TASA DE INTERESES PACTADA CON BASE EN EL ARTÍCULO 174, PÁRRAFO SEGUNDO, DE LA LEY GENERAL DE TÍTULOS Y OPERACIONES DE CRÉDITO ES NOTORIAMENTE USURARIA PUEDE, DE OFICIO, REDUCIRLA PRUDENCIALMENTE.", el juzgador puede reducir prudencialmente las tasas de intereses pactadas por las partes en ejercicio de la obligación y la correlativa facultad que le imponen los artículos 1o. de la Constitución Política de los Estados Unidos Mexicanos y 2 de la Convención Americana sobre Derechos Humanos, entonces, con actitud propositiva aplicará la tasa disminuida que fije a su prudente arbitrio, tanto respecto de los intereses pendientes de cobro, como de aquellos que resultaron usurarios que ya hubieran sido pagados en favor del acreedor, ya que sólo de esta manera podría respetarse, protegerse y garantizarse eficazmente el derecho humano a la propiedad en la modalidad de prohibición de la usura como forma de explotación del hombre por el hombre. De lo contrario, se convalidaría una conducta proscrita por el artículo 21, numeral 3, de la convención citada, en notorio perjuicio del patrimonio del deudor que, derivado de dicha usura, es que pudo recaer en una situación de crédito impagable._
+\endgroup
+
+\leftskip=0cm\rightskip=0cm
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;De lo expuesto otrora, se desprende que el Juzgador cuenta con la facultad de reducir prudencialmente las tasas de interés pactadas respecto de los intereses pendientes de cobro como de aquellos que resultaron usurarios que ya hubieran sido pagados en favor del acreedor pues solo de esta manera se podría respetar, proteger y garantizar eficazmente el derecho humano a la propiedad en la modalidad de prohibición de la usura como forma de explotación del hombre por el hombre, haciendo valer además los argumentos vertidos en el cuerpo del presente escrito, mismos que por economía procesal solicito se tengan por reproducidos en el presente hecho a la letra.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**7. EXCEPCIÓN DE OSCURIDAD DE LA DEMANDA** toda vez que la Actora nunca explica como es que, si la Suscrita y el codemandado ya realizaron el pago del crédito en exceso, llega a la falsa premisa que se adeudan las cantidades que reclama en el capítulo de sus prestaciones.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**8. EXCEPCIÓN DE USURA** toda vez que, como ya se hizo valer a lo largo del presente escrito, la Actora, aprovechándose de la ignorancia, situación económica, promesas de ahorro y presiones morales, logró que se reestructurara el crédito en UDIS, obteniendo  durante la vigencia del mismo, un lucro excesivo por dos vías, siendo la **primera** una **ganancia inflacionaria** por el crecimiento del principal del adeudo en razón de la **capitalización de la inflación** y la **segunda**, el **cobro de intereses sobre la capitalización de la inflación** que, a su vez, generan un incremento paulatino en el costo del préstamo, porque el interés se re calcula periódicamente con sustento en el saldo insoluto actualizado del crédito, ocasionando de esta manera que el crédito se torne **IMPAGABLE** por la Suscrita, dejando en evidencia a la Actora, quien de manera impune realiza actividades de explotación del hombre por el hombre en perjuicio de la Suscrita mediante el cobro de intereses que, como ya se demostró, son **EXCESIVOS** y **USUREROS**, haciendo valer además los argumentos vertidos en el cuerpo del presente escrito, mismos que por economía procesal solicito se tengan por reproducidos en el presente hecho a la letra.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sirven como apoyo los siguientes cuadros que ilustran los montos debidos y pagados por la Suscrita asi como los intereses pactados y cobrados por la Actora:
+
+```{r, echo=FALSE}
+
+Concepto<-c("Monto del crédito original","Monto de la reestructura del crédito","Total pagado por la Suscrita","Valor actual de lo pagado","Monto pagado en exceso por la Suscrita")
+UDIS<-c("N/A","779,649.68","1,859,282.89","1,859,282.89","1,079,633.21")
+PESOS<-c("$520,000.00","$1,158,505.63","$6,965,835.88","$12,728,632.1","$7,391,158.16")
+
+DATA<-data.frame(Concepto,UDIS,PESOS)
+library(kableExtra)
+kable(DATA, booktabs=T,  col.names =c("Concepto","UDIS","PESOS"), caption= "Desarrollo del crédito en el tiempo")%>%add_footnote(c("Conforme al estado de cuenta presentado por la Actora como Anexo 3","Valor de las UDIS al 10 de julio de 2021 equivalente a 6.845990"))%>%
+  kable_styling(latex_options = "HOLD_position")%>%   kable_styling(full_width = TRUE)
+
+``` 
+```{r, echo=FALSE}
+
+Concepto<-c("Descripción de la etapa","Interés Fijado","Interés Cobrado")
+Etapa1<-c("Correrá los primeros doce meses a partir de la vigencia de la reestructura", "6.5%", "9.259%")
+Etapa2<-c("Correrá transcurridos los primeros doce meses", "8.75%", "9.735%")
+Etapa3<-c("Correrá por las cantidades del saldo original que excedan de 165,000 UDIS","10%","9.735%")
+
+DATA<-data.frame(Concepto,Etapa1,Etapa2,Etapa3)
+library(kableExtra)
+kable(DATA, booktabs=T,  col.names =c("Concepto","Etapa1","Etapa2","Etapa3"), caption= "Intereses conforme a la cláusula 3BIS del convenio modificatorio")%>%add_footnote(c("Conforme al estado de cuenta presentado por la Actora como Anexo 3", "Valores expresados sin tomar en cuenta el costo inflacionario de las UDIS"))%>%
+  kable_styling(latex_options = "HOLD_position")%>%   kable_styling(full_width = TRUE)
+
+``` 
+
+\begin{center}\bfseries
+PRUEBAS
+\end{center}
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**1. LA CONFESIONAL** del representante legal de la Actora, BANCO NACIONAL DE MÉXICO SOCIEDAD ANÓNIMA, INTEGRANTE DEL GRUPO FINANCIERO BANAMEX, quién deberá ser citado a fin de que comparezca al local de este H. Juzgado de **forma personal** el día y hora que para dichos efectos señale su Señoría, para absolver posiciones que se le formularán, previa su calificación de legales; solicitando se le aperciba que en caso de no comparecer sin justa causa o razón, se le declarará confeso de todas y cada una de las posiciones que se califiquen de legales, de conformidad con lo dispuesto por el artículo 309 del Código de procedimientos Civiles vigente.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**2. LA DOCUMENTAL PUBLICA** consistente en la copia certificada del acta de matrimonio de la Suscrita con el C. Jose de Jesús Venegas Blancarte con la anotación de divorcio correspondiente.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**3. LA DOCUMENTAL PÚBLICA** consistente en el convenio  convenio judicial, solicitado en copia certificada mediante escrito presentado el 28 de junio de 2021  y acordado en auto de fecha 30 de junio de 2021 en donde se ordena se gire oficio a la C. DIRECTORA DEL ARCHIVO JUDICIAL para que remita los autos originales al H. JUZGADO TRIGÉSIMO OCTAVO DE LO FAMILIAR DE LA CIUDAD DE MÉXICO para su emisión y  que se exhibirán en el presente una vez que estas se encuentren en poder de la Suscrita.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**4. LA DOCUMENTAL PRIVADA** consistente en los estados de cuenta  y recibos de pago, sin embargo, toda vez que se encuentran presumiblemente en poder del codemandado **Jose de Jesús Venegas Blancarte** y, como ya se hizo constar en el presente ocurso, se desconoce su paradero, por lo que solicito a ustéd C. Juez, gire oficio a la Actora **BANCO NACIONAL DE MÉXICO SOCIEDAD ANÓNIMA, INTEGRANTE DEL GRUPO FINANCIERO BANAMEX** para que esta presente a este H. Juzgado copia de los estados de cuenta y recibos de pago del crédito que pretende reclamar, toda vez que de lo contrario la Suscrita se vería afectada en su derecho humano a una defensa adecuada.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**5. LA INSTRUMENTAL DE ACTUACIONES** que se ofrece con el objeto de que todo aquello que me favorezca tanto de las actuaciones hechas por la Actora como por el Suscrito sea aplicado.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**6. LA PRESUNCIONAL DE ACTUACIONES EN SU DOBLE ASPECTO LEGAL Y HUMANO** que se ofrece para todo aquello que en apreciación del juzgador me favorezca.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**7. INSPECCIÓN JUDICIAL** que se realice en los libros de contabilidad de la Actora para demostrar que el crédito ya se pagó, se pagó en exceso y que no existe ninguna cláusula ni base legal que el banco pueda tomar en cuenta para pretender cobrar las cantidades reclamadas en su capitulo de prestaciones.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Por lo expuesto, a Usted, C. Juez, atentamente pido:
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**PRIMERO:** Tenerme por presentado en tiempo dando contestación a la improcedente demanda que en mi contra interpone la parte Actora.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**SEGUNDO:** Tener por opuestas las excepciones y defensas que hago valer.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**TERCERO:** Tener por ofrecidas las pruebas de mi parte y así mismo que se giren oficios a la Actora para que rindan los informes solicitados por la Suscrita.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**CUARTO:** En su oportunidad y previos los trámites de Ley, dictar sentencia definitiva, absolviendo a mi representada de todas y cada una de las prestaciones reclamadas y condenar a la Actora al pago de gastos y costas.
+\newpage
+\begin{center}\bfseries
+PROTESTO LO NECESARIO
+\end{center}
+\
+\
+\
+\
+\begin{center}\bfseries
+C. LETICIA PANAMEÑO QUIROZ
+
+Ciudad de México a 2 de Agosto de 2021
+\end{center}
+
+
+

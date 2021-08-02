@@ -1,0 +1,50 @@
+---
+mainfont: Century Schoolbook
+output:
+  pdf_document:
+    latex_engine: xelatex
+  word_document: default
+geometry: paperheight=34.5cm,paperwidth=21.59cm, left=25mm, right=25mm, top=50.8mm,
+  bottom=40mm, asymmetric
+fontsize: 12pt
+header-includes: \usepackage{blindtext} \linespread{1.15} \usepackage{indentfirst}
+---
+\begin{flushright}
+\begin{minipage}{.5\linewidth}\bfseries
+BANCO NACIONAL DE MÉXICO SOCIEDAD ANÓNIMA, INTEGRANTE DEL GRUPO FINANCIERO BANAMEX
+\begin{center}
+VS
+\end{center}
+LETICIA PANAMEÑO QUIROZ
+
+Asunto: Rebeldía Actora Juicio Especial Hipotecario
+
+Expediente:708/2018
+
+Secretaría “B”
+\end{minipage}
+\end{flushright}
+
+## C. JUEZ CUADRAGÉSIMO SEGUNDO DE LO CIVIL DE LA CIUDAD DE MÉXICO
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**C.LETICIA PANAMEÑO QUIROZ**, por mi propio derecho, personalidad que tengo debidamente acreditada y reconocida en autos del juicio a rubro indicado, ante Usted, con el debido respeto, comparezco y expongo:
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Que por medio del presente escrito, en virtud de que ha transcurrido con exceso el término concedido, vengo a acusar la rebeldía en que incurrió la Actora, **BANCO NACIONAL DE MÉXICO, SOCIEDAD ANÓNIMA, INTEGRANTE DEL GRUPO FINANCIERO BANAMEX**, al no dar contestación a la vista que se le ordenó dar en **auto de fecha primero de julio de dos mil veintiuno**, en consecuencia, solicito se le tenga por perdido el derecho que dejó de ejercitar para hacerlo valer con posterioridad.
+\
+\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Por lo antes expuesto a Usted C. Juez, pido se sirva: 
+\
+\
+**PRIMERO**. Se me tenga por presentado con la personalidad que ostento, acusando la rebeldía en que incurrió la Actora, **BANCO NACIONAL DE MÉXICO, SOCIEDAD ANÓNIMA, INTEGRANTE DEL GRUPO FINANCIERO BANAMEX**, al dejar de desahogar la vista ordenado en auto de fecha **auto de fecha primero de julio de dos mil veintiuno**.
+\
+\
+**SEGUNDO**. Se le tenga por perdido su derecho que dejó de ejercitar para hacerlo valer con posterioridad.
+
+\begin{center}\bfseries
+PROTESTO LO NECESARIO
+\end{center}
+\begin{center}\bfseries
+LETICIA PANAMEÑO QUIROZ
+
+Ciudad de México a 13 de julio de 2021
+\end{center}

@@ -1,0 +1,84 @@
+---
+mainfont: Century Schoolbook
+output:
+  pdf_document:
+    latex_engine: xelatex
+geometry: paperheight=34.5cm,paperwidth=21.59cm, left=25mm, right=25mm, top=50.8mm, bottom=40mm, asymmetric
+fontsize: 12pt
+header-includes :
+ \usepackage{blindtext}
+ \linespread{1.15}
+ \vspace{1cm}
+ \usepackage[spanish]{babel}
+---
+
+EN LA CIUDAD DE **SOLEDAD DE GRACIANO SÁNCHEZ**, EN EL ESTADO DE **SAN LUIS POTOSÍ**, SIENDO LAS 10:00 HORAS DEL DIA 22 DE JULIO DEL DOS MIL VEINTIUNO, SE REUNIERON EN EL DOMICILIO SOCIAL DE **“MANGUERAS METÁLICAS SAN LUIS” S.A. DE C.V.**, CON **R.F.C. MMS-110201-M26 Y FOLIO MERCANTIL 2795-1**, CON EL FIN DE CELEBRAR UNA ASAMBLEA TOTALITARIA DE ACCIONISTAS EN TÉRMINOS DEL ARTÍCULO 178 DE LA LEY GENERAL DE SOCIEDADES MERCANTILES, SEGÚN CONSTA CON LA FIRMA DE LOS PRESENTES
+
+POR DESIGNACIÓN DE LOS PRESENTES, PRESIDIÓ LA ASAMBLEA LA SEÑORA **MARÍA MAGDALENA ARANDA VERÁSTEGUI**, QUIEN ES EL ADMINISTRADOR ÚNICO DE LA SOCIEDAD, ACTUANDO COMO SECRETARIO POR DESIGNACIÓN UNANIME DE LOS PRESENTES EL SEÑOR **JUAN GERARDO MARTÍNEZ MÁRQUEZ**
+
+EL PRESIDENTE DESIGNO COMO ESCRUTADOR AL SEÑOR LICENCIADO  **EDUARDO LARA VERA**, QUIEN ACEPTÓ EL CARGO PROCEDIENDO A REALIZAR EL ESCRUTINIO CORRESPONDIENTE, RINDIENDO A CONTINUACIÓN EL INFORME RESPECTIVO, EMITIENDO LA SIGUIENTE LISTA DE ASISTENCIA: 
+
+```{r, echo=FALSE}
+
+ACCIONISTAS<-c("MARÍA MAGDALENA ARANDA VERÁSTEGUI","RODRIGO CASTILLA ARANDA","TOTAL")
+ACCIONES<-c("45","5","50")
+VALOR<-c("$45,000.00","$5,000","$50,000.00")
+
+
+DATA<-data.frame(ACCIONISTAS,ACCIONES,VALOR)
+library(kableExtra)
+kable(DATA, booktabs=T,  col.names =c("ACCIONISTAS","ACCIONES","VALOR"), caption= "LISTA DE ASISTENCIA")%>%
+
+  kable_styling(latex_options = "HOLD_position")%>%   kable_styling(full_width = TRUE)
+
+```
+
+EN VIRTUD DE QUE DEL ESCRUTINIO SE DESPRENDE QUE SE ENCONTRABAN PRESENTES EL TOTAL DE LAS ACCIONES QUE INTEGRAN EL CAPITAL SOCIAL DE **“MANGUERAS METÁLICAS SAN LUIS” S.A. DE C.V.**, LA PRESIDENTE CON FUNDAMENTO EN EL ARTICULO 188 DE LA LEY GENERAL DE SOCIEDADES MERCANTILES, DECLARO LEGALMENTE INSTALADA LA ASAMBLEA Y POR VALIDAS TODAS LAS RESOLUCIONES QUE EN ELLA SE TOMEN POR ENCONTRARSE REPRESENTADO EL TOTAL DEL CAPITAL SOCIAL.
+
+ACTO CONTINUO, EL SECRETARIO DIO LECTURA AL SIGUIENTE ORDEN DEL DIA, CONFORME AL CUAL FUERON CITADOS LOS SEÑORES ACCIONISTAS. 
+
+```{r, echo=FALSE}
+
+NUMERO<-c("I")
+ACTO<-c("REVOCACIÓN DE PODÉRES")
+
+
+DATA<-data.frame(NUMERO,ACTO)
+library(kableExtra)
+kable(DATA, booktabs=T,  col.names =c("NÚMERO","ACTO"), caption= "ORDEN DEL DÍA")%>%
+
+  kable_styling(latex_options = "HOLD_position")%>%   kable_styling(full_width = TRUE)
+
+```
+
+
+APROBADO QUE FUE EL ORDEN DEL DIA PREINSERTO, SE DESAHOGO EN LOS SIGUIENTES TÉRMINOS: 
+
+**I.-** En desahogo del primer punto del orden del día, el presidente de la asamblea, manifiesta de que en virtud de que el señor **LUIS ARANDA VERÁSTEGUI** dejará de fungir como **REPRESENTANTE LEGAL, PATRONAL Y APODERADO JURÍDICO GENERAL DE LA SOCIEDAD** por lo que es necesario revocar los poderes y facultades de los cuales gozaba y que le fueron otorgados mediante escritura número 64,186, de fecha 8 de febrero de 2019, otorgada ante la fe del señor licenciado RAMÍRO OCHOA SIERRA, titular de la Notaria 7 de la Ciudad de Rioverde en el estado de San Luis Potosí, lo que pone a consideración de la asamblea para que se tomen los acuerdos respectivos.
+
+La Asamblea tras una amplia deliberación, por unanimidad de votos tomó la siguiente:
+				
+\begin{center}\bfseries
+R E S O L U C I Ó N
+\end{center}
+
+**UNICA.-** Se Revocan los poderes y facultades de los cuales gozaba el señor **LUIS ARANDA VERÁSTEGUI** y que le fueron  conferidos mediante escritura número 64,186, de fecha 8 de febrero de 2019, otorgada ante la fe del señor licenciado RAMÍRO OCHOA SIERRA, titular de la Notaria 7 de la Ciudad de Rioverde en el estado de San Luis Potosí.
+
+SIN MAS PUNTOS A TRATAR, SE DA POR CONCLUIDA LA REUNIÓN SIENDO A LAS DOCE HORAS DEL DIA DE SU FECHA, FIRMANDO PARA CONSTANCIA TODOS LOS QUE EN ELLA INTERVINIERON.
+
+```{r, echo=FALSE}
+
+CARGO<-c("PRESIDENTE","ACCIONISTA","SECRETARIO","ESCRUTADOR")
+NOMBRE<-c("MARÍA MAGDALENA ARANDA VERÁSTEGUI","RODRIGO CASTILLA ARANDA","JUAN GERARDO MARTÍNEZ MÁRQUEZ","LIC. EDUARDO LARA VERA" )
+FIRMA<-c("","","","")
+
+
+DATA<-data.frame(CARGO,NOMBRE,FIRMA)
+library(kableExtra)
+kable(DATA, booktabs=T,  col.names =c("CARGO","NOMBRE","FIRMA"), caption= "FIRMAS")%>%
+
+  kable_styling(latex_options = "HOLD_position")%>%   kable_styling(full_width = TRUE)
+
+```
+	      
+

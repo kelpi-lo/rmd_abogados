@@ -1,0 +1,59 @@
+__*REPOSITORIO DE CÓDIGOS MARKDOWN Y R*__
+
+1. **HEADERS**
+
+#
+##
+###
+####
+
+2. **PÁRRAFOS CON MAYOR MARGEN LATERAL**
+
+\leftskip=1cm\rightskip=1cm
+\begingroup
+\fontsize{10}{10}\selectfont
+
+_[COLOCAR PARRAFO]_
+
+\endgroup
+
+\leftskip=0cm\rightskip=0cm
+
+2. **INDENT**
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+3. **GENERAR UNA TABLA CON CHUNK DE R**
+
+```{r, echo=FALSE}
+
+[NOMBRE COLUMNA 1]<-c("[NOMBRE FILA 1]","[NOMBRE FILA 2]","[NOMBRE FILA 3]","[NOMBRE FILA 4]","[NOMBRE FILA 5]", ETC.)
+[NOMBRE COLUMNA 2]<-c("[NOMBRE FILA 1]","[NOMBRE FILA 2]","[NOMBRE FILA 3]","[NOMBRE FILA 4]","[NOMBRE FILA 5]", ETC.)
+[NOMBRE COLUMNA 3]<-c("[NOMBRE FILA 1]","[NOMBRE FILA 2]","[NOMBRE FILA 3]","[NOMBRE FILA 4]","[NOMBRE FILA 5]", ETC.)
+
+DATA<-data.frame([NOMBRE COLUMNA 1],[NOMBRE COLUMNA 2],[NOMBRE COLUMNA 3] ETC.)
+library(kableExtra)
+kable(DATA, booktabs=T,  col.names =c("[NOMBRE COLUMNA 1]","[NOMBRE COLUMNA 2]","[NOMBRE COLUMNA 3]"), caption= "[TÍTULO DE LA TABLA")%>%add_footnote(c("[NOTA DE TABLA 1]","[NOTA DE TABLA 2]"))%>%
+
+  kable_styling(latex_options = "HOLD_position")%>%   kable_styling(full_width = TRUE)
+
+```
+
+4. **FOOTNOTE**
+
+^[AÑADIR TEXTO]
+
+5. **CENTRAR TEXTO EN NEGRITAS**
+
+\begin{center}\bfseries
+[AÑADIR TEXTO]
+\end{center}
+
+6. **CENTRAR TEXTO SIN NEGRITAS**
+
+\begin{center}
+[AÑADIR TEXTO]
+\end{center}
+
+
+1. 

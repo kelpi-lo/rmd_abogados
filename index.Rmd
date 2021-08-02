@@ -1,0 +1,520 @@
+--- 
+title: "R markdown para abogados"
+author: "Marco Ramos"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+description: "En este bookdown iremos construyendo el curso de R markdown para abogados"
+---
+
+# Preparativos
+
+## Link de la sesión
+
+[Haz click aquí para unirte a la sesión](meet.google.com/rqw-zxny-zzu)
+
++ Número de acceso a la reunión: (MX) +52 222 382 6000
+
++ PIN: 373 684 520 8686#
+
++ Horario 7-9 PM
+
+## Requisitos conocimiento
+
+En general no se necesita conocer R o ningún lenguaje de programación para comenzar a redactar en R markdown, aunque su conocimiento potencia tus habilidades creativas.
+
+## Requisitos equipo
+
+El primer paso de este curso es el tener el ambiente adecuado en su computadora. En general no se necesita un equipo con gran poder (y de hecho ni se necesita un equipo pues siempre podemos usar el servidor cloud de R). En fin, lo primero es asegurarse de tener R instalado. Lo podemos bajar de la [siguiente liga](https://www.r-project.org/).
+
+El segundo paso es bajar R Studio. Lo podemos bajar de la [siguiente liga](https://www.rstudio.com/products/rstudio/download/). R Studio es un progama toral para nuestras pretenciones pues nos permite integrar distintos motores de texto (como latex y pandoc); distintos lenguajes de marcado (como markdown y latex); y distintos lenguajes de programación (como R, Python, bash, C++, etc)
+
+Asimismo se recomienda tener a la mano un editor de texto plano (yo he trabajado muy bien con *sublime text* pero ustedes pueden usar el que gusten)
+
+## Manos a la obra
+
+A continuación *tejeremos* nuestro primer documento de R markdown.
+
++ Pulsa en la opción de *file*
+
++ Elije crear un nuevo *file* de tipo R markdown (RMD)
+
++ Ahora oprime el botón *knit* para tejer.
+
++ Ahora modifica el *YAML*: cambia html_document por pdf_document
+
++ Te pedira que instales latex y/o pandoc:
+
+```{r, eval=F}
+tinytex::install_tinytex()
+
+```
+
+# Lenguaje de marcado
+
+Un lenguaje de marcado o lenguaje de marcas es una forma de codificar un documento que, junto con el texto, incorpora etiquetas o marcas que contienen información adicional acerca de la estructura del texto o su presentación.
+
+El lenguaje de marcas más extendido es el HTML (HyperText Markup Language, lenguaje de marcado de hipertexto), fundamento del World Wide Web (entramado de comunicación de alcance mundial).
+
+Los lenguajes de marcado suelen confundirse con lenguajes de programación. Sin embargo, no son lo mismo, ya que el lenguaje de marcado no tiene funciones aritméticas o variables, como poseen los lenguajes de programación. Históricamente, el marcado se usaba y se usa en la industria editorial y de la comunicación, así como entre autores, editores e impresores.
+
+**Manos a la obra!**: pueden ir aplicando los que vayan aprendiendo inmediatamente en [la siguiente liga]() https://stackedit.io/app)
+
+## Markdown
+
+Markdown es un lenguaje de marcado muy ligero creado para editores de texto plano. Se usa mucho en cuestiones de redacción rapida como mensajes instantaneos, blogs, paginas, foros, trabajos colaborativos, documantación y ultimante en investigación.
+
+### Sintaxis básica
+
+**Jerarquiía de titulos**
+
+```{r, eval=F}
+# Título
+## Subtítulo
+### Sub-subtítulo
+```
+
+### Título
+#### Subtítulo
+##### Subsubtítulo
+
+**Negritas**
+
+```{r, eval=F}
+**Este texto en negritas**
+
+```
+**Este texto en negritas**
+
+
+**Italicas**
+
+```{r, eval=F}
+*Este texto en negritas*
+
+```
+
+*Este texto en negritas*
+
+
+**Cita textual**
+
+```{r, eval=F}
+> Esta es una cita textual
+
+```
+
+> Esta es una cita textual
+
+
+**Lista desordenadas**
+
+```{r, eval=F}
+- First item
+- Second item
+- Third item
+
+```
+
+- First item
+- Second item
+- Third item
+
+
+**Lista ordenada**
+
+```{r, eval=F}
+1. First item
+2. Second item
+3. Third item
+```
+
+1. First item
+2. Second item
+3. Third item
+
+
+**Lineas horizontales**
+
+```{r, eval=F}
+---
+```
+---
+
+**hipervínculoss**
+
+```{r, eval=F}
+[My hypervinculo](https://github.com/marcoyel21)
+
+```
+[My hypervinculo](https://github.com/marcoyel21)
+
+
+**Imagen**
+
+```{r, eval=F}
+![Este es un logo](logo.png)
+```
+![alt text](logo.png)
+
+## Markdown Avanzado
+
+**Tabla**
+
+```{r, eval=F}
+| ID | Descripción |
+| ----------- | ----------- |
+| colnames | nombre de columnas |
+| rownames | nombre de filas |
+```
+
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+
+**Lista indentadas**
+
+```{r, eval=F}
+- First item
+    - First item
+    - Second item
+    - Third item
+- Second item
+- Third item
+
+```
+
+- First item
+    - First item
+    - Second item
+    - Third item
+- Second item
+- Third item
+
+**Definiciones**
+
+```{r, eval=F}
+termino
+: definición
+```
+
+termino
+: definición
+
+
+**Tache**
+```{r, eval=F}
+~~Esta oración es incorrecta.~~
+```
+~~Esta oración es incorrecta.~~
+
+**To do list**
+```{r, eval=F}
+- [x] Terminar la sesión de hoy
+- [ ] Sacar a los perros
+- [ ] Cenar frutas y verduras
+```
+- [x] Terminar la sesión de hoy
+- [ ] Sacar a los perros
+- [ ] Cenar frutas y verduras
+
+**Pies de pagina**
+
+```{r, eval=F}
+Esta oración tiene un pie de pagina ^[Este es el pie de pagina]
+```
+
+Esta oración tiene un pie de pagina ^[Este es el pie de pagina]
+
+# Latex
+
+Latex es un sistema de composición de textos, orientado a la creación de documentos escritos que presenten una alta calidad tipográfica. Por sus características y posibilidades, es usado de forma especialmente intensa en la generación de artículos y libros científicos. Es un sistema de composición de textos que está formado mayoritariamente por órdenes construidas a partir de comandos de TeX.
+
+Una de las ventajas de LaTeX es que la salida que ofrece es siempre la misma, con independencia del dispositivo (impresora, pantalla, etc.) o el sistema operativo (MS Windows, MacOS, Unix, distribuciones GNU/Linux, etc.) y puede ser exportado a partir de una misma fuente a numerosos formatos tales como Postscript, PDF, SGML, HTML, RTF, etc. 
+
+## Simbolos
+
+La primera gran ventaja de Latex es la facilidad con la que podemos insertar caracteres especiales, letras griegas, ecuaciones y demás simbolos. A continuación mostramos algunos simbolos muy comunes:
+
+| Código | Output |
+| ----------- | ----------- |
+| \\Sigma | $\Sigma$ |
+| \\alpha | $\alpha$ |
+| \\epsilon | $\epsilon$ |
+| \\sigma | $\sigma$ |
+| \\beta | $\beta$ |
+| \\tau | $\tau$ |
+| \\eta | $\eta$ |
+| \\pi | $\pi$ |
+| \\Delta | $\Delta$ |
+| \\delta | $\delta$ |
+| \\mu | $\mu$ |
+| \\rho | $\rho$ |
+| \\neq | $\neq$ |
+| \\rightarrow | $\rightarrow$ |
+| \\geq | $\geq$ |
+| \\subset | $\subset$ |
+
+## Expresiones matemáticas
+
+| Código | Output |
+| ----------- | ----------- |
+| x\^\{a+b\}=x\^ax\^b	 | $x^{a+b}=x^ax^b$ |
+| \begin{pmatrix}1 & \\cdots & 1\\\\vdots & \\ddots & \\vdots \\\\
+1 & \\cdots & 1 \end{pmatrix} | $\begin{pmatrix}1 & \cdots & 1\\
+\vdots & \ddots & \vdots \\1 & \cdots & 1 \end{pmatrix}$ |
+| {n \\choose r} = \\frac{n!}{r! (n - r)!}| ${n \choose r} = \frac{n!}{r! (n - r)!}$	|
+| \\overline{AB} \\subset \\bar{C} | $\overline{AB} \subset \bar{C}$ |
+| \\frac{24}{124} | $\frac{24}{124}$|
+| A \\neq B | $A \neq B$ |
+
+
+# Mendeley y la administración de referencias
+
+## Archivos bib
+
+El formato BibTex es un formato para guardar bibliografía. Se usa desde antes de que existiera el internet y se creo para administrar virtualmente colecciones extensas de libros y journals. Más información [**_aquí_**](http://ftp.math.utah.edu/pub/tex/bib/).
+
+El gran plus es que el trabajo tedioso de darle formato a cada entrada lo puede hacer una computadora, en lugar de un pobre humano. Asimismo, si las entradas están bien, en consecuencia la bibliografía también lo estará.
+
+Esto libera al investigador para **INVESTIGAR** (y no gastar horas y horas en la redacción correcta de bibliografía) a la par que hace que la información que recibe el lector sea adecuada, correcta y ordenada, en consecuencia se minimiza la posibilidad de error.
+
+Los archivos consisten simplemente en un archivo de texto con contenidos que se deben llenar de cada libro, artículo etc. Echémos un ojo a cómo se ven los archivos .bib si los abrieramos con cualquier editor de texto:
+
+```{r, eval=FALSE}
+@book{PNUD2013,
+author={PNUD},
+year={2013},
+month={November},
+title={Humanity Divided: confronting inequality in developing countries},
+url={https://www.undp.org/content/undp/es/home/librarypage/poverty-reduction/humanity-divi
+  ded--confronting-inequality-in-developing-countries.html}
+}
+@article{salarios,
+author={Hiromi Ishizuka},
+year={2018},
+month={January},
+journal = {Theoretical Economics Letters},
+title={An Empirical Analysis of Substitution and Complementarity of Gender Labor Demand of
+  Enterprises in Japan, Korea, and China: With a Factor Decomposition of Gender Wage Differ
+  entials},
+url={https://www.researchgate.net/publication/325969884_An_Empirical_Analysis_of_Substit
+  ution_and_Complementarity_of_Gender_Labor_Demand_of_Enterprises_in_Japan_Korea_and_China
+  _With_a_Factor_Decomposition_of_Gender_Wage_Diffe
+  rentials}
+}
+```
+
+## Manos a la obra
+
+### Primeros pasos 
+
+El primer paso es [**_descargar Mendeley para escritorio_**](https://www.mendeley.com/download-desktop-new/) y el [**_plug in para chrome_**](https://www.mendeley.com/reference-management/web-importer).
+
+El segundo paso es crear una cuenta y hacer *log in* en ambos (tanto el plug in como la app para Desktop). Puedo crear una cuenta [**_aquí_**](https://www.mendeley.com/).
+
+
+Ahora ya puedo comenzar a trabajar con Mendeley. El primer paso entonces es explorar la aplicación para Desktop. Deben crear un folder en el botón *Create folder ..* en la librería que se muestra. Esta es tu carpeta de trabajo,
+
+Finalmente, voy a preferencias/BibtTex y le ordeno que cree un archivo bib local por grupo en el directorio de mi preferencia. Este paso es importante pues en este directorio se guardaran todos mis archivos bib.
+
+### Agrego mi primera bibliografía
+
+Ahora, investigando en internet me encontraré muchos libros, journals, paginas, periodicos etc. Para guardarlos en mi bibliografía simplemente los agrego con el boton add del plug in. En el menu puedo buscar entre mis carpetas y proyectos la carpeta en la cual quiero guardar la bibliografia. Asimismo, si tienes acceso al pdf lo puedes guardar.
+
+Si los datos no están bien no importa, Puedes llenarlos manualmente, automáticamente o no llenarlos en absoluto. Después puedes corregir la inforamción en la aplicación.
+
+Si regresamos a la aplicación podemos observar que hay warnings en los archivos nuevos. Podemos optar por buscar automáticamente (lo que hará que la info se sincronize con algúna bibliografía que otro usuario históricamente ha usado) o podemos llenarlo manualmente. Asismimo, podemos agregar bibliografía directamente desde la app de Mendeley.
+
+### Apodos/Etiquetas/Citation Key
+
+Un paso crucial para la integración con R y word es el etiquetar o ponerle un apodo a cada entrada de mi bibliografía con el fin de acordarme de ella y citarle fácilmente.
+
+Veamos con detenimiento la siguiente entrada:
+
+```{r, eval=FALSE}
+@book{PNUD2013,
+author={PNUD},
+year={2013},
+month={November},
+title={Humanity Divided: confronting inequality in developing countries},
+url={https://www.undp.org/content/undp/es/home/librarypage/poverty-reduction/humanity-divi
+  ded--confronting-inequality-in-developing-countries.html}
+}
+```
+
+Cada característica tiene un valor, sin embargo hay un texto volando, PNUD2013 no dice nada. Este precisamente es el apodo, generalmente se pone el apellido y el año pero en realidad puedo ponerle lo que sea. Por ejemplo PNUD2013 o el_libro_buenazo o archivo_33, etc.
+
+
+### Sync
+
+Como te abrás dado cuenta, puedes acceder a tus carpetas y bibliografías desde el plug in, desde la pagina y desde la aplicación, por ello es importante que sincronices después de agregar bibliografía. Para sincornizar tu biblioteca simplemente oprime *sync* en la aplicación.
+
+
+### ¿Dónde está mi archivo bib?
+
+Después de sincronizar, se acutalizaran mis archivos bib. Para acceder a ellos simplemente abro el buscador y voy a la ruta que definí previamente donde quería que se guardaran mis archivos bib.
+
+### Trabajos colaborativos
+
+Finalmente, hay más opciones en las cuales no ahondaremos pero son muy útiles.
+En crear grupo puedo crear diferentes carpetas con diferentes propiedades. Una muy util para trabajos en equipo es el grupo colaborativo donde todos los integrantes pueden independientemente subir bibliografía que se sincronizará con la de los demás integrantes.
+
+
+# Integración Mendeley con R Markdown
+
+Hasta aquí ya tienes los básicos para trabajar con Mendeley y poder integrarlo por ejemplo a word, sin embargo R markdown nos permite tener herramientas más poderosas y facilitadoras de trabajo.
+
+Como hemos visto, R Markdown es una herramienta super dinámica que me permite crear presentaciones, libros, journals, paginas de internet, bookdowns, epubs, pdfs, ppts, docxs con base en el mismo texto. 
+
+Esta es una de las ventajas de trabajar con texto sin formato. Además, aprovecha también elementos de R para combinar programación con escritura. De esta manera, puedo usar funciones de R, sintáxis de Latex, scripts de python y basicamente como es abierto y sin formato, el cielo es el límite.
+
+Para esta sesión lo más importante es lo fácil que se integra con BibTex.
+
+## II.2 YAML
+
+```{r, eval=FALSE}
+---
+title: "Investigación para hackers"
+author: "Marco Ramos"
+date: "1/20/2021"
+output: pdf_document 
+bibliography: investigacion_para_hackers.bib
+csl: "mi_chicago.csl"
+---
+```
+
+Los archivos RMD cuentan con un encabezado muy peculiar, lo llamamos YAML. El YAML es el ADN de mi archivo RMD y contiene todo lo que necesita para tejerse: el autor, el tipo de output, etc. Es aquí donde le vamos a indicar dos cosas clave; la bilbiografía (bibliography) y las reglas de citación (csl).
+
+El CSL contiene de manera exhaustiva las reglas completas de citación, lenguaje y referencia. Es una cadena larguísima de condiciones, no te preocupes, no tienes que entenderla...por ahora... pero lo que si debes saber es que hay gente en la internet que voluntariamente las diseña y las sube enteramente gratis. En este [repositorio](https://github.com/citation-style-language/styles) ecnontrarás una biblioteca de reglas que la comunidad ha creado, editado, y mejorad y que van desde APA, MLA, Chicago hasta formatos específicos de journals, instituciones y países específicos y todas sus variantes posibles.
+
+Para agregar una CSL simplemente indicamos en el YAML la ruta donde la tenemos descargado o bien podemos simplemente agregar el link del repositorio donde se encuentra alojada (el link se obtiene en la opción *raw* de github).
+
+**Ejemplo:**
+
+
+```{r, eval=FALSE}
+---
+csl: "mi_chicago.csl"
+---
+  
+---
+csl: "https://raw.githubusercontent.com/marcoyel21/citation_lenguage_styles/master/mi_chic
+ago.csl"
+---
+```
+
+Por ejemplo, para este documento, el archivo que se uso es "mi_chicago.csl" que es la versión de Chicago con la cuál se trabaja en Relaciones Internacionales en el ITAM. Para crearla simplemente busque la versión que necesitaba en el repositorio general y manualmente le cambie el idioma a español, de esta manera las fechas se traduces así como los "and".
+
+De manera similar, para llamar la bibliografía, debo indicar el YAML la ruta donde está mi archivo bib creado por Mendeley. Como en este caso, tanto el CSL como la bibliografía están en la misma carpeta donde se creo este archivo, basta con poner el nombre del archivo en el YAML.
+
+
+## Citas 
+
+Una vez que escribimos en el YAML nuestra bibliografía podemos acceder a ella. 
+
+En cuanto a las citas, por lo pronto aprenderemos las tres maneras básicas.
+
+**A) Citas en el texto**
+
+Para citas en el texto simplemente escribe el apodo/etiqueta del archivo que quieres citar con un @ antes de esta manera: \@PNUD2013
+
+Script: \@Herault2010 menciona que blablabla.
+
+Output: @Herault2010 menciona que blablabla.
+
+
+**B) Citas a pie de página**
+
+Para citas a pie de pagina simplemente haz lo mismo que en el inciso anterior pero entre corchetes de la siguiente manera: [\@PNUD2013].
+
+Script; blablabla[\@Herault2010].
+
+Output; blablabla[@Herault2010].
+
+**C) Entre paréntesis**
+
+Finalmente para citas entre parentesis, simplemente escribe lo mismo que antes pero en lugar de corchetes usa pareéntesis (valgame la rebundancia) de la siguiente manera;(\@PNUD2013).
+
+Ejemplo: 
+
+Script: blablabla(\@Herault2010).
+
+Output: blablabla(@Herault2010).
+
+
+Notese como el CSL ya contempla las reglas para el uso del *ibid, ibidem, op cit*. etc.
+
+## Referencias 
+
+Una vez que escribimos en el YAML nuestra bibliografía y el CSL de manera automática se mostrara al final de nuestro archivo la bibliografía ordenada y en formato especificado. No tenemos que hacer nada. Sin embargo, solo se mostrará la bibliografía empleada, es decir, aquellas que llamamos durante nuestro texto.
+
+# Ambientes de latex
+
+La siguiente herramienta que veremos en el curso son los ambientes de latex. En ellos podemos asignar un formato específico a un estilo de parrafo en particular y luego llamarlo.
+
+```{r, eval=F}
+\newenvironment{nombre}{codigo de apertura ambiente}{codgio de clausura de ambiente}
+```
+
+
+## Ejemplos
+
+### Parrafos con mayor margen lateral
+
+
+```{r, eval=F}
+\newenvironment{mayormargen}#aquí defino el nombre
+{\par\leftskip=2cm\par\rightskip=2cm} #este es el codigo de apertura
+{\par\leftskip=0cm\par\rightskip=0cm} #este es el codigo de clausura
+
+
+#así lo utilizo
+\begin{mayormargen}
+Este es un parrafo con un margen menor.Este es un parrafo con un margen menor.Este es un parrafo con un margen menor.Este es un parrafo con un margen menor.
+
+Este es un parrafo con un margen menor.Este es un parrafo con un margen menor.Este es un parrafo con un margen menor.Este es un parrafo con un margen menor.
+\end{mayormargen}    
+```
+
+### Centro y en negritas
+
+
+```{r, eval=F}
+\newenvironment{centro_negritas}
+{\begin{center}\bfseries}
+{\end{center}}
+
+\begin{centro_negritas}
+Este es un texto centrado y en negritas
+\end{centro_negritas}
+
+```
+
+### Partes en la demanda 
+
+
+```{r, eval=F}
+\newenvironment{inicio_demandas}
+{\begin{flushright}\begin{minipage}{.5\linewidth}\bfseries}
+{\end{minipage}\end{flushright}}
+
+\begin{inicio_demandas}
+BANCO NACIONAL DE MÉXICO SOCIEDAD ANÓNIMA, INTEGRANTE DEL GRUPO FINANCIERO BANAMEX
+\begin{center}
+VS
+\end{center}
+MARCO ANTONIO RAMOS JUÁREZ
+
+Asunto: Contestación Juicio Especial Hipotecario
+
+Expediente:999/2021
+
+Secretaría “Z”
+\end{inicio_demandas}
+
+```

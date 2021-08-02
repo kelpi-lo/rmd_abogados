@@ -1,0 +1,42 @@
+--- 
+title: "R markdown para abogados"
+author: "Marco Ramos"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+description: "En este bookdown iremos construyendo el curso de R markdown para abogados"
+---
+
+# Requisitos conocimiento
+
+En general no se necesita conocer R o ningún lenguaje de programación para comenzar a redactar en R markdown, aunque su conocimiento potencia tus habilidades creativas.
+
+# Requisitos equipo
+
+El primer paso de este curso es el tener el ambiente adecuado en su computadora. En general no se necesita un equipo con gran poder (y de hecho ni se necesita un equipo pues siempre podemos usar el servidor cloud de R). En fin, lo primero es asegurarse de tener R instalado. Lo podemos bajar de la [siguiente liga]().
+
+El segundo paso es bajar R Studio. Lo podemos bajar de la [siguiente liga](). R Studio es un progama toral para nuestras pretenciones pues nos permite integrar distintos motores de texto (como latex y pandoc); distintos lenguajes de marcado (como markdown y latex); y distintos lenguajes de programación (como R, Python, bash, C++, etc)
+
+# Manos a la obra
+
+A continuación *tejeremos* nuestro primer documento de R markdown.
+
++ Pulsa en la opción de *file*
+
++ Elije crear un nuevo *file* de tipo R markdown (RMD)
+
++ Ahora oprime el botón *knit* para tejer.
+
++ Ahora modifica el *YAML*: cambia html_document por pdf_document
+
++ Te pedira que instales latex y/o pandoc:
+
+```{r, eval=F}
+tinytex::install_tinytex()
+
+```
+
+

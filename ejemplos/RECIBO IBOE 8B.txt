@@ -1,0 +1,50 @@
+---
+mainfont: Century Schoolbook
+output:
+  pdf_document:
+    latex_engine: xelatex
+geometry: paperheight=34.5cm,paperwidth=21.59cm, left=25mm, right=25mm, top=25mm, bottom=25mm, asymmetric
+fontsize: 12pt
+linespacing: 1.5pt
+---
+\begin{center}\bfseries
+ RECIBO IBOE (INTERNATIONAL BILL OF EXCHANGE)
+\end{center}
+
+Por medio de la presente, los Señores **MARCO ANTONIO TORRES JARA**, en su caracter de negociador y depositario del instrumento, identificándose en este acto con pasaporte número **G148161458** y **EDUARDO LARA VERA**, en su caracter de asesor legal, identificándose en este acto con pasaporte número **G30253203**,  declaramos que por medio de este acto, el **Sr. FRANCISCO MARTÍN AGUIRRE LÓPEZ** hizo la entrega física del instrumento **ORIGINAL** denominado **INTERNATIONAL BILL OF EXCHANGE** **(IBOE)** con un valor nominal que asciende al monto en Dólares Americanos de **\$8,000,000,000.00 (OCHO MIL MILLONES DE DÓLARES AMERICANOS 00/100)** con los siguientes datos de identificación:
+ 
+|**INFORMACIÓN IBOE**|
+|:--|:--|
+|**Número de documento**|2017-8B-LOPEZ-0002|
+|**Número de registro**|RA276883730US|
+|**Fecha de vencimiento**|JUNE 10, 2022|
+|**Fecha de expedición**|JUNE 10, 2017|
+|**Valor del instrumento**|\$8,000,000,000.00 [OCHO MIL MILLONES DE DÓLARES AMERICANOS 00/100]|
+|**Propietario del instrumento**|FRANCISCO MARTÍN AGUIRRE LÓPEZ|
+|**Nombre del librador**|UST-BUREAU OF FISCAL SERVICE OR OTHER AUTHORIZED REPRESENTATIVE|
+|**Dirección del librador**|TOCS, POST OFFICE BOX 1686, BIRMINGHAM, ALABAMA, USA 35201-1686|
+|**Nombre del librado**|FRANCISCO MARTIN AGUIRRE LÓPEZ|
+|**Dirección del Librado**|LEON TOLSTOY NO.4881, JARDINES,UNIVERSIDAD, ZAPOPAN, JALISCO, 45110, MEXICO.|
+
+El documento descrito en la tabla *ad supra*, se mantendrá en custodia del **Sr. MARCO ANTONIO TORRES JARA** para que este lleve a cabo las negociaciones necesarias para su monetización y/o venta, situación que cesará en cuanto el propietario del instrumento y el negociador y depositario reciban el pago correspondiente a la monetización y/o venta del instrumento y este sea entregado de manera real al legítimo comprador, previo endoso del instrumento por el Librado original el **Sr. FRANCISCO MARTÍN AGUIRRE LÓPEZ**, quien se compromete a asistir de manera activa al negociador del instrumento para que la operación de monetización y/o venta sea exitosa.
+
+El presente documento se firma en **DOS TANTOS** en la **Ciudad de México a 10 de julio de 2021**.
+\
+\
+\begin{center}\bfseries
+ FRANCISCO MARTÍN AGUIRREE LÓPEZ
+\end{center}
+\
+\
+\begin{center}\bfseries
+ MARCO ANTONIO TORRES JARA
+\end{center}
+
+\begin{center}\bfseries
+ Testigo
+\end{center}
+\
+\
+\begin{center}\bfseries
+ EDUARDO LARA VERA 
+\end{center}
