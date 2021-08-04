@@ -14,7 +14,6 @@ fontsize: 12pt
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, eval=FALSE)
-
 ```
 
 
@@ -57,7 +56,6 @@ Así, lo único que se debe hacer cada que deseemos poner texto en un recuadro, 
 \begin{boxed_mia}
 Texto en recuadro
 \end{boxed_mia}
-
 ```
 
 Esto también sirve para predefinir formatos para párrafos.
@@ -81,14 +79,14 @@ Convocamos el ambiente:
 
 ```{r}
 \begin{enunciado}
-A. El vencimiento anticipado por falta de cumplimiento de los demandados del CONVENIO MODIFICATORIO DEL CONTRATO DE APERTURA DE CREDITO CON GARANTIA HIPOTECARIA de fecha 22 de abril de 1996, CON NUMERO DE ESCRITURA 65,325, pasada ante la fe del NOTARIO PUBLICO NUMERO NOVENTA Y DOS DEL DISTRITO FEDERAL LICENCIADO JOSE VISOSO DEL VALLE, contenido en el ANEXO 2 del escrito inicial de demanda.
+A. El vencimiento anticipado por falta de cumplimiento de los demandados del CONVENIO MODIFICATORIO DEL CONTRATO DE APERTURA DE CREDITO CON GARANTIA HIPOTECARIA de fecha 12 de abril de 2013, CON NUMERO DE ESCRITURA 99,999, pasada ante la fe del NOTARIO PUBLICO NUMERO NOVENTA Y NUEVE DEL DISTRITO FEDERAL LICENCIADO MARCO ANTONIO RAMOS, contenido en el ANEXO 2 del escrito inicial de demanda.
 \end{enunciado}
 ```
 
 Resultado:
 
 \begin{enunciado}
-A. El vencimiento anticipado por falta de cumplimiento de los demandados del CONVENIO MODIFICATORIO DEL CONTRATO DE APERTURA DE CREDITO CON GARANTIA HIPOTECARIA de fecha 22 de abril de 1996, CON NUMERO DE ESCRITURA 65,325, pasada ante la fe del NOTARIO PUBLICO NUMERO NOVENTA Y DOS DEL DISTRITO FEDERAL LICENCIADO JOSE VISOSO DEL VALLE, contenido en el ANEXO 2 del escrito inicial de demanda.
+A. El vencimiento anticipado por falta de cumplimiento de los demandados del CONVENIO MODIFICATORIO DEL CONTRATO DE APERTURA DE CREDITO CON GARANTIA HIPOTECARIA de fecha 12 de abril de 2013, CON NUMERO DE ESCRITURA 99,999, pasada ante la fe del NOTARIO PUBLICO NUMERO NOVENTA Y NUEVE DEL DISTRITO FEDERAL LICENCIADO MARCO ANTONIO RAMOS, contenido en el ANEXO 2 del escrito inicial de demanda.
 \end{enunciado}
 
 o el título de una demanda
@@ -110,13 +108,13 @@ BANCO NACIONAL DE MÉXICO SOCIEDAD ANÓNIMA, INTEGRANTE DEL GRUPO FINANCIERO BAN
 \begin{center}
 VS
 \end{center}
-LETICIA PANAMEÑO QUIROZ
+MARCO ANTONIO RAMOS JUÁREZ
 
 Asunto: Contestación Juicio Especial Hipotecario
 
-Expediente:708/2018
+Expediente:999/2022
 
-Secretaría “B”
+Secretaría “Z”
 \end{demanda}
 
 
