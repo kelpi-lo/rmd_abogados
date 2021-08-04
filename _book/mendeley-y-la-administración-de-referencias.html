@@ -24,7 +24,7 @@
 <meta name="author" content="Marco Ramos" />
 
 
-<meta name="date" content="2021-08-01" />
+<meta name="date" content="2021-08-04" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -155,8 +155,9 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul></li>
 <li class="chapter" data-level="3" data-path="latex.html"><a href="latex.html"><i class="fa fa-check"></i><b>3</b> Latex</a>
 <ul>
-<li class="chapter" data-level="3.1" data-path="latex.html"><a href="latex.html#simbolos"><i class="fa fa-check"></i><b>3.1</b> Simbolos</a></li>
+<li class="chapter" data-level="3.1" data-path="latex.html"><a href="latex.html#símbolos"><i class="fa fa-check"></i><b>3.1</b> Símbolos</a></li>
 <li class="chapter" data-level="3.2" data-path="latex.html"><a href="latex.html#expresiones-matemáticas"><i class="fa fa-check"></i><b>3.2</b> Expresiones matemáticas</a></li>
+<li class="chapter" data-level="3.3" data-path="latex.html"><a href="latex.html#ambientes"><i class="fa fa-check"></i><b>3.3</b> Ambientes</a></li>
 </ul></li>
 <li class="chapter" data-level="4" data-path="mendeley-y-la-administración-de-referencias.html"><a href="mendeley-y-la-administración-de-referencias.html"><i class="fa fa-check"></i><b>4</b> Mendeley y la administración de referencias</a>
 <ul>
@@ -186,6 +187,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="6.1.3" data-path="ambientes-de-latex.html"><a href="ambientes-de-latex.html#partes-en-la-demanda"><i class="fa fa-check"></i><b>6.1.3</b> Partes en la demanda</a></li>
 </ul></li>
 </ul></li>
+<li class="chapter" data-level="7" data-path="github.html"><a href="github.html"><i class="fa fa-check"></i><b>7</b> Github</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="github.html"><a href="github.html#repositorios"><i class="fa fa-check"></i><b>7.1</b> Repositorios</a></li>
+<li class="chapter" data-level="7.2" data-path="github.html"><a href="github.html#commit"><i class="fa fa-check"></i><b>7.2</b> Commit</a></li>
+</ul></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
 
@@ -214,27 +220,27 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>El gran plus es que el trabajo tedioso de darle formato a cada entrada lo puede hacer una computadora, en lugar de un pobre humano. Asimismo, si las entradas están bien, en consecuencia la bibliografía también lo estará.</p>
 <p>Esto libera al investigador para <strong>INVESTIGAR</strong> (y no gastar horas y horas en la redacción correcta de bibliografía) a la par que hace que la información que recibe el lector sea adecuada, correcta y ordenada, en consecuencia se minimiza la posibilidad de error.</p>
 <p>Los archivos consisten simplemente en un archivo de texto con contenidos que se deben llenar de cada libro, artículo etc. Echémos un ojo a cómo se ven los archivos .bib si los abrieramos con cualquier editor de texto:</p>
-<div class="sourceCode" id="cb17"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb17-1"><a href="mendeley-y-la-administración-de-referencias.html#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="sc">@</span>book{PNUD2013,</span>
-<span id="cb17-2"><a href="mendeley-y-la-administración-de-referencias.html#cb17-2" aria-hidden="true" tabindex="-1"></a>author<span class="ot">=</span>{PNUD},</span>
-<span id="cb17-3"><a href="mendeley-y-la-administración-de-referencias.html#cb17-3" aria-hidden="true" tabindex="-1"></a>year<span class="ot">=</span>{<span class="dv">2013</span>},</span>
-<span id="cb17-4"><a href="mendeley-y-la-administración-de-referencias.html#cb17-4" aria-hidden="true" tabindex="-1"></a>month<span class="ot">=</span>{November},</span>
-<span id="cb17-5"><a href="mendeley-y-la-administración-de-referencias.html#cb17-5" aria-hidden="true" tabindex="-1"></a>title<span class="ot">=</span>{Humanity Divided<span class="sc">:</span> confronting inequality <span class="cf">in</span> developing countries},</span>
-<span id="cb17-6"><a href="mendeley-y-la-administración-de-referencias.html#cb17-6" aria-hidden="true" tabindex="-1"></a>url<span class="ot">=</span>{https<span class="sc">:</span><span class="er">//</span>www.undp.org<span class="sc">/</span>content<span class="sc">/</span>undp<span class="sc">/</span>es<span class="sc">/</span>home<span class="sc">/</span>librarypage<span class="sc">/</span>poverty<span class="sc">-</span>reduction<span class="sc">/</span>humanity<span class="sc">-</span>divi</span>
-<span id="cb17-7"><a href="mendeley-y-la-administración-de-referencias.html#cb17-7" aria-hidden="true" tabindex="-1"></a>  ded<span class="sc">--</span>confronting<span class="sc">-</span>inequality<span class="sc">-</span><span class="cf">in</span><span class="sc">-</span>developing<span class="sc">-</span>countries.html}</span>
-<span id="cb17-8"><a href="mendeley-y-la-administración-de-referencias.html#cb17-8" aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb17-9"><a href="mendeley-y-la-administración-de-referencias.html#cb17-9" aria-hidden="true" tabindex="-1"></a><span class="sc">@</span>article{salarios,</span>
-<span id="cb17-10"><a href="mendeley-y-la-administración-de-referencias.html#cb17-10" aria-hidden="true" tabindex="-1"></a>author<span class="ot">=</span>{Hiromi Ishizuka},</span>
-<span id="cb17-11"><a href="mendeley-y-la-administración-de-referencias.html#cb17-11" aria-hidden="true" tabindex="-1"></a>year<span class="ot">=</span>{<span class="dv">2018</span>},</span>
-<span id="cb17-12"><a href="mendeley-y-la-administración-de-referencias.html#cb17-12" aria-hidden="true" tabindex="-1"></a>month<span class="ot">=</span>{January},</span>
-<span id="cb17-13"><a href="mendeley-y-la-administración-de-referencias.html#cb17-13" aria-hidden="true" tabindex="-1"></a>journal <span class="ot">=</span> {Theoretical Economics Letters},</span>
-<span id="cb17-14"><a href="mendeley-y-la-administración-de-referencias.html#cb17-14" aria-hidden="true" tabindex="-1"></a>title<span class="ot">=</span>{An Empirical Analysis of Substitution and Complementarity of Gender Labor Demand of</span>
-<span id="cb17-15"><a href="mendeley-y-la-administración-de-referencias.html#cb17-15" aria-hidden="true" tabindex="-1"></a>  Enterprises <span class="cf">in</span> Japan, Korea, and China<span class="sc">:</span> With a Factor Decomposition of Gender Wage Differ</span>
-<span id="cb17-16"><a href="mendeley-y-la-administración-de-referencias.html#cb17-16" aria-hidden="true" tabindex="-1"></a>  entials},</span>
-<span id="cb17-17"><a href="mendeley-y-la-administración-de-referencias.html#cb17-17" aria-hidden="true" tabindex="-1"></a>url<span class="ot">=</span>{https<span class="sc">:</span><span class="er">//</span>www.researchgate.net<span class="sc">/</span>publication<span class="sc">/</span>325969884_An_Empirical_Analysis_of_Substit</span>
-<span id="cb17-18"><a href="mendeley-y-la-administración-de-referencias.html#cb17-18" aria-hidden="true" tabindex="-1"></a>  ution_and_Complementarity_of_Gender_Labor_Demand_of_Enterprises_in_Japan_Korea_and_China</span>
-<span id="cb17-19"><a href="mendeley-y-la-administración-de-referencias.html#cb17-19" aria-hidden="true" tabindex="-1"></a>  _With_a_Factor_Decomposition_of_Gender_Wage_Diffe</span>
-<span id="cb17-20"><a href="mendeley-y-la-administración-de-referencias.html#cb17-20" aria-hidden="true" tabindex="-1"></a>  rentials}</span>
-<span id="cb17-21"><a href="mendeley-y-la-administración-de-referencias.html#cb17-21" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<div class="sourceCode" id="cb22"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb22-1"><a href="mendeley-y-la-administración-de-referencias.html#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="sc">@</span>book{PNUD2013,</span>
+<span id="cb22-2"><a href="mendeley-y-la-administración-de-referencias.html#cb22-2" aria-hidden="true" tabindex="-1"></a>author<span class="ot">=</span>{PNUD},</span>
+<span id="cb22-3"><a href="mendeley-y-la-administración-de-referencias.html#cb22-3" aria-hidden="true" tabindex="-1"></a>year<span class="ot">=</span>{<span class="dv">2013</span>},</span>
+<span id="cb22-4"><a href="mendeley-y-la-administración-de-referencias.html#cb22-4" aria-hidden="true" tabindex="-1"></a>month<span class="ot">=</span>{November},</span>
+<span id="cb22-5"><a href="mendeley-y-la-administración-de-referencias.html#cb22-5" aria-hidden="true" tabindex="-1"></a>title<span class="ot">=</span>{Humanity Divided<span class="sc">:</span> confronting inequality <span class="cf">in</span> developing countries},</span>
+<span id="cb22-6"><a href="mendeley-y-la-administración-de-referencias.html#cb22-6" aria-hidden="true" tabindex="-1"></a>url<span class="ot">=</span>{https<span class="sc">:</span><span class="er">//</span>www.undp.org<span class="sc">/</span>content<span class="sc">/</span>undp<span class="sc">/</span>es<span class="sc">/</span>home<span class="sc">/</span>librarypage<span class="sc">/</span>poverty<span class="sc">-</span>reduction<span class="sc">/</span>humanity<span class="sc">-</span>divi</span>
+<span id="cb22-7"><a href="mendeley-y-la-administración-de-referencias.html#cb22-7" aria-hidden="true" tabindex="-1"></a>  ded<span class="sc">--</span>confronting<span class="sc">-</span>inequality<span class="sc">-</span><span class="cf">in</span><span class="sc">-</span>developing<span class="sc">-</span>countries.html}</span>
+<span id="cb22-8"><a href="mendeley-y-la-administración-de-referencias.html#cb22-8" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb22-9"><a href="mendeley-y-la-administración-de-referencias.html#cb22-9" aria-hidden="true" tabindex="-1"></a><span class="sc">@</span>article{salarios,</span>
+<span id="cb22-10"><a href="mendeley-y-la-administración-de-referencias.html#cb22-10" aria-hidden="true" tabindex="-1"></a>author<span class="ot">=</span>{Hiromi Ishizuka},</span>
+<span id="cb22-11"><a href="mendeley-y-la-administración-de-referencias.html#cb22-11" aria-hidden="true" tabindex="-1"></a>year<span class="ot">=</span>{<span class="dv">2018</span>},</span>
+<span id="cb22-12"><a href="mendeley-y-la-administración-de-referencias.html#cb22-12" aria-hidden="true" tabindex="-1"></a>month<span class="ot">=</span>{January},</span>
+<span id="cb22-13"><a href="mendeley-y-la-administración-de-referencias.html#cb22-13" aria-hidden="true" tabindex="-1"></a>journal <span class="ot">=</span> {Theoretical Economics Letters},</span>
+<span id="cb22-14"><a href="mendeley-y-la-administración-de-referencias.html#cb22-14" aria-hidden="true" tabindex="-1"></a>title<span class="ot">=</span>{An Empirical Analysis of Substitution and Complementarity of Gender Labor Demand of</span>
+<span id="cb22-15"><a href="mendeley-y-la-administración-de-referencias.html#cb22-15" aria-hidden="true" tabindex="-1"></a>  Enterprises <span class="cf">in</span> Japan, Korea, and China<span class="sc">:</span> With a Factor Decomposition of Gender Wage Differ</span>
+<span id="cb22-16"><a href="mendeley-y-la-administración-de-referencias.html#cb22-16" aria-hidden="true" tabindex="-1"></a>  entials},</span>
+<span id="cb22-17"><a href="mendeley-y-la-administración-de-referencias.html#cb22-17" aria-hidden="true" tabindex="-1"></a>url<span class="ot">=</span>{https<span class="sc">:</span><span class="er">//</span>www.researchgate.net<span class="sc">/</span>publication<span class="sc">/</span>325969884_An_Empirical_Analysis_of_Substit</span>
+<span id="cb22-18"><a href="mendeley-y-la-administración-de-referencias.html#cb22-18" aria-hidden="true" tabindex="-1"></a>  ution_and_Complementarity_of_Gender_Labor_Demand_of_Enterprises_in_Japan_Korea_and_China</span>
+<span id="cb22-19"><a href="mendeley-y-la-administración-de-referencias.html#cb22-19" aria-hidden="true" tabindex="-1"></a>  _With_a_Factor_Decomposition_of_Gender_Wage_Diffe</span>
+<span id="cb22-20"><a href="mendeley-y-la-administración-de-referencias.html#cb22-20" aria-hidden="true" tabindex="-1"></a>  rentials}</span>
+<span id="cb22-21"><a href="mendeley-y-la-administración-de-referencias.html#cb22-21" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
 </div>
 <div id="manos-a-la-obra-1" class="section level2" number="4.2">
 <h2><span class="header-section-number">4.2</span> Manos a la obra</h2>
@@ -255,14 +261,14 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <h3><span class="header-section-number">4.2.3</span> Apodos/Etiquetas/Citation Key</h3>
 <p>Un paso crucial para la integración con R y word es el etiquetar o ponerle un apodo a cada entrada de mi bibliografía con el fin de acordarme de ella y citarle fácilmente.</p>
 <p>Veamos con detenimiento la siguiente entrada:</p>
-<div class="sourceCode" id="cb18"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb18-1"><a href="mendeley-y-la-administración-de-referencias.html#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="sc">@</span>book{PNUD2013,</span>
-<span id="cb18-2"><a href="mendeley-y-la-administración-de-referencias.html#cb18-2" aria-hidden="true" tabindex="-1"></a>author<span class="ot">=</span>{PNUD},</span>
-<span id="cb18-3"><a href="mendeley-y-la-administración-de-referencias.html#cb18-3" aria-hidden="true" tabindex="-1"></a>year<span class="ot">=</span>{<span class="dv">2013</span>},</span>
-<span id="cb18-4"><a href="mendeley-y-la-administración-de-referencias.html#cb18-4" aria-hidden="true" tabindex="-1"></a>month<span class="ot">=</span>{November},</span>
-<span id="cb18-5"><a href="mendeley-y-la-administración-de-referencias.html#cb18-5" aria-hidden="true" tabindex="-1"></a>title<span class="ot">=</span>{Humanity Divided<span class="sc">:</span> confronting inequality <span class="cf">in</span> developing countries},</span>
-<span id="cb18-6"><a href="mendeley-y-la-administración-de-referencias.html#cb18-6" aria-hidden="true" tabindex="-1"></a>url<span class="ot">=</span>{https<span class="sc">:</span><span class="er">//</span>www.undp.org<span class="sc">/</span>content<span class="sc">/</span>undp<span class="sc">/</span>es<span class="sc">/</span>home<span class="sc">/</span>librarypage<span class="sc">/</span>poverty<span class="sc">-</span>reduction<span class="sc">/</span>humanity<span class="sc">-</span>divi</span>
-<span id="cb18-7"><a href="mendeley-y-la-administración-de-referencias.html#cb18-7" aria-hidden="true" tabindex="-1"></a>  ded<span class="sc">--</span>confronting<span class="sc">-</span>inequality<span class="sc">-</span><span class="cf">in</span><span class="sc">-</span>developing<span class="sc">-</span>countries.html}</span>
-<span id="cb18-8"><a href="mendeley-y-la-administración-de-referencias.html#cb18-8" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<div class="sourceCode" id="cb23"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb23-1"><a href="mendeley-y-la-administración-de-referencias.html#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="sc">@</span>book{PNUD2013,</span>
+<span id="cb23-2"><a href="mendeley-y-la-administración-de-referencias.html#cb23-2" aria-hidden="true" tabindex="-1"></a>author<span class="ot">=</span>{PNUD},</span>
+<span id="cb23-3"><a href="mendeley-y-la-administración-de-referencias.html#cb23-3" aria-hidden="true" tabindex="-1"></a>year<span class="ot">=</span>{<span class="dv">2013</span>},</span>
+<span id="cb23-4"><a href="mendeley-y-la-administración-de-referencias.html#cb23-4" aria-hidden="true" tabindex="-1"></a>month<span class="ot">=</span>{November},</span>
+<span id="cb23-5"><a href="mendeley-y-la-administración-de-referencias.html#cb23-5" aria-hidden="true" tabindex="-1"></a>title<span class="ot">=</span>{Humanity Divided<span class="sc">:</span> confronting inequality <span class="cf">in</span> developing countries},</span>
+<span id="cb23-6"><a href="mendeley-y-la-administración-de-referencias.html#cb23-6" aria-hidden="true" tabindex="-1"></a>url<span class="ot">=</span>{https<span class="sc">:</span><span class="er">//</span>www.undp.org<span class="sc">/</span>content<span class="sc">/</span>undp<span class="sc">/</span>es<span class="sc">/</span>home<span class="sc">/</span>librarypage<span class="sc">/</span>poverty<span class="sc">-</span>reduction<span class="sc">/</span>humanity<span class="sc">-</span>divi</span>
+<span id="cb23-7"><a href="mendeley-y-la-administración-de-referencias.html#cb23-7" aria-hidden="true" tabindex="-1"></a>  ded<span class="sc">--</span>confronting<span class="sc">-</span>inequality<span class="sc">-</span><span class="cf">in</span><span class="sc">-</span>developing<span class="sc">-</span>countries.html}</span>
+<span id="cb23-8"><a href="mendeley-y-la-administración-de-referencias.html#cb23-8" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
 <p>Cada característica tiene un valor, sin embargo hay un texto volando, PNUD2013 no dice nada. Este precisamente es el apodo, generalmente se pone el apellido y el año pero en realidad puedo ponerle lo que sea. Por ejemplo PNUD2013 o el_libro_buenazo o archivo_33, etc.</p>
 </div>
 <div id="sync" class="section level3" number="4.2.4">

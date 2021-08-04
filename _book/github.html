@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 5 Integración Mendeley con R Markdown | R markdown para abogados</title>
+  <title>Chapter 7 Github | R markdown para abogados</title>
   <meta name="description" content="En este bookdown iremos construyendo el curso de R markdown para abogados" />
   <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 5 Integración Mendeley con R Markdown | R markdown para abogados" />
+  <meta property="og:title" content="Chapter 7 Github | R markdown para abogados" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 5 Integración Mendeley con R Markdown | R markdown para abogados" />
+  <meta name="twitter:title" content="Chapter 7 Github | R markdown para abogados" />
   
   <meta name="twitter:description" content="En este bookdown iremos construyendo el curso de R markdown para abogados" />
   
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="mendeley-y-la-administración-de-referencias.html"/>
-<link rel="next" href="ambientes-de-latex.html"/>
+<link rel="prev" href="ambientes-de-latex.html"/>
+
 <script src="libs/header-attrs-2.6/header-attrs.js"></script>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -212,68 +212,29 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="integración-mendeley-con-r-markdown" class="section level1" number="5">
-<h1><span class="header-section-number">Chapter 5</span> Integración Mendeley con R Markdown</h1>
-<p>Hasta aquí ya tienes los básicos para trabajar con Mendeley y poder integrarlo por ejemplo a word, sin embargo R markdown nos permite tener herramientas más poderosas y facilitadoras de trabajo.</p>
-<p>Como hemos visto, R Markdown es una herramienta super dinámica que me permite crear presentaciones, libros, journals, paginas de internet, bookdowns, epubs, pdfs, ppts, docxs con base en el mismo texto.</p>
-<p>Esta es una de las ventajas de trabajar con texto sin formato. Además, aprovecha también elementos de R para combinar programación con escritura. De esta manera, puedo usar funciones de R, sintáxis de Latex, scripts de python y basicamente como es abierto y sin formato, el cielo es el límite.</p>
-<p>Para esta sesión lo más importante es lo fácil que se integra con BibTex.</p>
-<div id="ii.2-yaml" class="section level2" number="5.1">
-<h2><span class="header-section-number">5.1</span> II.2 YAML</h2>
-<div class="sourceCode" id="cb24"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb24-1"><a href="integración-mendeley-con-r-markdown.html#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span>
-<span id="cb24-2"><a href="integración-mendeley-con-r-markdown.html#cb24-2" aria-hidden="true" tabindex="-1"></a>title<span class="sc">:</span> <span class="st">&quot;Investigación para hackers&quot;</span></span>
-<span id="cb24-3"><a href="integración-mendeley-con-r-markdown.html#cb24-3" aria-hidden="true" tabindex="-1"></a>author<span class="sc">:</span> <span class="st">&quot;Marco Ramos&quot;</span></span>
-<span id="cb24-4"><a href="integración-mendeley-con-r-markdown.html#cb24-4" aria-hidden="true" tabindex="-1"></a>date<span class="sc">:</span> <span class="st">&quot;1/20/2021&quot;</span></span>
-<span id="cb24-5"><a href="integración-mendeley-con-r-markdown.html#cb24-5" aria-hidden="true" tabindex="-1"></a>output<span class="sc">:</span> pdf_document </span>
-<span id="cb24-6"><a href="integración-mendeley-con-r-markdown.html#cb24-6" aria-hidden="true" tabindex="-1"></a>bibliography<span class="sc">:</span> investigacion_para_hackers.bib</span>
-<span id="cb24-7"><a href="integración-mendeley-con-r-markdown.html#cb24-7" aria-hidden="true" tabindex="-1"></a>csl<span class="sc">:</span> <span class="st">&quot;mi_chicago.csl&quot;</span></span>
-<span id="cb24-8"><a href="integración-mendeley-con-r-markdown.html#cb24-8" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span></code></pre></div>
-<p>Los archivos RMD cuentan con un encabezado muy peculiar, lo llamamos YAML. El YAML es el ADN de mi archivo RMD y contiene todo lo que necesita para tejerse: el autor, el tipo de output, etc. Es aquí donde le vamos a indicar dos cosas clave; la bilbiografía (bibliography) y las reglas de citación (csl).</p>
-<p>El CSL contiene de manera exhaustiva las reglas completas de citación, lenguaje y referencia. Es una cadena larguísima de condiciones, no te preocupes, no tienes que entenderla…por ahora… pero lo que si debes saber es que hay gente en la internet que voluntariamente las diseña y las sube enteramente gratis. En este <a href="https://github.com/citation-style-language/styles">repositorio</a> ecnontrarás una biblioteca de reglas que la comunidad ha creado, editado, y mejorad y que van desde APA, MLA, Chicago hasta formatos específicos de journals, instituciones y países específicos y todas sus variantes posibles.</p>
-<p>Para agregar una CSL simplemente indicamos en el YAML la ruta donde la tenemos descargado o bien podemos simplemente agregar el link del repositorio donde se encuentra alojada (el link se obtiene en la opción <em>raw</em> de github).</p>
-<p><strong>Ejemplo:</strong></p>
-<div class="sourceCode" id="cb25"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb25-1"><a href="integración-mendeley-con-r-markdown.html#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span>
-<span id="cb25-2"><a href="integración-mendeley-con-r-markdown.html#cb25-2" aria-hidden="true" tabindex="-1"></a>csl<span class="sc">:</span> <span class="st">&quot;mi_chicago.csl&quot;</span></span>
-<span id="cb25-3"><a href="integración-mendeley-con-r-markdown.html#cb25-3" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span>
-<span id="cb25-4"><a href="integración-mendeley-con-r-markdown.html#cb25-4" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb25-5"><a href="integración-mendeley-con-r-markdown.html#cb25-5" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span>
-<span id="cb25-6"><a href="integración-mendeley-con-r-markdown.html#cb25-6" aria-hidden="true" tabindex="-1"></a>csl<span class="sc">:</span> <span class="st">&quot;https://raw.githubusercontent.com/marcoyel21/citation_lenguage_styles/master/mi_chic</span></span>
-<span id="cb25-7"><a href="integración-mendeley-con-r-markdown.html#cb25-7" aria-hidden="true" tabindex="-1"></a><span class="st">ago.csl&quot;</span></span>
-<span id="cb25-8"><a href="integración-mendeley-con-r-markdown.html#cb25-8" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span></code></pre></div>
-<p>Por ejemplo, para este documento, el archivo que se uso es “mi_chicago.csl” que es la versión de Chicago con la cuál se trabaja en Relaciones Internacionales en el ITAM. Para crearla simplemente busque la versión que necesitaba en el repositorio general y manualmente le cambie el idioma a español, de esta manera las fechas se traduces así como los “and.”</p>
-<p>De manera similar, para llamar la bibliografía, debo indicar el YAML la ruta donde está mi archivo bib creado por Mendeley. Como en este caso, tanto el CSL como la bibliografía están en la misma carpeta donde se creo este archivo, basta con poner el nombre del archivo en el YAML.</p>
+<div id="github" class="section level1" number="7">
+<h1><span class="header-section-number">Chapter 7</span> Github</h1>
+<div id="repositorios" class="section level2" number="7.1">
+<h2><span class="header-section-number">7.1</span> Repositorios</h2>
 </div>
-<div id="citas" class="section level2" number="5.2">
-<h2><span class="header-section-number">5.2</span> Citas</h2>
-<p>Una vez que escribimos en el YAML nuestra bibliografía podemos acceder a ella.</p>
-<p>En cuanto a las citas, por lo pronto aprenderemos las tres maneras básicas.</p>
-<p><strong>A) Citas en el texto</strong></p>
-<p>Para citas en el texto simplemente escribe el apodo/etiqueta del archivo que quieres citar con un @ antes de esta manera: @PNUD2013</p>
-<p>Script: @Herault2010 menciona que blablabla.</p>
-<p>Output: <span class="citation">(<a href="#ref-Herault2010" role="doc-biblioref"><strong>Herault2010?</strong></a>)</span> menciona que blablabla.</p>
-<p><strong>B) Citas a pie de página</strong></p>
-<p>Para citas a pie de pagina simplemente haz lo mismo que en el inciso anterior pero entre corchetes de la siguiente manera: [@PNUD2013].</p>
-<p>Script; blablabla[@Herault2010].</p>
-<p>Output; blablabla<span class="citation">(<a href="#ref-Herault2010" role="doc-biblioref"><strong>Herault2010?</strong></a>)</span>.</p>
-<p><strong>C) Entre paréntesis</strong></p>
-<p>Finalmente para citas entre parentesis, simplemente escribe lo mismo que antes pero en lugar de corchetes usa pareéntesis (valgame la rebundancia) de la siguiente manera;(@PNUD2013).</p>
-<p>Ejemplo:</p>
-<p>Script: blablabla(@Herault2010).</p>
-<p>Output: blablabla(<span class="citation">(<a href="#ref-Herault2010" role="doc-biblioref"><strong>Herault2010?</strong></a>)</span>).</p>
-<p>Notese como el CSL ya contempla las reglas para el uso del <em>ibid, ibidem, op cit</em>. etc.</p>
-</div>
-<div id="referencias" class="section level2" number="5.3">
-<h2><span class="header-section-number">5.3</span> Referencias</h2>
-<p>Una vez que escribimos en el YAML nuestra bibliografía y el CSL de manera automática se mostrara al final de nuestro archivo la bibliografía ordenada y en formato especificado. No tenemos que hacer nada. Sin embargo, solo se mostrará la bibliografía empleada, es decir, aquellas que llamamos durante nuestro texto.</p>
+<div id="commit" class="section level2" number="7.2">
+<h2><span class="header-section-number">7.2</span> Commit</h2>
+
 </div>
 </div>
+
+
+
+
+
+
             </section>
 
           </div>
         </div>
       </div>
-<a href="mendeley-y-la-administración-de-referencias.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="ambientes-de-latex.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="ambientes-de-latex.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

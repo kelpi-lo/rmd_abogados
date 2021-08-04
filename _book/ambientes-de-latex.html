@@ -24,7 +24,7 @@
 <meta name="author" content="Marco Ramos" />
 
 
-<meta name="date" content="2021-08-01" />
+<meta name="date" content="2021-08-04" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -32,7 +32,7 @@
   
   
 <link rel="prev" href="integración-mendeley-con-r-markdown.html"/>
-
+<link rel="next" href="github.html"/>
 <script src="libs/header-attrs-2.6/header-attrs.js"></script>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -155,8 +155,9 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul></li>
 <li class="chapter" data-level="3" data-path="latex.html"><a href="latex.html"><i class="fa fa-check"></i><b>3</b> Latex</a>
 <ul>
-<li class="chapter" data-level="3.1" data-path="latex.html"><a href="latex.html#simbolos"><i class="fa fa-check"></i><b>3.1</b> Simbolos</a></li>
+<li class="chapter" data-level="3.1" data-path="latex.html"><a href="latex.html#símbolos"><i class="fa fa-check"></i><b>3.1</b> Símbolos</a></li>
 <li class="chapter" data-level="3.2" data-path="latex.html"><a href="latex.html#expresiones-matemáticas"><i class="fa fa-check"></i><b>3.2</b> Expresiones matemáticas</a></li>
+<li class="chapter" data-level="3.3" data-path="latex.html"><a href="latex.html#ambientes"><i class="fa fa-check"></i><b>3.3</b> Ambientes</a></li>
 </ul></li>
 <li class="chapter" data-level="4" data-path="mendeley-y-la-administración-de-referencias.html"><a href="mendeley-y-la-administración-de-referencias.html"><i class="fa fa-check"></i><b>4</b> Mendeley y la administración de referencias</a>
 <ul>
@@ -186,6 +187,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="6.1.3" data-path="ambientes-de-latex.html"><a href="ambientes-de-latex.html#partes-en-la-demanda"><i class="fa fa-check"></i><b>6.1.3</b> Partes en la demanda</a></li>
 </ul></li>
 </ul></li>
+<li class="chapter" data-level="7" data-path="github.html"><a href="github.html"><i class="fa fa-check"></i><b>7</b> Github</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="github.html"><a href="github.html#repositorios"><i class="fa fa-check"></i><b>7.1</b> Repositorios</a></li>
+<li class="chapter" data-level="7.2" data-path="github.html"><a href="github.html#commit"><i class="fa fa-check"></i><b>7.2</b> Commit</a></li>
+</ul></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
 
@@ -209,69 +215,62 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div id="ambientes-de-latex" class="section level1" number="6">
 <h1><span class="header-section-number">Chapter 6</span> Ambientes de latex</h1>
 <p>La siguiente herramienta que veremos en el curso son los ambientes de latex. En ellos podemos asignar un formato específico a un estilo de parrafo en particular y luego llamarlo.</p>
-<div class="sourceCode" id="cb22"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb22-1"><a href="ambientes-de-latex.html#cb22-1" aria-hidden="true" tabindex="-1"></a>\newenvironment{nombre}{codigo de apertura ambiente}{codgio de clausura de ambiente}</span></code></pre></div>
+<div class="sourceCode" id="cb26"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb26-1"><a href="ambientes-de-latex.html#cb26-1" aria-hidden="true" tabindex="-1"></a>\newenvironment{nombre}{codigo de apertura ambiente}{codgio de clausura de ambiente}</span></code></pre></div>
 <div id="ejemplos" class="section level2" number="6.1">
 <h2><span class="header-section-number">6.1</span> Ejemplos</h2>
 <div id="parrafos-con-mayor-margen-lateral" class="section level3" number="6.1.1">
 <h3><span class="header-section-number">6.1.1</span> Parrafos con mayor margen lateral</h3>
-<div class="sourceCode" id="cb23"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb23-1"><a href="ambientes-de-latex.html#cb23-1" aria-hidden="true" tabindex="-1"></a>\newenvironment{mayormargen}<span class="co">#aquí defino el nombre</span></span>
-<span id="cb23-2"><a href="ambientes-de-latex.html#cb23-2" aria-hidden="true" tabindex="-1"></a>{\par\leftskip<span class="ot">=</span>2cm\par\rightskip<span class="ot">=</span>2cm} <span class="co">#este es el codigo de apertura</span></span>
-<span id="cb23-3"><a href="ambientes-de-latex.html#cb23-3" aria-hidden="true" tabindex="-1"></a>{\par\leftskip<span class="ot">=</span>0cm\par\rightskip<span class="ot">=</span>0cm} <span class="co">#este es el codigo de clausura</span></span>
-<span id="cb23-4"><a href="ambientes-de-latex.html#cb23-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb23-5"><a href="ambientes-de-latex.html#cb23-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb23-6"><a href="ambientes-de-latex.html#cb23-6" aria-hidden="true" tabindex="-1"></a><span class="co">#así lo utilizo</span></span>
-<span id="cb23-7"><a href="ambientes-de-latex.html#cb23-7" aria-hidden="true" tabindex="-1"></a>\begin{mayormargen}</span>
-<span id="cb23-8"><a href="ambientes-de-latex.html#cb23-8" aria-hidden="true" tabindex="-1"></a>Este es un parrafo con un margen menor.Este es un parrafo con un margen menor.Este es un parrafo con un margen menor.Este es un parrafo con un margen menor.</span>
-<span id="cb23-9"><a href="ambientes-de-latex.html#cb23-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb23-10"><a href="ambientes-de-latex.html#cb23-10" aria-hidden="true" tabindex="-1"></a>Este es un parrafo con un margen menor.Este es un parrafo con un margen menor.Este es un parrafo con un margen menor.Este es un parrafo con un margen menor.</span>
-<span id="cb23-11"><a href="ambientes-de-latex.html#cb23-11" aria-hidden="true" tabindex="-1"></a>\end{mayormargen}    </span></code></pre></div>
+<div class="sourceCode" id="cb27"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb27-1"><a href="ambientes-de-latex.html#cb27-1" aria-hidden="true" tabindex="-1"></a>\newenvironment{mayormargen}<span class="co">#aquí defino el nombre</span></span>
+<span id="cb27-2"><a href="ambientes-de-latex.html#cb27-2" aria-hidden="true" tabindex="-1"></a>{\par\leftskip<span class="ot">=</span>2cm\par\rightskip<span class="ot">=</span>2cm} <span class="co">#este es el codigo de apertura</span></span>
+<span id="cb27-3"><a href="ambientes-de-latex.html#cb27-3" aria-hidden="true" tabindex="-1"></a>{\par\leftskip<span class="ot">=</span>0cm\par\rightskip<span class="ot">=</span>0cm} <span class="co">#este es el codigo de clausura</span></span>
+<span id="cb27-4"><a href="ambientes-de-latex.html#cb27-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-5"><a href="ambientes-de-latex.html#cb27-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-6"><a href="ambientes-de-latex.html#cb27-6" aria-hidden="true" tabindex="-1"></a><span class="co">#así lo utilizo</span></span>
+<span id="cb27-7"><a href="ambientes-de-latex.html#cb27-7" aria-hidden="true" tabindex="-1"></a>\begin{mayormargen}</span>
+<span id="cb27-8"><a href="ambientes-de-latex.html#cb27-8" aria-hidden="true" tabindex="-1"></a>Este es un parrafo con un margen menor.Este es un parrafo con un margen menor.Este es un parrafo con un margen menor.Este es un parrafo con un margen menor.</span>
+<span id="cb27-9"><a href="ambientes-de-latex.html#cb27-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-10"><a href="ambientes-de-latex.html#cb27-10" aria-hidden="true" tabindex="-1"></a>Este es un parrafo con un margen menor.Este es un parrafo con un margen menor.Este es un parrafo con un margen menor.Este es un parrafo con un margen menor.</span>
+<span id="cb27-11"><a href="ambientes-de-latex.html#cb27-11" aria-hidden="true" tabindex="-1"></a>\end{mayormargen}    </span></code></pre></div>
 </div>
 <div id="centro-y-en-negritas" class="section level3" number="6.1.2">
 <h3><span class="header-section-number">6.1.2</span> Centro y en negritas</h3>
-<div class="sourceCode" id="cb24"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb24-1"><a href="ambientes-de-latex.html#cb24-1" aria-hidden="true" tabindex="-1"></a>\newenvironment{centro_negritas}</span>
-<span id="cb24-2"><a href="ambientes-de-latex.html#cb24-2" aria-hidden="true" tabindex="-1"></a>{\begin{center}\bfseries}</span>
-<span id="cb24-3"><a href="ambientes-de-latex.html#cb24-3" aria-hidden="true" tabindex="-1"></a>{\end{center}}</span>
-<span id="cb24-4"><a href="ambientes-de-latex.html#cb24-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb24-5"><a href="ambientes-de-latex.html#cb24-5" aria-hidden="true" tabindex="-1"></a>\begin{centro_negritas}</span>
-<span id="cb24-6"><a href="ambientes-de-latex.html#cb24-6" aria-hidden="true" tabindex="-1"></a>Este es un texto centrado y en negritas</span>
-<span id="cb24-7"><a href="ambientes-de-latex.html#cb24-7" aria-hidden="true" tabindex="-1"></a>\end{centro_negritas}</span></code></pre></div>
+<div class="sourceCode" id="cb28"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb28-1"><a href="ambientes-de-latex.html#cb28-1" aria-hidden="true" tabindex="-1"></a>\newenvironment{centro_negritas}</span>
+<span id="cb28-2"><a href="ambientes-de-latex.html#cb28-2" aria-hidden="true" tabindex="-1"></a>{\begin{center}\bfseries}</span>
+<span id="cb28-3"><a href="ambientes-de-latex.html#cb28-3" aria-hidden="true" tabindex="-1"></a>{\end{center}}</span>
+<span id="cb28-4"><a href="ambientes-de-latex.html#cb28-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-5"><a href="ambientes-de-latex.html#cb28-5" aria-hidden="true" tabindex="-1"></a>\begin{centro_negritas}</span>
+<span id="cb28-6"><a href="ambientes-de-latex.html#cb28-6" aria-hidden="true" tabindex="-1"></a>Este es un texto centrado y en negritas</span>
+<span id="cb28-7"><a href="ambientes-de-latex.html#cb28-7" aria-hidden="true" tabindex="-1"></a>\end{centro_negritas}</span></code></pre></div>
 </div>
 <div id="partes-en-la-demanda" class="section level3" number="6.1.3">
 <h3><span class="header-section-number">6.1.3</span> Partes en la demanda</h3>
-<div class="sourceCode" id="cb25"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb25-1"><a href="ambientes-de-latex.html#cb25-1" aria-hidden="true" tabindex="-1"></a>\newenvironment{inicio_demandas}</span>
-<span id="cb25-2"><a href="ambientes-de-latex.html#cb25-2" aria-hidden="true" tabindex="-1"></a>{\begin{flushright}\begin{minipage}{.<span class="dv">5</span>\linewidth}\bfseries}</span>
-<span id="cb25-3"><a href="ambientes-de-latex.html#cb25-3" aria-hidden="true" tabindex="-1"></a>{\end{minipage}\end{flushright}}</span>
-<span id="cb25-4"><a href="ambientes-de-latex.html#cb25-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb25-5"><a href="ambientes-de-latex.html#cb25-5" aria-hidden="true" tabindex="-1"></a>\begin{inicio_demandas}</span>
-<span id="cb25-6"><a href="ambientes-de-latex.html#cb25-6" aria-hidden="true" tabindex="-1"></a>BANCO NACIONAL DE MÉXICO SOCIEDAD ANÓNIMA, INTEGRANTE DEL GRUPO FINANCIERO BANAMEX</span>
-<span id="cb25-7"><a href="ambientes-de-latex.html#cb25-7" aria-hidden="true" tabindex="-1"></a>\begin{center}</span>
-<span id="cb25-8"><a href="ambientes-de-latex.html#cb25-8" aria-hidden="true" tabindex="-1"></a>VS</span>
-<span id="cb25-9"><a href="ambientes-de-latex.html#cb25-9" aria-hidden="true" tabindex="-1"></a>\end{center}</span>
-<span id="cb25-10"><a href="ambientes-de-latex.html#cb25-10" aria-hidden="true" tabindex="-1"></a>MARCO ANTONIO RAMOS JUÁREZ</span>
-<span id="cb25-11"><a href="ambientes-de-latex.html#cb25-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb25-12"><a href="ambientes-de-latex.html#cb25-12" aria-hidden="true" tabindex="-1"></a>Asunto<span class="sc">:</span> Contestación Juicio Especial Hipotecario</span>
-<span id="cb25-13"><a href="ambientes-de-latex.html#cb25-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb25-14"><a href="ambientes-de-latex.html#cb25-14" aria-hidden="true" tabindex="-1"></a>Expediente<span class="sc">:</span><span class="dv">999</span><span class="sc">/</span><span class="dv">2021</span></span>
-<span id="cb25-15"><a href="ambientes-de-latex.html#cb25-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb25-16"><a href="ambientes-de-latex.html#cb25-16" aria-hidden="true" tabindex="-1"></a>Secretaría “Z”</span>
-<span id="cb25-17"><a href="ambientes-de-latex.html#cb25-17" aria-hidden="true" tabindex="-1"></a>\end{inicio_demandas}</span></code></pre></div>
-
+<div class="sourceCode" id="cb29"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb29-1"><a href="ambientes-de-latex.html#cb29-1" aria-hidden="true" tabindex="-1"></a>\newenvironment{inicio_demandas}</span>
+<span id="cb29-2"><a href="ambientes-de-latex.html#cb29-2" aria-hidden="true" tabindex="-1"></a>{\begin{flushright}\begin{minipage}{.<span class="dv">5</span>\linewidth}\bfseries}</span>
+<span id="cb29-3"><a href="ambientes-de-latex.html#cb29-3" aria-hidden="true" tabindex="-1"></a>{\end{minipage}\end{flushright}}</span>
+<span id="cb29-4"><a href="ambientes-de-latex.html#cb29-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-5"><a href="ambientes-de-latex.html#cb29-5" aria-hidden="true" tabindex="-1"></a>\begin{inicio_demandas}</span>
+<span id="cb29-6"><a href="ambientes-de-latex.html#cb29-6" aria-hidden="true" tabindex="-1"></a>BANCO NACIONAL DE MÉXICO SOCIEDAD ANÓNIMA, INTEGRANTE DEL GRUPO FINANCIERO BANAMEX</span>
+<span id="cb29-7"><a href="ambientes-de-latex.html#cb29-7" aria-hidden="true" tabindex="-1"></a>\begin{center}</span>
+<span id="cb29-8"><a href="ambientes-de-latex.html#cb29-8" aria-hidden="true" tabindex="-1"></a>VS</span>
+<span id="cb29-9"><a href="ambientes-de-latex.html#cb29-9" aria-hidden="true" tabindex="-1"></a>\end{center}</span>
+<span id="cb29-10"><a href="ambientes-de-latex.html#cb29-10" aria-hidden="true" tabindex="-1"></a>MARCO ANTONIO RAMOS JUÁREZ</span>
+<span id="cb29-11"><a href="ambientes-de-latex.html#cb29-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-12"><a href="ambientes-de-latex.html#cb29-12" aria-hidden="true" tabindex="-1"></a>Asunto<span class="sc">:</span> Contestación Juicio Especial Hipotecario</span>
+<span id="cb29-13"><a href="ambientes-de-latex.html#cb29-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-14"><a href="ambientes-de-latex.html#cb29-14" aria-hidden="true" tabindex="-1"></a>Expediente<span class="sc">:</span><span class="dv">999</span><span class="sc">/</span><span class="dv">2021</span></span>
+<span id="cb29-15"><a href="ambientes-de-latex.html#cb29-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-16"><a href="ambientes-de-latex.html#cb29-16" aria-hidden="true" tabindex="-1"></a>Secretaría “Z”</span>
+<span id="cb29-17"><a href="ambientes-de-latex.html#cb29-17" aria-hidden="true" tabindex="-1"></a>\end{inicio_demandas}</span></code></pre></div>
 </div>
 </div>
 </div>
-
-
-
-
-
-
             </section>
 
           </div>
         </div>
       </div>
-<a href="integración-mendeley-con-r-markdown.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-
+<a href="integración-mendeley-con-r-markdown.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="github.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

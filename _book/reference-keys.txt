@@ -43,3 +43,8 @@ ejemplos
 parrafos-con-mayor-margen-lateral
 centro-y-en-negritas
 partes-en-la-demanda
+símbolos
+ambientes
+github
+repositorios
+commit

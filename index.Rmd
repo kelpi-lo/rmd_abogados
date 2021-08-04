@@ -604,6 +604,7 @@ Secretaría “Z”
 
 ```
 
+Un ejemplo de como queda el uso de ambientes lo pueden consultar ()[]
 # Github
 
 ## Repositorios
