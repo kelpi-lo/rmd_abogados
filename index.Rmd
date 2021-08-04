@@ -236,7 +236,7 @@ Latex es un sistema de composición de textos, orientado a la creación de docum
 
 Una de las ventajas de LaTeX es que la salida que ofrece es siempre la misma, con independencia del dispositivo (impresora, pantalla, etc.) o el sistema operativo (MS Windows, MacOS, Unix, distribuciones GNU/Linux, etc.) y puede ser exportado a partir de una misma fuente a numerosos formatos tales como Postscript, PDF, SGML, HTML, RTF, etc. 
 
-## Simbolos
+## Símbolos
 
 La primera gran ventaja de Latex es la facilidad con la que podemos insertar caracteres especiales, letras griegas, ecuaciones y demás simbolos. A continuación mostramos algunos simbolos muy comunes:
 
@@ -259,6 +259,10 @@ La primera gran ventaja de Latex es la facilidad con la que podemos insertar car
 | \\geq | $\geq$ |
 | \\subset | $\subset$ |
 
+Como es difícil recordar todos los códigos, lo más conveniente es tener a la mano una [cheat sheet](https://www.caam.rice.edu/~heinken/latex/symbols.pdf) para recordar los más importantes.
+
+
+
 ## Expresiones matemáticas
 
 | Código | Output |
@@ -271,6 +275,87 @@ La primera gran ventaja de Latex es la facilidad con la que podemos insertar car
 | \\overline{AB} \\subset \\bar{C} | $\overline{AB} \subset \bar{C}$ |
 | \\frac{24}{124} | $\frac{24}{124}$|
 | A \\neq B | $A \neq B$ |
+
+## Ambientes
+
+En esta sección se muestra cómo incluir formatos de manera local por medio de "ambientes" de latex. Esta forma de dar formato tiene dos ventajas.
+
+1. Limpieza y reproducibilidad de código. El formato se define en un archivo aparte, y se invoca con la opción `before_body`.
+2. Flexibilidad. Mientras que rmd proporciona opciones para dar algunos cambios en formato básicos, modificar directamente en lenguaje de tex nos abre las posibilidades de cambio.
+
+Para ver los resultados, es necesario usar un rmd que compile en pdf para que use latex.
+
+Empezamos por un ejemplo sencillo.
+
+
+```{r, eval=FALSE}
+\newenvironment{boxed_mia} % se define un nuevo ambiente
+{ % los comandos del nuevo ambiente van entre corchetes
+  % es buena práctica alinear el código dentro de corchetes con un 'tabulate'
+  
+	\bfseries \begin{center} % negritas y texto centrado
+    \begin{tabular}{|p{0.9\textwidth}|} % lineas verticales
+    \hline\\ % linea horizontal superior
+  
+  % en las siguientes dos lineas se indica que ahi va a ir el contenido
+    }
+    { 
+    \\\\\hline % linea inferior
+    \end{tabular} 
+    \end{center}
+}
+```
+
+Así, lo único que se debe hacer cada que deseemos poner texto en un recuadro, es:
+
+```{r, eval=FALSE}
+\begin{boxed_mia}
+Texto en recuadro
+\end{boxed_mia}
+
+```
+
+
+Esto también sirve para predefinir formatos para párrafos.
+
+```{r, eval=FALSE}
+% texto fuente tamaño 10, mas margen, y cursivas	
+\newenvironment{enunciado}
+{
+	\itshape
+	\leftskip=1cm \rightskip=1cm
+	\begingroup
+	\fontsize{10}{10}\selectfont
+	}
+	{
+	\endgroup
+	\leftskip=0cm\rightskip=0cm
+}
+```
+
+Convocamos el ambiente:
+
+```{r, eval=FALSE}
+\begin{enunciado}
+A. El vencimiento anticipado por falta de cumplimiento de los demandados del CONVENIO MODIFICATORIO DEL CONTRATO DE APERTURA DE CREDITO CON GARANTIA HIPOTECARIA de fecha 22 de abril de 1996, CON NUMERO DE ESCRITURA 65,325, pasada ante la fe del NOTARIO PUBLICO NUMERO NOVENTA Y DOS DEL DISTRITO FEDERAL LICENCIADO JOSE VISOSO DEL VALLE, contenido en el ANEXO 2 del escrito inicial de demanda.
+\end{enunciado}
+```
+
+
+o el título de una demanda
+
+```{r, eval=FALSE}
+\newenvironment{demanda}
+{
+	\begin{flushright}
+	\begin{minipage}{.5\linewidth}\bfseries
+	}
+	{
+	\end{minipage}
+	\end{flushright}
+}
+```
+
 
 
 # Mendeley y la administración de referencias
