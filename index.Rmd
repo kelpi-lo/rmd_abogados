@@ -356,7 +356,26 @@ o el título de una demanda
 }
 ```
 
+Por último, revisemos algunos de los comandos más útiles en latex.
 
+| Código | Función |
+| ----------- | ----------- |
+| \\bfseries | negritas |
+| \\mdseries | regular (cancelar negritas) |
+| \\itshape | cursivas |
+| \\upshape | regular (cancelar cursivas) |
+| \\footnotesize | tamaño de letra pequeño |
+| \\large | tamaño de letra grande |
+| \\sffamily | letra tipo sans serif |
+| \\ttfamily | letra tipo monoespaciado |
+| \\rmfamily | letra tipo roman |
+| \\centering | texto centrado |
+| \\justify | texto justificado |
+| \\leftskip=2cm | recorrer alineación izquierda del párrafo |
+| \\rightskip=2cm | recorrer alineación derecha del párrafo |
+| \\setlength{\parindent}{4em} | sangría |
+| \\setlength{\parskip}{1em} | espacio entre párrafos |
+| \\setlength{\baselineskip}{value} | interlineado |
 
 # Mendeley y la administración de referencias
 
