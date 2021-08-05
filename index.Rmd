@@ -278,7 +278,32 @@ Como es difícil recordar todos los códigos, lo más conveniente es tener a la 
 
 ## Ambientes
 
-En esta sección se muestra cómo incluir formatos de manera local por medio de "ambientes" de latex. Esta forma de dar formato tiene dos ventajas.
+En esta sección se muestra cómo incluir formatos de manera local por medio de "ambientes" de latex. En ellos podemos asignar un formato específico a un estilo de parrafo en particular y luego llamarlo. 
+
+Recordemos algunos de los comandos más útiles en latex.
+
+| Código | Función |
+| ----------- | ----------- |
+| \\bfseries | negritas |
+| \\mdseries | regular (cancelar negritas) |
+| \\itshape | cursivas |
+| \\upshape | regular (cancelar cursivas) |
+| \\footnotesize | tamaño de letra pequeño |
+| \\large | tamaño de letra grande |
+| \\sffamily | letra tipo sans serif |
+| \\ttfamily | letra tipo monoespaciado |
+| \\rmfamily | letra tipo roman |
+| \\centering | texto centrado |
+| \\justify | texto justificado |
+| \\leftskip=2cm | recorrer alineación izquierda del párrafo |
+| \\rightskip=2cm | recorrer alineación derecha del párrafo |
+| \\setlength{\parindent}{4em} | sangría |
+| \\setlength{\parskip}{1em} | espacio entre párrafos |
+| \\setlength{\baselineskip}{value} | interlineado |
+
+
+
+Esta forma de dar formato tiene dos ventajas.
 
 1. Limpieza y reproducibilidad de código. El formato se define en un archivo aparte, y se invoca con la opción `before_body`.
 2. Flexibilidad. Mientras que rmd proporciona opciones para dar algunos cambios en formato básicos, modificar directamente en lenguaje de tex nos abre las posibilidades de cambio.
@@ -356,26 +381,75 @@ o el título de una demanda
 }
 ```
 
-Por último, revisemos algunos de los comandos más útiles en latex.
 
-| Código | Función |
-| ----------- | ----------- |
-| \\bfseries | negritas |
-| \\mdseries | regular (cancelar negritas) |
-| \\itshape | cursivas |
-| \\upshape | regular (cancelar cursivas) |
-| \\footnotesize | tamaño de letra pequeño |
-| \\large | tamaño de letra grande |
-| \\sffamily | letra tipo sans serif |
-| \\ttfamily | letra tipo monoespaciado |
-| \\rmfamily | letra tipo roman |
-| \\centering | texto centrado |
-| \\justify | texto justificado |
-| \\leftskip=2cm | recorrer alineación izquierda del párrafo |
-| \\rightskip=2cm | recorrer alineación derecha del párrafo |
-| \\setlength{\parindent}{4em} | sangría |
-| \\setlength{\parskip}{1em} | espacio entre párrafos |
-| \\setlength{\baselineskip}{value} | interlineado |
+
+## Ejemplos
+
+### Parrafos con mayor margen lateral
+
+
+```{r, eval=F}
+\newenvironment{mayormargen}#aquí defino el nombre
+{\par\leftskip=2cm\par\rightskip=2cm} #este es el codigo de apertura
+{\par\leftskip=0cm\par\rightskip=0cm} #este es el codigo de clausura
+
+
+#así lo utilizo
+\begin{mayormargen}
+Este es un parrafo con un margen menor.Este es un parrafo con un margen menor.Este es un parrafo con un margen menor.Este es un parrafo con un margen menor.
+
+Este es un parrafo con un margen menor.Este es un parrafo con un margen menor.Este es un parrafo con un margen menor.Este es un parrafo con un margen menor.
+\end{mayormargen}    
+```
+
+### Centro y en negritas
+
+
+```{r, eval=F}
+\newenvironment{centro_negritas}
+{\begin{center}\bfseries}
+{\end{center}}
+
+\begin{centro_negritas}
+Este es un texto centrado y en negritas
+\end{centro_negritas}
+
+```
+
+### Partes en la demanda 
+
+
+```{r, eval=F}
+\newenvironment{inicio_demandas}
+{\begin{flushright}\begin{minipage}{.5\linewidth}\bfseries}
+{\end{minipage}\end{flushright}}
+
+\begin{inicio_demandas}
+BANCO NACIONAL DE MÉXICO SOCIEDAD ANÓNIMA, INTEGRANTE DEL GRUPO FINANCIERO BANAMEX
+\begin{center}
+VS
+\end{center}
+MARCO ANTONIO RAMOS JUÁREZ
+
+Asunto: Contestación Juicio Especial Hipotecario
+
+Expediente:999/2021
+
+Secretaría “Z”
+\end{inicio_demandas}
+
+```
+
+Un ejemplo de como queda el uso de ambientes lo pueden consultar en las siguientes ligas:
+
+(Repo)[https://github.com/kelpi-lo/rmd_abogados/tree/master/environments]
+
+(Estilos)[https://github.com/kelpi-lo/rmd_abogados/blob/master/environments/mis_estilos.tex]
+
+(PDF)[https://github.com/kelpi-lo/rmd_abogados/blob/master/environments/clase_ago02.pdf]
+
+(RMD)[https://github.com/kelpi-lo/rmd_abogados/blob/master/environments/clase_ago02.Rmd]
+
 
 # Mendeley y la administración de referencias
 
@@ -557,77 +631,47 @@ Notese como el CSL ya contempla las reglas para el uso del *ibid, ibidem, op cit
 
 Una vez que escribimos en el YAML nuestra bibliografía y el CSL de manera automática se mostrara al final de nuestro archivo la bibliografía ordenada y en formato especificado. No tenemos que hacer nada. Sin embargo, solo se mostrará la bibliografía empleada, es decir, aquellas que llamamos durante nuestro texto.
 
-# Ambientes de latex
 
-La siguiente herramienta que veremos en el curso son los ambientes de latex. En ellos podemos asignar un formato específico a un estilo de parrafo en particular y luego llamarlo.
-
-```{r, eval=F}
-\newenvironment{nombre}{codigo de apertura ambiente}{codgio de clausura de ambiente}
-```
-
-
-## Ejemplos
-
-### Parrafos con mayor margen lateral
-
-
-```{r, eval=F}
-\newenvironment{mayormargen}#aquí defino el nombre
-{\par\leftskip=2cm\par\rightskip=2cm} #este es el codigo de apertura
-{\par\leftskip=0cm\par\rightskip=0cm} #este es el codigo de clausura
-
-
-#así lo utilizo
-\begin{mayormargen}
-Este es un parrafo con un margen menor.Este es un parrafo con un margen menor.Este es un parrafo con un margen menor.Este es un parrafo con un margen menor.
-
-Este es un parrafo con un margen menor.Este es un parrafo con un margen menor.Este es un parrafo con un margen menor.Este es un parrafo con un margen menor.
-\end{mayormargen}    
-```
-
-### Centro y en negritas
-
-
-```{r, eval=F}
-\newenvironment{centro_negritas}
-{\begin{center}\bfseries}
-{\end{center}}
-
-\begin{centro_negritas}
-Este es un texto centrado y en negritas
-\end{centro_negritas}
-
-```
-
-### Partes en la demanda 
-
-
-```{r, eval=F}
-\newenvironment{inicio_demandas}
-{\begin{flushright}\begin{minipage}{.5\linewidth}\bfseries}
-{\end{minipage}\end{flushright}}
-
-\begin{inicio_demandas}
-BANCO NACIONAL DE MÉXICO SOCIEDAD ANÓNIMA, INTEGRANTE DEL GRUPO FINANCIERO BANAMEX
-\begin{center}
-VS
-\end{center}
-MARCO ANTONIO RAMOS JUÁREZ
-
-Asunto: Contestación Juicio Especial Hipotecario
-
-Expediente:999/2021
-
-Secretaría “Z”
-\end{inicio_demandas}
-
-```
-
-Un ejemplo de como queda el uso de ambientes lo pueden consultar ()[]
 # Github
+
+Ahora aprenderemos a usar el control de cambios por excelencia del mundo de la programación: GITHUB.
 
 ## Repositorios
 
-## Commit
+Un repositorio es un espacio centralizado donde se almacena, organiza, mantiene y difunde información digital, habitualmente archivos informáticos, que pueden contener trabajos científicos, conjuntos de datos o software . Los repositorios tienen sus inicios en los años 90, en el área de la física y las matemáticas, donde los académicos aprovecharon la red para compartir sus investigaciones con otros colegas. Este proceso era valioso porque aceleraba el ciclo científico de publicación y revisión de resultados.
+
+Como hemos visto, para poder integrar un documento en Rmd necesitamos de distintos documentos auxiliares: imagenes, scripts de R o python, archivos BIB, archivos CSL, archivos latex, entre otros.
+
+Cuando Rmd integra un documento necesita tener todos sus archivos auxiliares a la mano, por eso debemos trabajar en una sola carpeta. Además si tenemos más carpetas dentro de nuestra subcarpeta, entonces para acceder a sus contenidos tenemos que poner la ubicación exacta de la carpeta en nuestro documento.
+
+De esta manera podemos crear pequeñas librerias donde ponemos todos los ingredientes y las instrucciones para que cualquier persona replique nuestro trabajo y documento.
+
+![Esta es la estructura de una pagina de internet](repo.png)
+
+## Repositorios en Github
+
+Github es la administradora de repositorios más popular de todo el mundo. Aquí y en China se desarrollan todos los días programas, páginas, análisis de datos entre otros documentos virtuales en Github.
+
+Su uso es muy sencillo:
+
++ Creen un repositorio
+
++ Trabajen su archivo de manera local y arrastren la carpeta.
+
++ Listo, ahora todo mundo tiene acceso a su carpeta (pueden hacer carpetas privadas); descargar el repositorio en zip, etc
+
+
+Ahora pueden colaborar en equipo:
+
++ en la pestaña Settings, en manage access pueden invitar a colaboradores.
+
++ ahora él puede subir y modificar archivos del repositorio.
+
++ cada vez que alguien edita algo se hace un **commit** y se registra el cambio que hizo.
+
++ cada commit tiene un registro único y Github guarda información el cambio. Además el usuario puede (y debe) brindar siempre información contextual del **commit**.
+
+
+
 
 
