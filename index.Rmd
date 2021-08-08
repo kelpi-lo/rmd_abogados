@@ -672,6 +672,145 @@ Ahora pueden colaborar en equipo:
 + cada commit tiene un registro único y Github guarda información el cambio. Además el usuario puede (y debe) brindar siempre información contextual del **commit**.
 
 
+# Producción masiva de documentos
+
+## Mail merge
+
+El conocido *mail merge* es una técnica que se creo originalmente para enviar *e-mails* masivos con base en una plantilla y una lista de destinatarios. Sin embargo, también se ha empleado para la creación de documentos, por ejemplo oficios, recordatorios impresos, recibos de servicios etc.
+
+Para aprender a usarlo en Office es necesario contar con excel y con Word. Los pasos son los siguientes:
+
+1. Crea un machote donde los cambos a vaciar los vas a poner en este formato: \<\<campo1\>\>.
+
+2. Crea una hoja de excel con la información que te interesa vaciar de manera ordenada y con el titulo de la columna igual a como especificaste el campo en el machote.
+
+3. Seleccionar la pestaña de **Mailings** y dar clic en **Select Recipients** y seleccionar **Use Existing List**
+
+4. Localizamos el archivo de Excel donde tenemos toda la información necesaria.
+
+5. Seleccionar la ubicación de la información en este caso se tiene en la primera pestaña del documento y damos clic en OK.
+
+6. Seleccionamos **Insert Merge Field** para colocar la opción o columna que deseamos en el documento
+
+7. Para finalizar en la ventana se mostrara el resultado del merge y nos dará las opciones de editar individualmente, imprimir o enviar por correo
+
+**[Fuente] (https://www.udlap.mx/ns/tecnologiasinformacion/files/tutorialesservicedesk/otros/Manual%20para%20realizar%20Mail%20Merge.pdf)**
+
+## Mail merge en R markdown
+
+La ventaja de hacerlo en word es que es muy intuitivo. La desventaja es que el formato es limitado y no podemos aprovechar las herramientas que hemos aprendido en el curso.
+
+En R markdown se puede hacer lo mismo de manera más eficiente y libre sin embargo se requiere conocer un poco de las estructuras de datos en R y los *for loops*
+
+### Datos en R
+
+Podemos importar datos de diferentes maneras: por ejemplo, desde una URL, desde nuestros archivos locales o bien desde algún paquete. Dependiendo el tipo de extensión de la base (es decir .csv, .json .xls, .txt, etc) vamos a necesitar diferentes paquetes. A continuación te muestro como importar algunos datos.
+
+```{r, eval=FALSE}
+#asumiendo que en nuestro repositorio hay una base de datos en formato csv
+data<-read.csv("datos.csv")
+```
+
+Otra manera es crear la base de datos, directamente desde R. Para eso usaremos las ventajas que tiene el lenguaje en cuanto a definición de vectores y *data.frames*.
+
+Se define un vector con la letra c y entre parentesis los elementos.Recordemos que si son *strings* deben ir entre comillas. Asimismo, se define una base de datos con el comando data.frame y entre parentesis los vectores.
+
+```{r}
+library(kableExtra)
+titulo<-c("Maestro", "Doctor","Licenciado","Maestro")
+institucion<-c("del ITAM","de la UAM","de la UNAM","del TEC")
+nombres<-c("Hugo CT", "Diego Crespi","Eduardo Lara","Marco Ramos")
+adeudo<-c("5,000 MXN", "500,000 MXN","20,000 USD","1,000 MXN")
+data<-data.frame(titulo,institucion,nombres,adeudo)
+kable(data, booktabs=T)
+```
+
+Ahora, para acceder a una columna en específico de la base de datos se usa el singo de \$:
+
+```{r}
+data$nombres
+```
+
+Finalmente, para acceder a un dato de manera individual, debemos indicar la columna y posteriormente entre *square brackets*.
+
+```{r}
+#accedemos al nombre 1 
+data$nombres[1]
+
+#accedemos al nombre 2 
+data$nombres[2]
+
+#accedemos  al adeudo 2
+data$adeudo[2]
+```
+
+### Plantillas parametrizadas
+
+En las plantillas paramétrizadas podemos sustituir cualquier paramétro de acuerdo al valor que le asignemos a una variable.
+
+Por ejemplo siempre podemos acceder a una miniconsola de r si usamos los acentos alrevez y ponemos r. En seguida, después de un espacio ponemos cualquier comando que usemos en lenguaje R. De esta manera podemos acceder a la información que accedimos en la sección pasada si ponemos:
+
+```{r, eval=FALSE}
+`r data$nombres[1]`
+
+`r data$nombres[2]`
+
+`r data$adeudo[4]`
+```
 
 
+se renderiza como
 
++ `r data$nombres[1]`
+
++ `r data$nombres[2]`
+
++ `r data$adeudo[4]`
+
+De esta manera podemos usar todo lo que hemos visto: markdown, latex, ambientes, github y agregar estos comandos para crear una plantilla.
+
+### for loops
+
+La última cosa, que hay que saber es como hacer un loop.
+
+```{r}
+for (i in (1:10))
+{print(i)}
+```
+
+```{r}
+for (i in (1:nrow(data)))
+{print(data$titulo[i])}
+```
+
+Puedo crear for loops de basicamente cualquir lista y cualquier comando. En este sentido voy a crear un for loop para renderizar archivos rmd. Supongamos que tengo un archivo RMD llamado **"plantilla.Rmd"** y que solo contiene lo siguiente:
+
+```{r, eval=F}
+---
+title: "Mensaje urgente para `r data$nombres[i]`"
+output: pdf_document
+---
+Estimado `r data$titulo[i]` `r data$institucion[i]` `r data$nombres[i]`, se le informa que debido a la falta de pago ante su adeudo de `r data$adeudo[i]` se le congelaran sus cuentas bancarias. 
+
+Esperemos nos llame pronto para brindarle más información sobre su situación financiera. 
+```
+
+```{r, eval=F}
+#creo la base de datos
+titulo<-c("Maestro", "Doctor","Licenciado","Maestro")
+institucion<-c("del ITAM","de la UAM","de la UNAM","del TEC")
+nombres<-c("Hugo CT", "Diego Crespi","Eduardo Lara","Marco Ramos")
+adeudo<-c("5,000 MXN", "500,000 MXN","20,000 USD","1,000 MXN")
+data<-data.frame(titulo,institucion,nombres,adeudo)
+
+#creo el for loop
+for (i in 1:nrow(data)) {
+  rmarkdown::render(
+    'plantilla.Rmd', output_file = paste0(data$nombres[i], '.pdf')
+  )
+}
+```
+
+Este *for loop* nos creará una impresión en PDF de cada plantilla con la información de la base de dato por fila.
+
+# Plantillas y ejercicios
